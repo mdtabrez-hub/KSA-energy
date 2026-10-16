@@ -51,6 +51,14 @@ kapsarc:
       role: Project-level renewable deployment (RQ2); fields reported - year, source, project, type, capacity (MW), status, location, city
       verification_status: index_verified
       note: Tracker excludes plants < 20 MW and hybrid renewable/non-renewable plants; updated quarterly.
+    - id: electricity-peak-load
+      title_reported: "Electricity Peak Load"
+      role: National annual peak 1990-2020 (2016-2020 from WERA)
+      verification_status: index_verified
+    - id: electricity-consumption-indicators-by-region
+      title_reported: "Electricity Consumption per Customer by Region and Year"
+      role: Regional consumption per customer; check whether it extends past 2019
+      verification_status: index_verified
   catalog_search_terms:
     - peak load
     - region

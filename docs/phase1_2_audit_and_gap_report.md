@@ -154,6 +154,22 @@ The full table is `literature/gap_matrix.csv`. Verdicts:
 
 ---
 
+## 9. Follow-up on the evidence list (same day, second pass)
+
+The KAPSARC hosts, Zenodo, NASA POWER, GASTAT and MDPI were still unreachable from this environment, so the evidence list was worked through by search only (log entries S18, W09–W12).
+
+| Item | Result | Effect on the decision |
+|---|---|---|
+| 1. Is D2 really regional? | **Largely resolved by indirect evidence.** A January 2026 Zenodo archive (L31, Belete, doi:10.5281/zenodo.18252969) forecasts *regional* monthly load from "the KAPSARC Energy Data Portal", 2009–2019. The file itself is still not inspected. | The main NO-GO trigger is now unlikely. It also means regional monthly load **descriptives and forecasting are not new**, so G1 is downgraded to a foundation only. |
+| 4. Trace L30's data | **L30 confirmed:** *Energies* 19(17):4038, published 28 Aug 2026. It models monthly regional consumption **per subscriber**, 2009–2024. The data provider is not named in the excerpts. | Monthly regional *energy* data reach 2024, but no regional *peak* series past 2019 has been found. The 2019 peak cut-off remains the main weakness. |
+| 7. Regional peak load after 2019 (WERA / MoE) | **Not found.** Two more KAPSARC datasets were found: national peak 1990–2020 (2016–2020 values from WERA) and consumption per customer by region. Secondary sources give national peaks of 62.3 GW (2020) and 63.7 GW (2021). | No change. Next step: WERA's statistics pages (wera.gov.sa), which were not reachable here. |
+| 5. Operating-area ↔ province mapping | **Not found.** Sources confirm SEC's four regional business units but list no provinces. | Still requires documented assumptions plus sensitivity. Next source: SEC annual reports. |
+| 2, 3, 6, 8 | Not possible from this environment (file downloads, full texts, licence pages, bibliographic databases). | Unchanged |
+
+The decision stays **CONDITIONAL GO**, with somewhat lower data risk on D2. The preferred direction A should not lead with regional load descriptives; its distinct part is the supply-side alignment and peak-season contribution of the actual fleet (G2, G3-bounded, G6, G7).
+
+---
+
 ## Sources consulted (data discovery)
 
 - [KAPSARC – Saudi Arabia Electricity Load Monthly by Region](https://datasource.kapsarc.org/explore/assets/saudi-arabia-electricity-load-monthly-by-region/)
@@ -171,4 +187,8 @@ The full table is `literature/gap_matrix.csv`. Verdicts:
 - [Ember – Saudi Arabia](https://ember-energy.org/countries-and-regions/saudi-arabia)
 - [Ministry of Energy – Open Data](https://www.moenergy.gov.sa/en/digital-documents/open-data/energy-data)
 - [MDPI Energies 19(17):4038 (L30, unverified)](https://www.mdpi.com/1996-1073/19/17/4038)
+- [KAPSARC – Electricity Peak Load (national, 1990–2020)](https://datasource.kapsarc.org/explore/dataset/electricity-peak-load/?flg=en-gb)
+- [KAPSARC – Electricity Consumption per Customer by Region and Year](https://datasource.kapsarc.org/explore/assets/electricity-consumption-indicators-by-region/)
+- [Frontiers in Energy Research 2022 (cites WERA 2010–2020 data)](https://www.frontiersin.org/journals/energy-research/articles/10.3389/fenrg.2022.1005081/full)
+- [Saudi Electricity Company – Wikipedia (regional business units)](https://en.wikipedia.org/wiki/Saudi_Electricity_Company)
 - [MEES – Saudi electricity consumption 2024](https://mees.com/2024/8/16/power-water/saudi-arabias-electricity-consumption-soars-oil-burn-doesnt/c4e9a910-5bcb-11ef-b2c8-9f979049ba5f)
