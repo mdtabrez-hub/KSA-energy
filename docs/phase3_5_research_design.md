@@ -197,3 +197,5 @@ Reading, within its limits:
 | 9 | Manuscript | draft | 8 | Only after steps 1–8 are complete |
 
 Steps 1–3 reduce the most uncertainty and need nothing beyond network and library access.
+
+**Code status (2026-10-17):** steps 1–2 and 4–7 are code-complete and tested on synthetic fixtures (27 tests), but none has run on real data. Steps 3 and 8–9 need library access and results. `docs/runbook.md` lists the commands.

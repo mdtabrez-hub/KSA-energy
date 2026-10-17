@@ -1,0 +1,38 @@
+# Candidate column names for each logical field. The exact KAPSARC field names are NOT yet
+# verified (no file has been downloaded). src.loaders picks the first candidate present
+# (case-insensitive) and raises an error listing the real columns if none match. After the
+# first real download, replace these lists with the verified names.
+
+monthly_load_by_region:            # D2: saudi-arabia-electricity-load-monthly-by-region
+  date: [date, month, period, year_month, time]
+  region: [region, area, operating_area]
+  measure: [type, measure, indicator, load_type, category]
+  value: [value, load, gw, load_gw]
+  # Alternative wide layout: one column per measure (used if `measure` is absent).
+  wide_max: [maximum, max, maximum_load, max_load]
+  wide_avg: [average, avg, average_load, avg_load]
+  wide_min: [minimum, min, minimum_load, min_load]
+  measure_labels:                  # values of `measure` in the long layout
+    max: [maximum, max, "maximum load", "max load", "peak"]
+    avg: [average, avg, "average load", mean]
+    min: [minimum, min, "minimum load"]
+
+renewable_projects:                # D7: saudi-arabia-planned-and-installed-renewables-by-project
+  name: [project, project_name, name]
+  technology: [type, technology, tech]
+  capacity_mw: [capacity, capacity_mw, capacity_mw_, mw]
+  status: [status, installed_planned, stage]
+  year: [year, cod_year, commissioning_year]
+  location: [location, geo_point, coordinates, geo_point_2d]
+  city: [city, nearest_city]
+  source: [source]
+
+gem_projects:                      # GEM Global Solar/Wind Power Tracker export (unit level)
+  name: [project name, project_name, name]
+  technology: [type, technology]
+  capacity_mw: ["capacity (mw)", capacity_mw, capacity]
+  status: [status]
+  lat: [latitude, lat]
+  lon: [longitude, lon]
+  accuracy: ["location accuracy", location_accuracy]
+  country: [country, "country/area"]
