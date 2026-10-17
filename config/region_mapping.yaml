@@ -1,0 +1,30 @@
+# Administrative region -> SEC operating area.
+#
+# STATUS: ASSUMPTION, NOT VERIFIED. No official province-to-operating-area list was found
+# (search log W11). `base` is a working assumption; `alternatives` lists the other operating
+# areas each ambiguous region could plausibly belong to. src.region_mapping enumerates every
+# combination so results can be reported as a range, never as a single unqualified figure.
+# Replace with an official mapping (SEC annual report / WERA) as soon as one is found.
+
+operating_areas: [Central, Eastern, Western, Southern]
+
+base:
+  Riyadh: Central
+  Al-Qassim: Central
+  Hail: Central
+  Eastern Province: Eastern
+  Northern Borders: Eastern
+  Al-Jouf: Eastern
+  Makkah: Western
+  Madinah: Western
+  Tabuk: Western
+  Asir: Southern
+  Jazan: Southern
+  Najran: Southern
+  Al-Baha: Southern
+
+alternatives:
+  Hail: [Eastern, Western]
+  Al-Jouf: [Central, Western]
+  Northern Borders: [Central]
+  Al-Baha: [Western]
