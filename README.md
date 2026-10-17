@@ -7,7 +7,7 @@ A reproducible research project on how Saudi Arabia's renewable-energy deploymen
 1. **`docs/phase1_2_audit_and_gap_report.md`**: dataset inventory, feasibility questions, literature log and matrix, gap matrix, CONDITIONAL GO decision.
 2. **`docs/phase3_5_research_design.md`**: chosen direction and scoring, final research questions and hypotheses, methodology, figure plan, journal strategy, roadmap.
 
-No data files have been downloaded yet. The KAPSARC portal was unreachable from the environment where this work was done, so every dataset entry is marked by how far it was verified. **No results exist yet.**
+No data files have been downloaded yet. The KAPSARC portal was unreachable from the environment where this work was done, so every dataset entry is marked by how far it was verified. **No empirical results exist yet.** The only computed table is a clear-sky solar-timing illustration that needs no external data.
 
 ## Layout
 
