@@ -1,0 +1,20 @@
+{
+  "term": "renewable",
+  "attempts": [
+    {
+      "url": "https://datasource.kapsarc.org/api/explore/v2.1/catalog/datasets",
+      "params": {
+        "where": "search(\"renewable\")",
+        "limit": 100
+      },
+      "requested_at_utc": "2026-10-18T07:23:21.543782+00:00",
+      "status_code": 200,
+      "final_url": "https://datasource.kapsarc.org/api/explore/v2.1/catalog/datasets?where=search%28%22renewable%22%29&limit=100",
+      "content_type": "application/json; charset=utf-8",
+      "file": "catalog.json",
+      "bytes": 807168,
+      "sha256": "8c86a98f0563b01d0e138c8bcf813ec11c49bcdbe5e9e4f0fcce21f5f83df5f7"
+    }
+  ],
+  "host_used": "https://datasource.kapsarc.org/api/explore/v2.1"
+}

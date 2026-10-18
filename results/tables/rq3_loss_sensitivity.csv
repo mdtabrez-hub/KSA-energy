@@ -1,0 +1,7 @@
+variant,status_set,12-15,14-17,16-19,19-22,all_hours
+tracker,all_pipeline,0.79,0.623,0.259,0.0,0.308
+tracker,installed,0.789,0.629,0.261,0.0,0.302
+tracker_loss10_g030,all_pipeline,0.846,0.666,0.276,0.0,0.329
+tracker_loss10_g030,installed,0.843,0.672,0.278,0.0,0.322
+tracker_loss20_g045,all_pipeline,0.699,0.555,0.233,0.0,0.275
+tracker_loss20_g045,installed,0.7,0.56,0.234,0.0,0.271

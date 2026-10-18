@@ -1,0 +1,901 @@
+year,classification,category_region,region,value
+2005,Customers numbers,Government,Western,36618.0
+2005,Customers numbers,Industrial,Western,2040.0
+2005,Customers numbers,Others,Eastern,22663.0
+2005,Customers numbers,Sum by regions,Central,1498370.0
+2005,Energy sales,Commercial,Central,5096.0
+2005,Energy sales,Commercial,Sum by category,15662.0
+2005,Energy sales,Industrial,Sum by category,36853.0
+2005,Customers numbers,Government,Eastern,15052.0
+2005,Customers numbers,Others,Central,56063.0
+2005,Customers numbers,Sum by regions,Western,1840219.0
+2005,Energy sales,Commercial,Eastern,4214.0
+2005,Energy sales,Government,Central,6362.0
+2005,Energy sales,Government,Southern,1176.0
+2005,Energy sales,Industrial,Eastern,28090.0
+2005,Energy sales,Industrial,Southern,96.0
+2005,Customers numbers,Residential,Central,1173525.0
+2005,Customers numbers,Government,Southern,14019.0
+2005,Customers numbers,Others,Southern,14236.0
+2005,Customers numbers,Sum by regions,Eastern,805488.0
+2005,Customers numbers,Sum by regions,Southern,595766.0
+2005,Energy sales,Residential,Southern,8178.0
+2005,Energy sales,Government,Eastern,4421.0
+2005,Energy sales,Industrial,Central,3019.0
+2005,Customers numbers,Commercial,Sum by category,611187.0
+2005,Customers numbers,Government,Central,31478.0
+2005,Customers numbers,Industrial,Central,2091.0
+2005,Customers numbers,Industrial,Eastern,1829.0
+2005,Customers numbers,Others,Western,25384.0
+2005,Customers numbers,Others,Sum by category,118346.0
+2005,Energy sales,Residential,Central,25110.0
+2005,Energy sales,Residential,Eastern,15229.0
+2005,Energy sales,Government,Western,4872.0
+2005,Energy sales,Government,Sum by category,16831.0
+2005,Energy sales,Industrial,Western,5648.0
+2005,Energy sales,Others,Central,4513.0
+2005,Energy sales,Sum by regions,Southern,11010.0
+2005,Customers numbers,Residential,Eastern,623378.0
+2005,Customers numbers,Residential,Southern,533360.0
+2005,Customers numbers,Commercial,Eastern,142566.0
+2005,Customers numbers,Commercial,Southern,33882.0
+2005,Customers numbers,Government,Sum by category,97167.0
+2005,Customers numbers,Sum by regions,Sum by category,4739843.0
+2005,Energy sales,Residential,Western,30071.0
+2005,Energy sales,Residential,Sum by category,78588.0
+2005,Energy sales,Others,Southern,687.0
+2005,Energy sales,Others,Western,4396.0
+2005,Energy sales,Others,Sum by category,10992.0
+2005,Customers numbers,Residential,Sum by category,3906914.0
+2005,Customers numbers,Commercial,Central,235213.0
+2005,Customers numbers,Industrial,Sum by category,6229.0
+2005,Energy sales,Sum by regions,Central,44100.0
+2005,Customers numbers,Residential,Western,1576651.0
+2005,Customers numbers,Commercial,Western,199526.0
+2005,Customers numbers,Industrial,Southern,269.0
+2005,Energy sales,Commercial,Southern,873.0
+2005,Energy sales,Commercial,Western,5479.0
+2005,Energy sales,Others,Eastern,1396.0
+2005,Energy sales,Sum by regions,Eastern,53350.0
+2005,Energy sales,Sum by regions,Western,50466.0
+2005,Energy sales,Sum by regions,Sum by category,158926.0
+2006,Customers numbers,Industrial,Central,2026.0
+2006,Customers numbers,Industrial,Southern,268.0
+2006,Energy sales,Government,Southern,1307.0
+2006,Energy sales,Government,Sum by category,18189.0
+2006,Energy sales,Industrial,Central,3269.0
+2006,Energy sales,Commercial,Southern,950.0
+2006,Customers numbers,Residential,Central,1220291.0
+2006,Customers numbers,Government,Central,32768.0
+2006,Customers numbers,Government,Eastern,15656.0
+2006,Customers numbers,Government,Western,38837.0
+2006,Customers numbers,Industrial,Eastern,1891.0
+2006,Customers numbers,Others,Southern,14901.0
+2006,Customers numbers,Sum by regions,Southern,630590.0
+2006,Customers numbers,Sum by regions,Sum by category,4969001.0
+2006,Energy sales,Residential,Central,27477.0
+2006,Energy sales,Government,Eastern,4843.0
+2006,Energy sales,Others,Central,4908.0
+2006,Energy sales,Sum by regions,Western,53326.0
+2006,Customers numbers,Residential,Sum by category,4093071.0
+2006,Customers numbers,Commercial,Eastern,149100.0
+2006,Customers numbers,Commercial,Southern,36157.0
+2006,Customers numbers,Commercial,Western,210697.0
+2006,Customers numbers,Government,Sum by category,102302.0
+2006,Customers numbers,Industrial,Western,2164.0
+2006,Customers numbers,Others,Western,26627.0
+2006,Customers numbers,Sum by regions,Central,1560735.0
+2006,Energy sales,Commercial,Eastern,4779.0
+2006,Energy sales,Commercial,Western,5742.0
+2006,Energy sales,Commercial,Sum by category,17191.0
+2006,Energy sales,Government,Central,7130.0
+2006,Energy sales,Industrial,Eastern,26568.0
+2006,Energy sales,Others,Southern,727.0
+2006,Energy sales,Others,Western,4386.0
+2006,Customers numbers,Residential,Eastern,654027.0
+2006,Customers numbers,Residential,Southern,564223.0
+2006,Customers numbers,Residential,Western,1654530.0
+2006,Customers numbers,Commercial,Sum by category,642876.0
+2006,Customers numbers,Government,Southern,15041.0
+2006,Customers numbers,Industrial,Sum by category,6349.0
+2006,Customers numbers,Others,Central,58728.0
+2006,Customers numbers,Others,Eastern,24147.0
+2006,Customers numbers,Sum by regions,Eastern,844821.0
+2006,Energy sales,Residential,Southern,9248.0
+2006,Energy sales,Government,Western,4909.0
+2006,Energy sales,Others,Eastern,1518.0
+2006,Energy sales,Others,Sum by category,11539.0
+2006,Energy sales,Sum by regions,Central,48504.0
+2006,Energy sales,Sum by regions,Eastern,54690.0
+2006,Energy sales,Sum by regions,Sum by category,168860.0
+2006,Customers numbers,Others,Sum by category,124403.0
+2006,Customers numbers,Sum by regions,Western,1932855.0
+2006,Energy sales,Residential,Western,32624.0
+2006,Energy sales,Residential,Sum by category,86331.0
+2006,Energy sales,Commercial,Central,5720.0
+2006,Energy sales,Industrial,Western,5665.0
+2006,Energy sales,Industrial,Sum by category,35610.0
+2006,Customers numbers,Commercial,Central,246922.0
+2006,Energy sales,Residential,Eastern,16982.0
+2006,Energy sales,Industrial,Southern,108.0
+2006,Energy sales,Sum by regions,Southern,12340.0
+2007,Customers numbers,Residential,Southern,593349.0
+2007,Customers numbers,Government,Southern,15664.0
+2007,Energy sales,Commercial,Eastern,4707.0
+2007,Energy sales,Commercial,Western,6713.0
+2007,Energy sales,Industrial,Sum by category,33876.0
+2007,Customers numbers,Residential,Eastern,685358.0
+2007,Customers numbers,Government,Sum by category,105311.0
+2007,Customers numbers,Industrial,Central,2152.0
+2007,Customers numbers,Industrial,Eastern,2007.0
+2007,Customers numbers,Industrial,Southern,265.0
+2007,Customers numbers,Industrial,Western,2351.0
+2007,Customers numbers,Sum by regions,Sum by category,5196015.0
+2007,Energy sales,Residential,Eastern,17328.0
+2007,Energy sales,Residential,Sum by category,90211.0
+2007,Energy sales,Commercial,Southern,1021.0
+2007,Energy sales,Industrial,Central,3748.0
+2007,Customers numbers,Residential,Sum by category,4271938.0
+2007,Customers numbers,Commercial,Sum by category,681429.0
+2007,Customers numbers,Others,Central,61084.0
+2007,Customers numbers,Others,Southern,15676.0
+2007,Customers numbers,Sum by regions,Southern,662538.0
+2007,Customers numbers,Sum by regions,Western,2019335.0
+2007,Energy sales,Commercial,Central,7111.0
+2007,Energy sales,Government,Central,7584.0
+2007,Energy sales,Government,Southern,1268.0
+2007,Energy sales,Industrial,Southern,106.0
+2007,Energy sales,Industrial,Western,6555.0
+2007,Energy sales,Others,Western,4089.0
+2007,Energy sales,Sum by regions,Central,52096.0
+2007,Customers numbers,Commercial,Central,266132.0
+2007,Customers numbers,Commercial,Eastern,156718.0
+2007,Customers numbers,Government,Western,39174.0
+2007,Customers numbers,Industrial,Sum by category,6775.0
+2007,Customers numbers,Sum by regions,Central,1628357.0
+2007,Customers numbers,Sum by regions,Eastern,885785.0
+2007,Energy sales,Residential,Southern,9953.0
+2007,Energy sales,Government,Western,5831.0
+2007,Energy sales,Others,Sum by category,11421.0
+2007,Energy sales,Sum by regions,Southern,13021.0
+2007,Energy sales,Sum by regions,Western,57189.0
+2007,Customers numbers,Residential,Central,1264776.0
+2007,Customers numbers,Residential,Western,1728455.0
+2007,Customers numbers,Commercial,Western,220995.0
+2007,Customers numbers,Government,Eastern,16260.0
+2007,Customers numbers,Others,Eastern,25442.0
+2007,Customers numbers,Commercial,Southern,37584.0
+2007,Customers numbers,Government,Central,34213.0
+2007,Customers numbers,Others,Western,28360.0
+2007,Customers numbers,Others,Sum by category,130562.0
+2007,Energy sales,Residential,Central,28929.0
+2007,Energy sales,Residential,Western,34001.0
+2007,Energy sales,Commercial,Sum by category,19552.0
+2007,Energy sales,Government,Eastern,5314.0
+2007,Energy sales,Government,Sum by category,19997.0
+2007,Energy sales,Industrial,Eastern,23467.0
+2007,Energy sales,Others,Central,4724.0
+2007,Energy sales,Others,Eastern,1935.0
+2007,Energy sales,Others,Southern,673.0
+2007,Energy sales,Sum by regions,Eastern,52751.0
+2007,Energy sales,Sum by regions,Sum by category,175057.0
+2008,Customers numbers,Residential,Eastern,720920.0
+2008,Customers numbers,Commercial,Western,228633.0
+2008,Customers numbers,Industrial,Eastern,1963.0
+2008,Customers numbers,Others,Eastern,26749.0
+2008,Customers numbers,Others,Southern,17278.0
+2008,Energy sales,Residential,Western,36286.0
+2008,Energy sales,Government,Southern,1486.0
+2008,Energy sales,Government,Sum by category,20660.0
+2008,Energy sales,Others,Eastern,1786.0
+2008,Energy sales,Others,Southern,708.0
+2008,Energy sales,Sum by regions,Eastern,55648.0
+2008,Energy sales,Sum by regions,Southern,14000.0
+2008,Customers numbers,Residential,Western,1795229.0
+2008,Customers numbers,Government,Eastern,17078.0
+2008,Customers numbers,Industrial,Western,2461.0
+2008,Customers numbers,Sum by regions,Eastern,930784.0
+2008,Customers numbers,Government,Western,41242.0
+2008,Customers numbers,Others,Western,29722.0
+2008,Customers numbers,Sum by regions,Southern,704140.0
+2008,Energy sales,Residential,Eastern,18570.0
+2008,Energy sales,Residential,Southern,10458.0
+2008,Energy sales,Residential,Sum by category,97012.0
+2008,Energy sales,Government,Western,5784.0
+2008,Energy sales,Industrial,Eastern,25037.0
+2008,Energy sales,Industrial,Southern,110.0
+2008,Energy sales,Industrial,Sum by category,35991.0
+2008,Customers numbers,Residential,Central,1319726.0
+2008,Customers numbers,Residential,Sum by category,4466528.0
+2008,Customers numbers,Government,Central,37715.0
+2008,Customers numbers,Government,Southern,16996.0
+2008,Customers numbers,Industrial,Central,2374.0
+2008,Customers numbers,Industrial,Southern,254.0
+2008,Customers numbers,Others,Central,62767.0
+2008,Customers numbers,Others,Sum by category,136516.0
+2008,Customers numbers,Sum by regions,Western,2097287.0
+2008,Energy sales,Commercial,Eastern,5176.0
+2008,Energy sales,Government,Central,8311.0
+2008,Energy sales,Government,Eastern,5079.0
+2008,Energy sales,Industrial,Central,3504.0
+2008,Energy sales,Industrial,Western,7340.0
+2008,Energy sales,Sum by regions,Central,55984.0
+2008,Energy sales,Sum by regions,Sum by category,187163.0
+2008,Customers numbers,Residential,Southern,630653.0
+2008,Customers numbers,Commercial,Central,279905.0
+2008,Customers numbers,Commercial,Eastern,164074.0
+2008,Customers numbers,Commercial,Southern,38959.0
+2008,Customers numbers,Commercial,Sum by category,711571.0
+2008,Customers numbers,Sum by regions,Central,1702487.0
+2008,Customers numbers,Sum by regions,Sum by category,5434698.0
+2008,Energy sales,Commercial,Central,7585.0
+2008,Energy sales,Commercial,Western,7482.0
+2008,Energy sales,Others,Central,4886.0
+2008,Energy sales,Others,Western,4639.0
+2008,Energy sales,Others,Sum by category,12019.0
+2008,Customers numbers,Government,Sum by category,113031.0
+2008,Customers numbers,Industrial,Sum by category,7052.0
+2008,Energy sales,Residential,Central,31698.0
+2008,Energy sales,Commercial,Southern,1238.0
+2008,Energy sales,Commercial,Sum by category,21481.0
+2008,Energy sales,Sum by regions,Western,61531.0
+2009,Customers numbers,Residential,Eastern,762937.0
+2009,Customers numbers,Residential,Sum by category,4685890.0
+2009,Customers numbers,Industrial,Western,2547.0
+2009,Customers numbers,Others,Western,32035.0
+2009,Energy sales,Residential,Eastern,19402.0
+2009,Energy sales,Government,Southern,1702.0
+2009,Energy sales,Industrial,Southern,271.0
+2009,Energy sales,Others,Eastern,1830.0
+2009,Energy sales,Sum by regions,Eastern,59809.0
+2009,Customers numbers,Others,Southern,18506.0
+2009,Customers numbers,Residential,Central,1380254.0
+2009,Customers numbers,Commercial,Western,237493.0
+2009,Customers numbers,Government,Central,40522.0
+2009,Customers numbers,Sum by regions,Western,2183003.0
+2009,Energy sales,Commercial,Western,8098.0
+2009,Energy sales,Government,Eastern,5783.0
+2009,Energy sales,Government,Western,6501.0
+2009,Energy sales,Industrial,Eastern,26773.0
+2009,Energy sales,Others,Southern,784.0
+2009,Energy sales,Others,Sum by category,13285.0
+2009,Energy sales,Sum by regions,Sum by category,199497.0
+2009,Customers numbers,Residential,Southern,675206.0
+2009,Customers numbers,Residential,Western,1867493.0
+2009,Customers numbers,Commercial,Central,305053.0
+2009,Customers numbers,Commercial,Eastern,174167.0
+2009,Customers numbers,Industrial,Sum by category,7386.0
+2009,Customers numbers,Others,Sum by category,143324.0
+2009,Energy sales,Residential,Sum by category,101169.0
+2009,Energy sales,Industrial,Central,3860.0
+2009,Energy sales,Industrial,Western,7960.0
+2009,Energy sales,Industrial,Sum by category,38864.0
+2009,Energy sales,Others,Central,6482.0
+2009,Energy sales,Others,Western,4189.0
+2009,Energy sales,Sum by regions,Central,58584.0
+2009,Energy sales,Sum by regions,Western,65292.0
+2009,Customers numbers,Government,Southern,18344.0
+2009,Customers numbers,Government,Sum by category,120393.0
+2009,Customers numbers,Others,Central,64705.0
+2009,Customers numbers,Sum by regions,Sum by category,5716173.0
+2009,Energy sales,Residential,Central,31764.0
+2009,Energy sales,Residential,Western,38544.0
+2009,Energy sales,Commercial,Southern,1596.0
+2009,Energy sales,Commercial,Sum by category,23718.0
+2009,Energy sales,Government,Central,8475.0
+2009,Customers numbers,Industrial,Central,2483.0
+2009,Customers numbers,Sum by regions,Eastern,985377.0
+2009,Customers numbers,Commercial,Sum by category,759180.0
+2009,Customers numbers,Government,Western,43435.0
+2009,Customers numbers,Industrial,Eastern,2103.0
+2009,Customers numbers,Industrial,Southern,253.0
+2009,Customers numbers,Sum by regions,Southern,754776.0
+2009,Energy sales,Sum by regions,Southern,15812.0
+2009,Customers numbers,Commercial,Southern,42467.0
+2009,Customers numbers,Government,Eastern,18092.0
+2009,Customers numbers,Others,Eastern,28078.0
+2009,Customers numbers,Sum by regions,Central,1793017.0
+2009,Energy sales,Residential,Southern,11459.0
+2009,Energy sales,Commercial,Central,8003.0
+2009,Energy sales,Commercial,Eastern,6021.0
+2009,Energy sales,Government,Sum by category,22461.0
+2010,Customers numbers,Residential,Southern,689818.0
+2010,Customers numbers,Government,Southern,19303.0
+2010,Customers numbers,Industrial,Central,2640.0
+2010,Customers numbers,Others,Western,33265.0
+2010,Energy sales,Industrial,Western,8965.0
+2010,Energy sales,Others,Central,5296.0
+2010,Energy sales,Sum by regions,Eastern,65803.0
+2010,Energy sales,Sum by regions,Southern,17604.0
+2010,Customers numbers,Government,Eastern,19430.0
+2010,Customers numbers,Industrial,Western,2570.0
+2010,Customers numbers,Sum by regions,Southern,801659.0
+2010,Customers numbers,Residential,Central,1460216.0
+2010,Customers numbers,Commercial,Eastern,189176.0
+2010,Customers numbers,Industrial,Eastern,2148.0
+2010,Customers numbers,Sum by regions,Eastern,1043249.0
+2010,Energy sales,Government,Eastern,6640.0
+2010,Energy sales,Industrial,Central,4507.0
+2010,Energy sales,Industrial,Eastern,29655.0
+2010,Energy sales,Sum by regions,Western,71101.0
+2010,Energy sales,Sum by regions,Sum by category,218253.0
+2010,Customers numbers,Residential,Sum by category,4902846.0
+2010,Customers numbers,Commercial,Central,326095.0
+2010,Customers numbers,Commercial,Western,243884.0
+2010,Customers numbers,Others,Southern,19507.0
+2010,Customers numbers,Sum by regions,Sum by category,6012265.0
+2010,Energy sales,Residential,Central,34836.0
+2010,Energy sales,Commercial,Southern,2244.0
+2010,Energy sales,Government,Central,9218.0
+2010,Energy sales,Others,Eastern,1933.0
+2010,Energy sales,Sum by regions,Central,63745.0
+2010,Customers numbers,Government,Sum by category,121054.0
+2010,Customers numbers,Industrial,Southern,232.0
+2010,Customers numbers,Others,Sum by category,148821.0
+2010,Energy sales,Commercial,Central,9888.0
+2010,Energy sales,Commercial,Western,10709.0
+2010,Energy sales,Commercial,Sum by category,29423.0
+2010,Energy sales,Industrial,Southern,121.0
+2010,Energy sales,Others,Southern,902.0
+2010,Energy sales,Others,Sum by category,11821.0
+2010,Customers numbers,Residential,Eastern,803205.0
+2010,Customers numbers,Government,Central,37800.0
+2010,Customers numbers,Others,Central,66759.0
+2010,Customers numbers,Sum by regions,Western,2273847.0
+2010,Customers numbers,Residential,Western,1949607.0
+2010,Customers numbers,Commercial,Southern,72799.0
+2010,Customers numbers,Others,Eastern,29290.0
+2010,Customers numbers,Sum by regions,Central,1893510.0
+2010,Energy sales,Residential,Western,40858.0
+2010,Energy sales,Commercial,Eastern,6582.0
+2010,Energy sales,Government,Western,6879.0
+2010,Energy sales,Industrial,Sum by category,43248.0
+2010,Customers numbers,Commercial,Sum by category,831954.0
+2010,Customers numbers,Government,Western,44521.0
+2010,Customers numbers,Industrial,Sum by category,7590.0
+2010,Energy sales,Residential,Eastern,20993.0
+2010,Energy sales,Residential,Southern,12333.0
+2010,Energy sales,Residential,Sum by category,109020.0
+2010,Energy sales,Government,Southern,2004.0
+2010,Energy sales,Government,Sum by category,24741.0
+2010,Energy sales,Others,Western,3690.0
+2011,Customers numbers,Commercial,Southern,98740.0
+2011,Customers numbers,Sum by regions,Southern,851658.0
+2011,Energy sales,Residential,Western,39099.0
+2011,Energy sales,Commercial,Central,11503.0
+2011,Energy sales,Commercial,Southern,2711.0
+2011,Energy sales,Industrial,Southern,167.0
+2011,Customers numbers,Commercial,Eastern,206482.0
+2011,Customers numbers,Government,Eastern,21389.0
+2011,Customers numbers,Others,Southern,22020.0
+2011,Customers numbers,Sum by regions,Sum by category,6355906.0
+2011,Energy sales,Residential,Sum by category,109624.0
+2011,Energy sales,Commercial,Western,12138.0
+2011,Energy sales,Sum by regions,Western,70381.0
+2011,Customers numbers,Residential,Eastern,853716.0
+2011,Customers numbers,Residential,Southern,709090.0
+2011,Customers numbers,Commercial,Central,351242.0
+2011,Customers numbers,Government,Sum by category,119935.0
+2011,Customers numbers,Industrial,Eastern,2173.0
+2011,Customers numbers,Others,Central,69305.0
+2011,Energy sales,Residential,Southern,12172.0
+2011,Energy sales,Commercial,Sum by category,33119.0
+2011,Energy sales,Government,Eastern,6844.0
+2011,Energy sales,Government,Southern,2269.0
+2011,Energy sales,Government,Western,6269.0
+2011,Energy sales,Government,Sum by category,24141.0
+2011,Energy sales,Industrial,Sum by category,46726.0
+2011,Customers numbers,Residential,Western,1922978.0
+2011,Customers numbers,Commercial,Western,380471.0
+2011,Customers numbers,Government,Western,39231.0
+2011,Customers numbers,Industrial,Sum by category,7755.0
+2011,Customers numbers,Sum by regions,Central,2009211.0
+2011,Customers numbers,Sum by regions,Eastern,1114563.0
+2011,Energy sales,Residential,Eastern,21311.0
+2011,Energy sales,Commercial,Eastern,6767.0
+2011,Energy sales,Government,Central,8759.0
+2011,Energy sales,Others,Central,5506.0
+2011,Energy sales,Others,Eastern,1895.0
+2011,Energy sales,Others,Sum by category,11901.0
+2011,Energy sales,Sum by regions,Central,67663.0
+2011,Customers numbers,Commercial,Sum by category,1036935.0
+2011,Customers numbers,Others,Western,35198.0
+2011,Customers numbers,Others,Sum by category,157326.0
+2011,Energy sales,Industrial,Western,9298.0
+2011,Energy sales,Sum by regions,Eastern,69225.0
+2011,Energy sales,Sum by regions,Sum by category,225511.0
+2011,Customers numbers,Residential,Central,1548171.0
+2011,Customers numbers,Industrial,Central,2725.0
+2011,Customers numbers,Others,Eastern,30803.0
+2011,Customers numbers,Residential,Sum by category,5033955.0
+2011,Customers numbers,Government,Central,37768.0
+2011,Customers numbers,Government,Southern,21547.0
+2011,Customers numbers,Industrial,Southern,261.0
+2011,Customers numbers,Industrial,Western,2596.0
+2011,Customers numbers,Sum by regions,Western,2380474.0
+2011,Energy sales,Residential,Central,37042.0
+2011,Energy sales,Sum by regions,Southern,18242.0
+2011,Energy sales,Industrial,Central,4853.0
+2011,Energy sales,Industrial,Eastern,32408.0
+2011,Energy sales,Others,Southern,923.0
+2011,Energy sales,Others,Western,3577.0
+2012,Customers numbers,Government,Central,39855.0
+2012,Customers numbers,Government,Southern,24263.0
+2012,Customers numbers,Others,Eastern,32357.0
+2012,Customers numbers,Sum by regions,Southern,912926.0
+2012,Energy sales,Commercial,Southern,3128.0
+2012,Energy sales,Government,Eastern,6939.0
+2012,Energy sales,Industrial,Western,10272.0
+2012,Energy sales,Residential,Southern,13504.0
+2012,Energy sales,Others,Sum by category,13046.0
+2012,Energy sales,Sum by regions,Eastern,73728.0
+2012,Customers numbers,Residential,Eastern,918160.0
+2012,Customers numbers,Residential,Sum by category,5347126.0
+2012,Customers numbers,Commercial,Southern,104575.0
+2012,Customers numbers,Industrial,Central,2990.0
+2012,Customers numbers,Industrial,Eastern,2236.0
+2012,Customers numbers,Industrial,Western,2731.0
+2012,Customers numbers,Industrial,Sum by category,8281.0
+2012,Energy sales,Residential,Eastern,23546.0
+2012,Energy sales,Residential,Western,44022.0
+2012,Energy sales,Commercial,Eastern,10508.0
+2012,Energy sales,Commercial,Sum by category,39934.0
+2012,Energy sales,Government,Central,9921.0
+2012,Energy sales,Government,Sum by category,26354.0
+2012,Energy sales,Industrial,Eastern,30570.0
+2012,Customers numbers,Government,Western,40285.0
+2012,Customers numbers,Others,Southern,22597.0
+2012,Customers numbers,Sum by regions,Central,2145096.0
+2012,Customers numbers,Sum by regions,Eastern,1190022.0
+2012,Customers numbers,Sum by regions,Western,2498602.0
+2012,Energy sales,Commercial,Central,12172.0
+2012,Energy sales,Commercial,Western,14126.0
+2012,Energy sales,Government,Western,6941.0
+2012,Energy sales,Industrial,Southern,304.0
+2012,Energy sales,Industrial,Sum by category,46627.0
+2012,Energy sales,Others,Central,5819.0
+2012,Energy sales,Others,Southern,1035.0
+2012,Customers numbers,Residential,Southern,761167.0
+2012,Customers numbers,Commercial,Western,398327.0
+2012,Customers numbers,Sum by regions,Sum by category,6746646.0
+2012,Energy sales,Residential,Central,39580.0
+2012,Energy sales,Residential,Sum by category,120652.0
+2012,Energy sales,Government,Southern,2553.0
+2012,Energy sales,Others,Eastern,2165.0
+2012,Energy sales,Others,Western,4027.0
+2012,Energy sales,Sum by regions,Central,72973.0
+2012,Energy sales,Sum by regions,Southern,20524.0
+2012,Energy sales,Sum by regions,Western,79388.0
+2012,Customers numbers,Residential,Central,1648082.0
+2012,Customers numbers,Residential,Western,2019717.0
+2012,Customers numbers,Government,Eastern,21329.0
+2012,Customers numbers,Government,Sum by category,125732.0
+2012,Customers numbers,Industrial,Southern,324.0
+2012,Customers numbers,Others,Central,73347.0
+2012,Customers numbers,Others,Western,37542.0
+2012,Customers numbers,Others,Sum by category,165843.0
+2012,Customers numbers,Commercial,Central,380822.0
+2012,Customers numbers,Commercial,Eastern,215940.0
+2012,Customers numbers,Commercial,Sum by category,1099664.0
+2012,Energy sales,Industrial,Central,5481.0
+2012,Energy sales,Sum by regions,Sum by category,246613.0
+2013,Customers numbers,Residential,Eastern,986190.0
+2013,Customers numbers,Residential,Southern,815567.0
+2013,Customers numbers,Commercial,Southern,110092.0
+2013,Customers numbers,Commercial,Sum by category,1156736.0
+2013,Customers numbers,Industrial,Sum by category,8586.0
+2013,Customers numbers,Others,Eastern,33664.0
+2013,Energy sales,Commercial,Central,12612.0
+2013,Energy sales,Government,Central,10376.0
+2013,Energy sales,Government,Western,7409.0
+2013,Energy sales,Industrial,Southern,686.0
+2013,Energy sales,Others,Eastern,2130.0
+2013,Customers numbers,Residential,Western,2117340.0
+2013,Customers numbers,Residential,Sum by category,5685355.0
+2013,Customers numbers,Commercial,Eastern,228662.0
+2013,Customers numbers,Government,Southern,26350.0
+2013,Customers numbers,Industrial,Eastern,2326.0
+2013,Customers numbers,Industrial,Southern,332.0
+2013,Customers numbers,Others,Central,77545.0
+2013,Customers numbers,Sum by regions,Sum by category,7159368.0
+2013,Energy sales,Residential,Western,47997.0
+2013,Energy sales,Government,Eastern,6938.0
+2013,Energy sales,Government,Southern,2921.0
+2013,Energy sales,Others,Southern,1263.0
+2013,Energy sales,Sum by regions,Eastern,78655.0
+2013,Energy sales,Sum by regions,Southern,23557.0
+2013,Energy sales,Sum by regions,Sum by category,262683.0
+2013,Customers numbers,Commercial,Central,406247.0
+2013,Customers numbers,Commercial,Western,411735.0
+2013,Customers numbers,Government,Eastern,21682.0
+2013,Customers numbers,Industrial,Central,3100.0
+2013,Customers numbers,Others,Western,40648.0
+2013,Customers numbers,Sum by regions,Western,2614046.0
+2013,Energy sales,Residential,Sum by category,126113.0
+2013,Energy sales,Commercial,Eastern,8217.0
+2013,Energy sales,Commercial,Sum by category,39648.0
+2013,Energy sales,Industrial,Western,11067.0
+2013,Energy sales,Industrial,Sum by category,55636.0
+2013,Customers numbers,Others,Southern,23451.0
+2013,Customers numbers,Sum by regions,Central,2297006.0
+2013,Customers numbers,Sum by regions,Southern,975792.0
+2013,Energy sales,Residential,Central,39580.0
+2013,Energy sales,Residential,Eastern,23230.0
+2013,Energy sales,Industrial,Eastern,38140.0
+2013,Energy sales,Others,Western,4278.0
+2013,Energy sales,Sum by regions,Central,74282.0
+2013,Customers numbers,Government,Western,41495.0
+2013,Customers numbers,Sum by regions,Eastern,1272524.0
+2013,Customers numbers,Residential,Central,1766258.0
+2013,Customers numbers,Government,Central,43856.0
+2013,Customers numbers,Government,Sum by category,133383.0
+2013,Customers numbers,Industrial,Western,2828.0
+2013,Customers numbers,Others,Sum by category,175308.0
+2013,Energy sales,Industrial,Central,5743.0
+2013,Energy sales,Others,Sum by category,13642.0
+2013,Energy sales,Residential,Southern,15306.0
+2013,Energy sales,Commercial,Southern,3381.0
+2013,Energy sales,Commercial,Western,15438.0
+2013,Energy sales,Government,Sum by category,27644.0
+2013,Energy sales,Others,Central,5971.0
+2013,Energy sales,Sum by regions,Western,86189.0
+2014,Customers numbers,Industrial,Southern,395.0
+2014,Customers numbers,Industrial,Western,3047.0
+2014,Customers numbers,Others,Eastern,35317.0
+2014,Energy sales,Residential,Central,44155.0
+2014,Energy sales,Government,Central,11766.0
+2014,Energy sales,Industrial,Central,5768.0
+2014,Energy sales,Others,Western,4583.0
+2014,Energy sales,Sum by regions,Southern,25560.0
+2014,Customers numbers,Residential,Central,1865973.0
+2014,Customers numbers,Residential,Southern,855009.0
+2014,Customers numbers,Commercial,Western,472004.0
+2014,Customers numbers,Government,Eastern,23035.0
+2014,Customers numbers,Sum by regions,Central,2473073.0
+2014,Customers numbers,Sum by regions,Southern,1048404.0
+2014,Customers numbers,Sum by regions,Western,2742328.0
+2014,Energy sales,Industrial,Eastern,38943.0
+2014,Energy sales,Others,Southern,1439.0
+2014,Energy sales,Sum by regions,Western,87998.0
+2014,Customers numbers,Residential,Eastern,1048882.0
+2014,Customers numbers,Residential,Western,2177749.0
+2014,Customers numbers,Commercial,Central,475249.0
+2014,Customers numbers,Commercial,Southern,137379.0
+2014,Customers numbers,Government,Southern,29767.0
+2014,Customers numbers,Government,Western,44170.0
+2014,Customers numbers,Industrial,Eastern,2530.0
+2014,Customers numbers,Others,Southern,25854.0
+2014,Customers numbers,Others,Western,45358.0
+2014,Customers numbers,Sum by regions,Eastern,1356323.0
+2014,Energy sales,Residential,Eastern,25867.0
+2014,Energy sales,Residential,Sum by category,134363.0
+2014,Energy sales,Commercial,Southern,3581.0
+2014,Energy sales,Government,Southern,3195.0
+2014,Energy sales,Government,Sum by category,30280.0
+2014,Energy sales,Sum by regions,Eastern,82360.0
+2014,Customers numbers,Government,Sum by category,143810.0
+2014,Customers numbers,Industrial,Sum by category,9340.0
+2014,Energy sales,Residential,Western,47928.0
+2014,Energy sales,Commercial,Western,16428.0
+2014,Energy sales,Commercial,Sum by category,42036.0
+2014,Energy sales,Government,Western,8084.0
+2014,Energy sales,Others,Central,6594.0
+2014,Energy sales,Others,Eastern,2323.0
+2014,Energy sales,Others,Sum by category,14939.0
+2014,Energy sales,Sum by regions,Sum by category,278236.0
+2014,Customers numbers,Residential,Sum by category,5947613.0
+2014,Customers numbers,Commercial,Eastern,246559.0
+2014,Customers numbers,Government,Central,46838.0
+2014,Customers numbers,Industrial,Central,3368.0
+2014,Customers numbers,Others,Central,81645.0
+2014,Energy sales,Government,Eastern,7235.0
+2014,Energy sales,Industrial,Southern,932.0
+2014,Energy sales,Industrial,Western,10975.0
+2014,Energy sales,Sum by regions,Central,82318.0
+2014,Customers numbers,Commercial,Sum by category,1331191.0
+2014,Customers numbers,Others,Sum by category,188174.0
+2014,Customers numbers,Sum by regions,Sum by category,7620128.0
+2014,Energy sales,Residential,Southern,16413.0
+2014,Energy sales,Commercial,Central,14035.0
+2014,Energy sales,Commercial,Eastern,7992.0
+2014,Energy sales,Industrial,Sum by category,56618.0
+2015,Customers numbers,Residential,Central,2007566.0
+2015,Customers numbers,Commercial,Southern,142761.0
+2015,Customers numbers,Industrial,Western,3139.0
+2015,Customers numbers,Others,Western,49513.0
+2015,Customers numbers,Sum by regions,Central,2644736.0
+2015,Customers numbers,Sum by regions,Southern,1119219.0
+2015,Customers numbers,Sum by regions,Western,2893166.0
+2015,Energy sales,Government,Eastern,9049.0
+2015,Energy sales,Others,Central,7484.0
+2015,Energy sales,Others,Western,5279.0
+2015,Energy sales,Others,Sum by category,16995.0
+2015,Energy sales,Sum by regions,Central,90211.0
+2015,Energy sales,Sum by regions,Western,95831.0
+2015,Customers numbers,Residential,Sum by category,6433895.0
+2015,Customers numbers,Commercial,Eastern,256713.0
+2015,Customers numbers,Government,Western,43682.0
+2015,Customers numbers,Industrial,Southern,388.0
+2015,Customers numbers,Industrial,Sum by category,9431.0
+2015,Customers numbers,Others,Central,86506.0
+2015,Energy sales,Residential,Eastern,28132.0
+2015,Energy sales,Residential,Western,51201.0
+2015,Energy sales,Commercial,Eastern,9091.0
+2015,Energy sales,Government,Central,11298.0
+2015,Energy sales,Industrial,Central,6109.0
+2015,Customers numbers,Residential,Eastern,1134062.0
+2015,Customers numbers,Commercial,Central,502283.0
+2015,Customers numbers,Commercial,Western,422030.0
+2015,Customers numbers,Government,Southern,31302.0
+2015,Customers numbers,Others,Eastern,37511.0
+2015,Customers numbers,Sum by regions,Eastern,1455418.0
+2015,Customers numbers,Sum by regions,Sum by category,8112539.0
+2015,Energy sales,Industrial,Eastern,32412.0
+2015,Energy sales,Industrial,Sum by category,51857.0
+2015,Energy sales,Others,Southern,1563.0
+2015,Energy sales,Sum by regions,Southern,27218.0
+2015,Customers numbers,Government,Eastern,24575.0
+2015,Customers numbers,Industrial,Central,3347.0
+2015,Customers numbers,Industrial,Eastern,2557.0
+2015,Energy sales,Residential,Central,48496.0
+2015,Energy sales,Residential,Southern,16683.0
+2015,Energy sales,Commercial,Western,18005.0
+2015,Energy sales,Commercial,Sum by category,48183.0
+2015,Energy sales,Government,Southern,3911.0
+2015,Energy sales,Government,Western,8808.0
+2015,Energy sales,Government,Sum by category,33066.0
+2015,Energy sales,Industrial,Southern,798.0
+2015,Energy sales,Others,Eastern,2669.0
+2015,Customers numbers,Commercial,Sum by category,1323787.0
+2015,Customers numbers,Government,Central,45034.0
+2015,Energy sales,Residential,Sum by category,144512.0
+2015,Energy sales,Commercial,Central,16824.0
+2015,Energy sales,Commercial,Southern,4263.0
+2015,Energy sales,Industrial,Western,12538.0
+2015,Energy sales,Sum by regions,Eastern,81353.0
+2015,Customers numbers,Residential,Southern,917465.0
+2015,Customers numbers,Residential,Western,2374802.0
+2015,Customers numbers,Government,Sum by category,144593.0
+2015,Customers numbers,Others,Southern,27303.0
+2015,Customers numbers,Others,Sum by category,200833.0
+2015,Energy sales,Sum by regions,Sum by category,294613.0
+2016,Customers numbers,Residential,Eastern,1197309.0
+2016,Customers numbers,Residential,Southern,986642.0
+2016,Customers numbers,Commercial,Eastern,279609.0
+2016,Customers numbers,Government,Western,46957.0
+2016,Customers numbers,Government,Sum by category,153018.0
+2016,Customers numbers,Others,Eastern,38930.0
+2016,Customers numbers,Sum by regions,Western,3063835.0
+2016,Energy sales,Residential,Southern,17267.0
+2016,Energy sales,Commercial,Southern,4343.0
+2016,Energy sales,Others,Central,7717.0
+2016,Energy sales,Sum by regions,Southern,27948.0
+2016,Energy sales,Sum by regions,Western,97774.0
+2016,Customers numbers,Residential,Central,2111715.0
+2016,Customers numbers,Residential,Sum by category,6760629.0
+2016,Customers numbers,Commercial,Western,497614.0
+2016,Customers numbers,Commercial,Sum by category,1473487.0
+2016,Customers numbers,Government,Southern,33659.0
+2016,Customers numbers,Industrial,Sum by category,10184.0
+2016,Customers numbers,Others,Central,90876.0
+2016,Customers numbers,Others,Southern,28963.0
+2016,Customers numbers,Sum by regions,Eastern,1543995.0
+2016,Energy sales,Commercial,Sum by category,48898.0
+2016,Energy sales,Government,Central,11489.0
+2016,Energy sales,Industrial,Eastern,33277.0
+2016,Energy sales,Industrial,Southern,757.0
+2016,Energy sales,Others,Eastern,2657.0
+2016,Customers numbers,Government,Eastern,25380.0
+2016,Customers numbers,Industrial,Central,3577.0
+2016,Customers numbers,Industrial,Eastern,2767.0
+2016,Customers numbers,Industrial,Western,3388.0
+2016,Energy sales,Residential,Sum by category,143661.0
+2016,Energy sales,Industrial,Sum by category,53587.0
+2016,Energy sales,Others,Western,5608.0
+2016,Energy sales,Sum by regions,Sum by category,296673.0
+2016,Customers numbers,Commercial,Central,542036.0
+2016,Customers numbers,Government,Central,47022.0
+2016,Customers numbers,Industrial,Southern,452.0
+2016,Customers numbers,Others,Western,50913.0
+2016,Customers numbers,Others,Sum by category,209682.0
+2016,Customers numbers,Sum by regions,Central,2795226.0
+2016,Customers numbers,Sum by regions,Southern,1203944.0
+2016,Energy sales,Residential,Eastern,26926.0
+2016,Energy sales,Commercial,Central,17297.0
+2016,Energy sales,Commercial,Eastern,9155.0
+2016,Energy sales,Commercial,Western,18103.0
+2016,Energy sales,Government,Eastern,8650.0
+2016,Energy sales,Government,Southern,3975.0
+2016,Energy sales,Industrial,Western,13222.0
+2016,Energy sales,Others,Southern,1606.0
+2016,Energy sales,Sum by regions,Central,90286.0
+2016,Customers numbers,Commercial,Southern,154228.0
+2016,Energy sales,Residential,Western,52016.0
+2016,Energy sales,Government,Sum by category,32939.0
+2016,Customers numbers,Residential,Western,2464963.0
+2016,Customers numbers,Sum by regions,Sum by category,8607000.0
+2016,Energy sales,Residential,Central,47452.0
+2016,Energy sales,Government,Western,8825.0
+2016,Energy sales,Industrial,Central,6331.0
+2016,Energy sales,Others,Sum by category,17588.0
+2016,Energy sales,Sum by regions,Eastern,80665.0
+2017,Customers numbers,Residential,Western,2591459.0
+2017,Customers numbers,Government,Eastern,26009.0
+2017,Customers numbers,Industrial,Central,3750.0
+2017,Customers numbers,Sum by regions,Western,3232445.0
+2017,Energy sales,Residential,Sum by category,143473.0
+2017,Energy sales,Commercial,Eastern,9623.0
+2017,Energy sales,Commercial,Southern,4461.0
+2017,Energy sales,Government,Eastern,7550.0
+2017,Energy sales,Sum by regions,Southern,28443.0
+2017,Customers numbers,Commercial,Central,572170.0
+2017,Customers numbers,Commercial,Southern,167878.0
+2017,Customers numbers,Commercial,Western,533927.0
+2017,Customers numbers,Government,Central,47545.0
+2017,Customers numbers,Government,Sum by category,157468.0
+2017,Customers numbers,Industrial,Southern,498.0
+2017,Customers numbers,Others,Eastern,40585.0
+2017,Customers numbers,Others,Western,54407.0
+2017,Customers numbers,Sum by regions,Sum by category,9069513.0
+2017,Energy sales,Residential,Eastern,27620.0
+2017,Energy sales,Commercial,Sum by category,49148.0
+2017,Energy sales,Government,Western,9356.0
+2017,Energy sales,Industrial,Southern,576.0
+2017,Energy sales,Industrial,Sum by category,54862.0
+2017,Energy sales,Sum by regions,Western,97135.0
+2017,Customers numbers,Residential,Central,2199852.0
+2017,Customers numbers,Residential,Southern,1062323.0
+2017,Customers numbers,Residential,Sum by category,7103515.0
+2017,Customers numbers,Commercial,Eastern,303182.0
+2017,Customers numbers,Commercial,Sum by category,1577157.0
+2017,Customers numbers,Government,Western,48975.0
+2017,Customers numbers,Industrial,Western,3677.0
+2017,Customers numbers,Others,Southern,30874.0
+2017,Customers numbers,Sum by regions,Central,2918041.0
+2017,Energy sales,Residential,Central,48187.0
+2017,Energy sales,Residential,Southern,17313.0
+2017,Energy sales,Residential,Western,50353.0
+2017,Energy sales,Commercial,Central,17030.0
+2017,Energy sales,Government,Southern,4393.0
+2017,Energy sales,Industrial,Western,13517.0
+2017,Energy sales,Sum by regions,Central,90799.0
+2017,Customers numbers,Residential,Eastern,1249881.0
+2017,Customers numbers,Government,Southern,34939.0
+2017,Customers numbers,Industrial,Eastern,2858.0
+2017,Customers numbers,Industrial,Sum by category,10783.0
+2017,Customers numbers,Others,Central,94724.0
+2017,Energy sales,Commercial,Western,18034.0
+2017,Energy sales,Others,Central,7777.0
+2017,Energy sales,Others,Western,5875.0
+2017,Energy sales,Sum by regions,Sum by category,298438.0
+2017,Energy sales,Government,Sum by category,32690.0
+2017,Energy sales,Industrial,Central,6414.0
+2017,Energy sales,Others,Eastern,2913.0
+2017,Energy sales,Others,Sum by category,18265.0
+2017,Energy sales,Sum by regions,Eastern,82061.0
+2017,Customers numbers,Others,Sum by category,220590.0
+2017,Customers numbers,Sum by regions,Eastern,1622515.0
+2017,Customers numbers,Sum by regions,Southern,1296512.0
+2017,Energy sales,Government,Central,11391.0
+2017,Energy sales,Industrial,Eastern,34355.0
+2017,Energy sales,Others,Southern,1700.0
+2018,Customers numbers,Others,Eastern,39547.0
+2018,Customers numbers,Others,Southern,32210.0
+2018,Customers numbers,Sum by regions,Central,3026781.0
+2018,Energy sales,Residential,Southern,15916.0
+2018,Energy sales,Commercial,Southern,4910.0
+2018,Energy sales,Government,Southern,5350.0
+2018,Energy sales,Government,Western,17233.0
+2018,Energy sales,Industrial,Southern,714.0
+2018,Energy sales,Sum by regions,Southern,28786.0
+2018,Energy sales,Sum by regions,Sum by category,299183.0
+2018,Customers numbers,Commercial,Central,585895.0
+2018,Customers numbers,Commercial,Southern,173050.0
+2018,Customers numbers,Commercial,Western,548119.0
+2018,Customers numbers,Commercial,Sum by category,1616594.0
+2018,Customers numbers,Government,Eastern,26174.0
+2018,Customers numbers,Government,Southern,35967.0
+2018,Customers numbers,Government,Western,48144.0
+2018,Customers numbers,Others,Central,98130.0
+2018,Customers numbers,Sum by regions,Sum by category,9434489.0
+2018,Energy sales,Residential,Western,46261.0
+2018,Energy sales,Commercial,Eastern,8665.0
+2018,Energy sales,Commercial,Western,17254.0
+2018,Energy sales,Government,Central,11269.0
+2018,Energy sales,Others,Sum by category,19611.0
+2018,Energy sales,Sum by regions,Central,85358.0
+2018,Customers numbers,Residential,Eastern,1303214.0
+2018,Customers numbers,Residential,Southern,1124062.0
+2018,Customers numbers,Commercial,Eastern,309530.0
+2018,Customers numbers,Government,Central,48737.0
+2018,Customers numbers,Industrial,Eastern,2993.0
+2018,Customers numbers,Industrial,Southern,649.0
+2018,Customers numbers,Industrial,Sum by category,11470.0
+2018,Energy sales,Residential,Eastern,25189.0
+2018,Energy sales,Commercial,Sum by category,47185.0
+2018,Energy sales,Industrial,Central,6430.0
+2018,Energy sales,Industrial,Sum by category,58197.0
+2018,Energy sales,Others,Southern,1896.0
+2018,Energy sales,Sum by regions,Eastern,83880.0
+2018,Customers numbers,Residential,Sum by category,7420818.0
+2018,Customers numbers,Industrial,Central,3941.0
+2018,Customers numbers,Sum by regions,Eastern,1681458.0
+2018,Energy sales,Commercial,Central,16356.0
+2018,Energy sales,Government,Eastern,9967.0
+2018,Energy sales,Government,Sum by category,43819.0
+2018,Energy sales,Industrial,Western,14299.0
+2018,Customers numbers,Industrial,Western,3887.0
+2018,Energy sales,Industrial,Eastern,36754.0
+2018,Energy sales,Others,Central,8298.0
+2018,Energy sales,Others,Eastern,3305.0
+2018,Energy sales,Others,Western,6112.0
+2018,Energy sales,Sum by regions,Western,101159.0
+2018,Customers numbers,Residential,Central,2290078.0
+2018,Customers numbers,Residential,Western,2703464.0
+2018,Customers numbers,Government,Sum by category,159022.0
+2018,Customers numbers,Others,Western,56698.0
+2018,Customers numbers,Others,Sum by category,226585.0
+2018,Customers numbers,Sum by regions,Southern,1365938.0
+2018,Customers numbers,Sum by regions,Western,3360312.0
+2018,Energy sales,Residential,Central,43005.0
+2018,Energy sales,Residential,Sum by category,130371.0
+2019,Customers numbers,Residential,Western,2799775.0
+2019,Customers numbers,Residential,Sum by category,7713499.0
+2019,Customers numbers,Commercial,Western,556601.0
+2019,Customers numbers,Government,Southern,36159.0
+2019,Customers numbers,Government,Sum by category,157192.0
+2019,Customers numbers,Sum by regions,Sum by category,9758748.0
+2019,Energy sales,Residential,Eastern,25019.0
+2019,Energy sales,Residential,Southern,16481.0
+2019,Energy sales,Residential,Sum by category,128140.0
+2019,Energy sales,Industrial,Southern,557.0
+2019,Energy sales,Others,Eastern,3174.0
+2019,Customers numbers,Residential,Central,2375203.0
+2019,Customers numbers,Government,Eastern,27169.0
+2019,Customers numbers,Others,Central,100292.0
+2019,Customers numbers,Sum by regions,Eastern,1733854.0
+2019,Energy sales,Commercial,Central,16333.0
+2019,Energy sales,Commercial,Western,16614.0
+2019,Energy sales,Government,Central,10999.0
+2019,Energy sales,Government,Eastern,9713.0
+2019,Energy sales,Government,Western,11919.0
+2019,Energy sales,Sum by regions,Eastern,82394.0
+2019,Customers numbers,Government,Western,44814.0
+2019,Customers numbers,Industrial,Central,4140.0
+2019,Customers numbers,Industrial,Southern,696.0
+2019,Customers numbers,Others,Sum by category,233616.0
+2019,Customers numbers,Sum by regions,Central,3122954.0
+2019,Customers numbers,Sum by regions,Western,3463863.0
+2019,Energy sales,Residential,Western,44575.0
+2019,Energy sales,Commercial,Eastern,9156.0
+2019,Energy sales,Commercial,Sum by category,46820.0
+2019,Energy sales,Industrial,Western,6608.0
+2019,Energy sales,Sum by regions,Central,83989.0
+2019,Energy sales,Sum by regions,Southern,28941.0
+2019,Energy sales,Sum by regions,Western,84353.0
+2019,Customers numbers,Residential,Eastern,1349150.0
+2019,Customers numbers,Commercial,Southern,177704.0
+2019,Customers numbers,Government,Central,49050.0
+2019,Customers numbers,Industrial,Western,3909.0
+2019,Customers numbers,Industrial,Sum by category,11819.0
+2019,Customers numbers,Sum by regions,Southern,1438077.0
+2019,Energy sales,Residential,Central,42065.0
+2019,Energy sales,Government,Southern,5122.0
+2019,Energy sales,Government,Sum by category,37753.0
+2019,Energy sales,Industrial,Sum by category,49436.0
+2019,Energy sales,Others,Western,4637.0
+2019,Energy sales,Industrial,Central,6939.0
+2019,Energy sales,Others,Sum by category,17528.0
+2019,Customers numbers,Residential,Southern,1189371.0
+2019,Customers numbers,Industrial,Eastern,3074.0
+2019,Customers numbers,Others,Eastern,40413.0
+2019,Customers numbers,Others,Southern,34147.0
+2019,Energy sales,Commercial,Southern,4717.0
+2019,Energy sales,Others,Central,7653.0
+2019,Energy sales,Sum by regions,Sum by category,279677.0
+2019,Customers numbers,Commercial,Central,594269.0
+2019,Customers numbers,Commercial,Eastern,314048.0
+2019,Customers numbers,Commercial,Sum by category,1642622.0
+2019,Customers numbers,Others,Western,58764.0
+2019,Energy sales,Industrial,Eastern,35332.0
+2019,Energy sales,Others,Southern,2064.0

@@ -1,0 +1,31 @@
+{
+  "dataset_id": "the-growth-of-the-peak-loads-according-to-sources-in-the-electricity-sector-mw",
+  "attempts": [
+    {
+      "url": "https://datasource.kapsarc.org/api/explore/v2.1/catalog/datasets/the-growth-of-the-peak-loads-according-to-sources-in-the-electricity-sector-mw",
+      "params": {},
+      "requested_at_utc": "2026-10-18T07:23:47.976555+00:00",
+      "status_code": 200,
+      "final_url": "https://datasource.kapsarc.org/api/explore/v2.1/catalog/datasets/the-growth-of-the-peak-loads-according-to-sources-in-the-electricity-sector-mw",
+      "content_type": "application/json; charset=utf-8",
+      "file": "metadata.json",
+      "bytes": 5746,
+      "sha256": "fef317a04a18c67391455eaf55153f4ab5c7d243c43541006f604356cef51ebb"
+    },
+    {
+      "url": "https://datasource.kapsarc.org/api/explore/v2.1/catalog/datasets/the-growth-of-the-peak-loads-according-to-sources-in-the-electricity-sector-mw/exports/csv",
+      "params": {
+        "delimiter": ",",
+        "with_bom": "false"
+      },
+      "requested_at_utc": "2026-10-18T07:23:48.981555+00:00",
+      "status_code": 200,
+      "final_url": "https://datasource.kapsarc.org/api/explore/v2.1/catalog/datasets/the-growth-of-the-peak-loads-according-to-sources-in-the-electricity-sector-mw/exports/csv?delimiter=%2C&with_bom=false",
+      "content_type": "text/csv; charset=utf-8",
+      "file": "export.csv",
+      "bytes": 192,
+      "sha256": "28a18142d1a40955fbc2c978fb27bfe7ca0dbb97db87eb38de2051a62cc94c58"
+    }
+  ],
+  "host_used": "https://datasource.kapsarc.org/api/explore/v2.1"
+}

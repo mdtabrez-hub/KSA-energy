@@ -1,0 +1,20 @@
+{
+  "term": "tariff",
+  "attempts": [
+    {
+      "url": "https://datasource.kapsarc.org/api/explore/v2.1/catalog/datasets",
+      "params": {
+        "where": "search(\"tariff\")",
+        "limit": 100
+      },
+      "requested_at_utc": "2026-10-18T07:23:30.816617+00:00",
+      "status_code": 200,
+      "final_url": "https://datasource.kapsarc.org/api/explore/v2.1/catalog/datasets?where=search%28%22tariff%22%29&limit=100",
+      "content_type": "application/json; charset=utf-8",
+      "file": "catalog.json",
+      "bytes": 207173,
+      "sha256": "e4c0757d7fab6fdae5b0aeaefc4dbb15045fad536ba1f1c9cd85c676d476872c"
+    }
+  ],
+  "host_used": "https://datasource.kapsarc.org/api/explore/v2.1"
+}

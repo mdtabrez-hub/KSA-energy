@@ -1,0 +1,31 @@
+{
+  "dataset_id": "energy-consumption-in-mwh-by-region-sector-and-number-of-consumers-for-2007-2014",
+  "attempts": [
+    {
+      "url": "https://datasource.kapsarc.org/api/explore/v2.1/catalog/datasets/energy-consumption-in-mwh-by-region-sector-and-number-of-consumers-for-2007-2014",
+      "params": {},
+      "requested_at_utc": "2026-10-18T07:23:41.451604+00:00",
+      "status_code": 200,
+      "final_url": "https://datasource.kapsarc.org/api/explore/v2.1/catalog/datasets/energy-consumption-in-mwh-by-region-sector-and-number-of-consumers-for-2007-2014",
+      "content_type": "application/json; charset=utf-8",
+      "file": "metadata.json",
+      "bytes": 10375,
+      "sha256": "adc7529a17a57d3cfe8dd93c07657375373e87f788a0724365918276e2a90f7e"
+    },
+    {
+      "url": "https://datasource.kapsarc.org/api/explore/v2.1/catalog/datasets/energy-consumption-in-mwh-by-region-sector-and-number-of-consumers-for-2007-2014/exports/csv",
+      "params": {
+        "delimiter": ",",
+        "with_bom": "false"
+      },
+      "requested_at_utc": "2026-10-18T07:23:42.510113+00:00",
+      "status_code": 200,
+      "final_url": "https://datasource.kapsarc.org/api/explore/v2.1/catalog/datasets/energy-consumption-in-mwh-by-region-sector-and-number-of-consumers-for-2007-2014/exports/csv?delimiter=%2C&with_bom=false",
+      "content_type": "text/csv; charset=utf-8",
+      "file": "export.csv",
+      "bytes": 45566,
+      "sha256": "4324e9b0cdd53119983488832e04c4829d68602294a8e93822a6c3fde8b7abd8"
+    }
+  ],
+  "host_used": "https://datasource.kapsarc.org/api/explore/v2.1"
+}

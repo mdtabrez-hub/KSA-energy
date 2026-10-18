@@ -1,0 +1,31 @@
+{
+  "dataset_id": "electricity-consumption-indicators-by-region",
+  "attempts": [
+    {
+      "url": "https://datasource.kapsarc.org/api/explore/v2.1/catalog/datasets/electricity-consumption-indicators-by-region",
+      "params": {},
+      "requested_at_utc": "2026-10-18T07:23:53.961859+00:00",
+      "status_code": 200,
+      "final_url": "https://datasource.kapsarc.org/api/explore/v2.1/catalog/datasets/electricity-consumption-indicators-by-region",
+      "content_type": "application/json; charset=utf-8",
+      "file": "metadata.json",
+      "bytes": 8834,
+      "sha256": "f979fc13afa107826df14c297ad7f6253831ff63d2e64ce115bf7013d1e16c65"
+    },
+    {
+      "url": "https://datasource.kapsarc.org/api/explore/v2.1/catalog/datasets/electricity-consumption-indicators-by-region/exports/csv",
+      "params": {
+        "delimiter": ",",
+        "with_bom": "false"
+      },
+      "requested_at_utc": "2026-10-18T07:23:55.008637+00:00",
+      "status_code": 200,
+      "final_url": "https://datasource.kapsarc.org/api/explore/v2.1/catalog/datasets/electricity-consumption-indicators-by-region/exports/csv?delimiter=%2C&with_bom=false",
+      "content_type": "text/csv; charset=utf-8",
+      "file": "export.csv",
+      "bytes": 1583,
+      "sha256": "0e0ec4702bdcf63546892224f01cc72f3dc991b5f0e0c9eef2ef8dd4260610d9"
+    }
+  ],
+  "host_used": "https://datasource.kapsarc.org/api/explore/v2.1"
+}

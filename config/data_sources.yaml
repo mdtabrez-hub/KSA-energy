@@ -1,0 +1,96 @@
+# Candidate data sources for the Phase-1 data audit.
+#
+# verification_status meanings:
+#   index_verified   - the dataset page is in a public search index with a matching title and description;
+#                      the file itself has NOT been downloaded or inspected yet.
+#   user_supplied    - URL supplied in the research brief; slug not confirmed by any index.
+#   unverified       - existence or schema not confirmed.
+# No entry is "file_verified": in the 2026-10-16 session, every data host was unreachable
+# (proxy 403 / DNS failure). Run `python -m src.data_ingestion` from a networked machine
+# to fetch metadata and exports; the script records what it actually receives.
+
+kapsarc:
+  api_bases:
+    - https://datasource.kapsarc.org/api/explore/v2.1
+    - https://data.kapsarc.org/api/explore/v2.1
+  datasets:
+    - id: saudi-arabia-electricity-stat-1992-2009
+      title_reported: "Saudi Arabia Electricity Consumption, Number of Subscribers, Peak Load and Actual Generating Capacity by Region 1992-2009"
+      role: Historical regional consumption, peak load, capacity (RQ1 baseline)
+      verification_status: user_supplied
+      note: >-
+        Description found in a search index ("by Region 1992-2009", source Saudi Open Data), but the
+        slug was not confirmed. The ingestion script also runs a catalog search to find the real ID.
+    - id: saudi-arabia-electricity-load-monthly-by-region
+      title_reported: "Saudi Arabia Electricity Load Monthly by Region"
+      role: Monthly max/avg/min load (GW) by region 2009-2019 - the key series for seasonal peak structure
+      verification_status: index_verified
+      note: Portal states it was extracted from ECRA's website and is discontinued (successor regulator WERA).
+    - id: installed-generation-capacity-peak-load-in-mw-by-region-for-2014
+      title_reported: "Electricity Installed Capacity (Peak Load) by Region"
+      role: One-year cross-section of regional capacity vs peak (2014)
+      verification_status: index_verified
+    - id: energy-consumption-in-mwh-by-region-sector-and-number-of-consumers-for-2007-2014
+      title_reported: "Total Energy consumption and number of consumers by Category\\Region"
+      role: Regional consumption by customer category 2007-2014
+      verification_status: index_verified
+    - id: electricity-consumption-by-sectors
+      title_reported: "Electricity Consumption by Sectors"
+      role: Consumption by sector with a region field (coverage not yet confirmed)
+      verification_status: index_verified
+    - id: electricity-consumption-production-number-of-subscribers-and-peak-load-1980-2004
+      title_reported: "Electricity Consumption, Production, Number of Subscribers, Peak Load and Actual Generating Capacity"
+      role: National annual series; index snippet says coverage is 1980-2019 (source GASTAT) despite the slug
+      verification_status: index_verified
+    - id: the-growth-of-the-peak-loads-according-to-sources-in-the-electricity-sector-mw
+      title_reported: "The Growth of the Peak Loads According to Sources in the Electricity Sector"
+      role: National peak load by source (MW)
+      verification_status: index_verified
+    - id: saudi-arabia-planned-and-installed-renewables-by-project
+      title_reported: "Saudi Arabia Planned and Installed Renewables by Project"
+      role: Project-level renewable deployment (RQ2); fields reported - year, source, project, type, capacity (MW), status, location, city
+      verification_status: index_verified
+      note: Tracker excludes plants < 20 MW and hybrid renewable/non-renewable plants; updated quarterly.
+    - id: electricity-peak-load
+      title_reported: "Electricity Peak Load"
+      role: National annual peak 1990-2020 (2016-2020 from WERA)
+      verification_status: index_verified
+    - id: electricity-consumption-indicators-by-region
+      title_reported: "Electricity Consumption per Customer by Region and Year"
+      role: Regional consumption per customer; check whether it extends past 2019
+      verification_status: index_verified
+  catalog_search_terms:
+    - peak load
+    - region
+    - renewable
+    - solar
+    - wind
+    - generating capacity
+    - electricity consumption
+    - emissions
+    - tariff
+    - storage
+
+external:
+  - name: GASTAT Electrical Energy Statistics
+    url: https://www.stats.gov.sa/en/w/methodology-and-quality-report-for-electrical-energy-statistics
+    role: Annual 2010-2023 indicators incl. consumption by the 13 administrative regions; peak load and capacity in MW
+    verification_status: index_verified
+  - name: Global Energy Monitor - Global Solar Power Tracker / Global Wind Power Tracker
+    url: https://globalenergymonitor.org
+    role: Independent project coordinates (with exact/approximate flag) for cross-checking the KAPSARC tracker
+    verification_status: index_verified
+    note: License terms not yet confirmed.
+  - name: Ember yearly electricity data
+    url: https://ember-energy.org/data/yearly-electricity-data/
+    role: National generation mix and emissions intensity (national only)
+    verification_status: index_verified
+    note: Format changed July 2026 (one row per area-month-source).
+  - name: NASA POWER hourly API
+    url: https://power.larc.nasa.gov/api/temporal/hourly/point
+    role: Modelled irradiance, temperature, wind at project coordinates (model inputs only; not plant output)
+    verification_status: unverified
+  - name: PLEXOS-World 2015 hourly demand (Brinkerink & Deane)
+    doi: 10.7910/DVN/CBYXBY
+    role: Synthetic national hourly demand profile; scenario input only, never observed load
+    verification_status: index_verified

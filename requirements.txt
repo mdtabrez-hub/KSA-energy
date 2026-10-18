@@ -1,0 +1,10 @@
+pandas>=2.2
+requests>=2.31
+PyYAML>=6.0
+pytest>=8.0
+pvlib>=0.11
+h5py>=3.10
+shapely>=2.0
+lxml>=5.0
+pyshp>=2.3
+matplotlib>=3.8

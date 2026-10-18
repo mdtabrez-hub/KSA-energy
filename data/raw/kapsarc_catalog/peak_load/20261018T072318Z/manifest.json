@@ -1,0 +1,20 @@
+{
+  "term": "peak load",
+  "attempts": [
+    {
+      "url": "https://datasource.kapsarc.org/api/explore/v2.1/catalog/datasets",
+      "params": {
+        "where": "search(\"peak load\")",
+        "limit": 100
+      },
+      "requested_at_utc": "2026-10-18T07:23:18.502942+00:00",
+      "status_code": 200,
+      "final_url": "https://datasource.kapsarc.org/api/explore/v2.1/catalog/datasets?where=search%28%22peak+load%22%29&limit=100",
+      "content_type": "application/json; charset=utf-8",
+      "file": "catalog.json",
+      "bytes": 130339,
+      "sha256": "56aaf884b23492f45bb0493f9c4b74f27e6e6ce2c1b69c43df796897a19cd4bd"
+    }
+  ],
+  "host_used": "https://datasource.kapsarc.org/api/explore/v2.1"
+}

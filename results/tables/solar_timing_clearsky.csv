@@ -1,0 +1,17 @@
+site,lat,lon,coord_source,mounting,solar_noon_jul21,solar_noon_jan21,jul_daily_cf,jul_cf_12-15,jul_cf_14-17,jul_cf_16-19,jul_cf_19-22
+Sudair Solar PV (project),25.7688,45.5872,GEM exact,single-axis tracker,12:04,12:08,0.335,0.836,0.744,0.408,0.0
+Sudair Solar PV (project),25.7688,45.5872,GEM exact,fixed tilt = latitude,12:04,12:08,0.255,0.769,0.559,0.21,0.0
+Tabuk Province solar I (project),28.1043,35.3227,GEM exact,single-axis tracker,12:45,12:49,0.347,0.839,0.799,0.613,0.014
+Tabuk Province solar I (project),28.1043,35.3227,GEM exact,fixed tilt = latitude,12:45,12:49,0.256,0.789,0.654,0.338,0.005
+Al-Faisaliah/Shuaibah Solar (project),25.6243,42.3528,GEM approximate,single-axis tracker,12:17,12:21,0.335,0.841,0.761,0.457,0.0
+Al-Faisaliah/Shuaibah Solar (project),25.6243,42.3528,GEM approximate,fixed tilt = latitude,12:17,12:21,0.255,0.781,0.592,0.247,0.0
+Saad Solar PV 2 (project),24.7117,46.674,GEM approximate,single-axis tracker,11:59,12:04,0.335,0.834,0.739,0.391,0.0
+Saad Solar PV 2 (project),24.7117,46.674,GEM approximate,fixed tilt = latitude,11:59,12:04,0.254,0.763,0.546,0.196,0.0
+Riyadh (Central load centre),24.71,46.68,"city centre, approximate",single-axis tracker,11:59,12:04,0.335,0.834,0.739,0.391,0.0
+Riyadh (Central load centre),24.71,46.68,"city centre, approximate",fixed tilt = latitude,11:59,12:04,0.254,0.763,0.546,0.195,0.0
+Jeddah (Western load centre),21.54,39.17,"city centre, approximate",single-axis tracker,12:29,12:34,0.342,0.847,0.79,0.532,0.0
+Jeddah (Western load centre),21.54,39.17,"city centre, approximate",fixed tilt = latitude,12:29,12:34,0.256,0.787,0.624,0.287,0.0
+Dammam (Eastern load centre),26.43,50.1,"city centre, approximate",single-axis tracker,11:46,11:50,0.309,0.782,0.662,0.297,0.0
+Dammam (Eastern load centre),26.43,50.1,"city centre, approximate",fixed tilt = latitude,11:46,11:50,0.241,0.71,0.482,0.153,0.0
+Abha (Southern load centre),18.22,42.5,"city centre, approximate",single-axis tracker,12:16,12:21,0.378,0.948,0.863,0.515,0.0
+Abha (Southern load centre),18.22,42.5,"city centre, approximate",fixed tilt = latitude,12:16,12:21,0.292,0.882,0.678,0.287,0.0

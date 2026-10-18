@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this code or data, please cite it as below."
+title: "KSA-energy: a resolution-aware assessment of Saudi Arabia's solar and wind fleet against regional peak-load structure (code and data)"
+version: 0.1.0
+date-released: 2026-10-18
+license: MIT
+repository-code: "https://github.com/mdtabrez-hub/KSA-energy"
+authors:
+  - family-names: "[Surname]"
+    given-names: "[Given name]"
+    affiliation: "[Affiliation]"
+    orcid: "https://orcid.org/[0000-0000-0000-0000]"
+# Add after archiving a release on Zenodo:
+# doi: 10.5281/zenodo.XXXXXXX
+keywords:
+  - Saudi Arabia
+  - solar PV
+  - wind
+  - peak load
+  - reproducibility

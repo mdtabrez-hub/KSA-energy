@@ -1,0 +1,20 @@
+{
+  "term": "solar",
+  "attempts": [
+    {
+      "url": "https://datasource.kapsarc.org/api/explore/v2.1/catalog/datasets",
+      "params": {
+        "where": "search(\"solar\")",
+        "limit": 100
+      },
+      "requested_at_utc": "2026-10-18T07:23:23.411439+00:00",
+      "status_code": 200,
+      "final_url": "https://datasource.kapsarc.org/api/explore/v2.1/catalog/datasets?where=search%28%22solar%22%29&limit=100",
+      "content_type": "application/json; charset=utf-8",
+      "file": "catalog.json",
+      "bytes": 319835,
+      "sha256": "cea8d2eb44db38f609eb1d51ca4de6118dfb5875e389114aacaa95a89d5f2796"
+    }
+  ],
+  "host_used": "https://datasource.kapsarc.org/api/explore/v2.1"
+}

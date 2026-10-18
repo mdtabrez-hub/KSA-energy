@@ -1,0 +1,43 @@
+{
+  "peak_months": {
+    "Central": [
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "Eastern": [
+      6,
+      7,
+      8,
+      9
+    ],
+    "Southern": [
+      6,
+      7,
+      8,
+      9
+    ],
+    "Western": [
+      5,
+      6,
+      7,
+      8,
+      9
+    ]
+  },
+  "weather_cells": 100,
+  "weather_missing_hours_total": 0,
+  "excluded_solar_thermal": [
+    {
+      "page": "ISCC Duba 1 solar farm",
+      "capacity_mw": 43.0
+    },
+    {
+      "page": "ISCC Waad Al Shamal CSP solar farm",
+      "capacity_mw": 50.0
+    }
+  ],
+  "n_projects_modelled": 102
+}

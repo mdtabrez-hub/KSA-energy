@@ -1,0 +1,14 @@
+# Raw data: commit small, redistributable sources; re-download the rest (see data/README.md)
+data/raw/nasa_power/
+data/raw/naturalearth/
+# KAPSARC series whose portal metadata states no licence: keep metadata/manifest/audit, not the data
+data/raw/kapsarc/saudi-arabia-electricity-load-monthly-by-region/*/export.csv
+data/raw/kapsarc/electricity-peak-load/*/export.csv
+data/raw/kapsarc/the-growth-of-the-peak-loads-according-to-sources-in-the-electricity-sector-mw/*/export.csv
+data/interim/
+__pycache__/
+.pytest_cache/
+*.pyc
+data/processed/monthly_load*.csv
+*_full_package_*.zip
+manuscript/reference.docx

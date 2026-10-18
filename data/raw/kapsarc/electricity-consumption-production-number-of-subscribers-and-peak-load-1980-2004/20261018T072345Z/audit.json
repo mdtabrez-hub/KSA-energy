@@ -1,0 +1,62 @@
+{
+  "folder": "data/raw/kapsarc/electricity-consumption-production-number-of-subscribers-and-peak-load-1980-2004/20261018T072345Z",
+  "status": "audited",
+  "profile": {
+    "n_rows": 240,
+    "n_cols": 3,
+    "columns": [
+      {
+        "name": "time_period",
+        "dtype": "int64",
+        "n_missing": 0,
+        "n_unique": 40,
+        "min": 1980.0,
+        "max": 2019.0,
+        "n_negative": 0,
+        "span": {
+          "first": 1980.0,
+          "last": 2019.0,
+          "n_unparseable": 0
+        }
+      },
+      {
+        "name": "electricity_indicator",
+        "dtype": "str",
+        "n_missing": 0,
+        "n_unique": 6,
+        "values": [
+          "Actual Generating Capacity MW",
+          "Industrial Consumption MWh",
+          "No. of Subscribers",
+          "Peak Load MW",
+          "Total Energy Consumption MWh",
+          "Total Energy Produced MWh"
+        ]
+      },
+      {
+        "name": "indicator_value",
+        "dtype": "float64",
+        "n_missing": 0,
+        "n_unique": 240,
+        "min": 3907.05,
+        "max": 299188002.0,
+        "n_negative": 0
+      }
+    ],
+    "duplicate_rows": 0
+  },
+  "metadata_check": {
+    "records_count_reported": 240,
+    "rows_in_export": 240,
+    "match": true,
+    "license": "Public Domain",
+    "modified": "2023-11-30T07:45:26.680000+00:00",
+    "publisher": "General Authority for Statistics",
+    "fields_reported": [
+      "time_period",
+      "electricity_indicator",
+      "indicator_value"
+    ]
+  },
+  "fields_missing_from_export": []
+}

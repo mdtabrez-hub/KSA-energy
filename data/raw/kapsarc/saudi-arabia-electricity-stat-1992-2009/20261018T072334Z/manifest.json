@@ -1,0 +1,31 @@
+{
+  "dataset_id": "saudi-arabia-electricity-stat-1992-2009",
+  "attempts": [
+    {
+      "url": "https://datasource.kapsarc.org/api/explore/v2.1/catalog/datasets/saudi-arabia-electricity-stat-1992-2009",
+      "params": {},
+      "requested_at_utc": "2026-10-18T07:23:34.277071+00:00",
+      "status_code": 200,
+      "final_url": "https://datasource.kapsarc.org/api/explore/v2.1/catalog/datasets/saudi-arabia-electricity-stat-1992-2009",
+      "content_type": "application/json; charset=utf-8",
+      "file": "metadata.json",
+      "bytes": 5959,
+      "sha256": "c4fee8524fa54aa209384ee73a124a9d466bca4bb6b5bfb2ee2e54627b2e8008"
+    },
+    {
+      "url": "https://datasource.kapsarc.org/api/explore/v2.1/catalog/datasets/saudi-arabia-electricity-stat-1992-2009/exports/csv",
+      "params": {
+        "delimiter": ",",
+        "with_bom": "false"
+      },
+      "requested_at_utc": "2026-10-18T07:23:35.282716+00:00",
+      "status_code": 200,
+      "final_url": "https://datasource.kapsarc.org/api/explore/v2.1/catalog/datasets/saudi-arabia-electricity-stat-1992-2009/exports/csv?delimiter=%2C&with_bom=false",
+      "content_type": "text/csv; charset=utf-8",
+      "file": "export.csv",
+      "bytes": 31548,
+      "sha256": "6f2b0222d5dae29f5a4e4185cab91375893ae628d2256893fc120b26a3663bb3"
+    }
+  ],
+  "host_used": "https://datasource.kapsarc.org/api/explore/v2.1"
+}

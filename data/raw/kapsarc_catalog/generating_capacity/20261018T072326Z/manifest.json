@@ -1,0 +1,20 @@
+{
+  "term": "generating capacity",
+  "attempts": [
+    {
+      "url": "https://datasource.kapsarc.org/api/explore/v2.1/catalog/datasets",
+      "params": {
+        "where": "search(\"generating capacity\")",
+        "limit": 100
+      },
+      "requested_at_utc": "2026-10-18T07:23:26.047694+00:00",
+      "status_code": 200,
+      "final_url": "https://datasource.kapsarc.org/api/explore/v2.1/catalog/datasets?where=search%28%22generating+capacity%22%29&limit=100",
+      "content_type": "application/json; charset=utf-8",
+      "file": "catalog.json",
+      "bytes": 223877,
+      "sha256": "9439098162f1e15c4339f7a570307fc9258b6e515cb47e7cdf7ce13121b10289"
+    }
+  ],
+  "host_used": "https://datasource.kapsarc.org/api/explore/v2.1"
+}

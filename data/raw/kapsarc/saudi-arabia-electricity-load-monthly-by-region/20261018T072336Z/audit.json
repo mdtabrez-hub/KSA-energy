@@ -1,0 +1,51 @@
+{
+  "folder": "data/raw/kapsarc/saudi-arabia-electricity-load-monthly-by-region/20261018T072336Z",
+  "status": "audited",
+  "profile": {
+    "n_rows": 1584,
+    "n_cols": 3,
+    "columns": [
+      {
+        "name": "date",
+        "dtype": "str",
+        "n_missing": 0,
+        "n_unique": 132,
+        "span": {
+          "first": "2009-01-01T00:00:00",
+          "last": "2019-12-01T00:00:00",
+          "n_unparseable": 0
+        }
+      },
+      {
+        "name": "indicator",
+        "dtype": "str",
+        "n_missing": 0,
+        "n_unique": 12
+      },
+      {
+        "name": "value",
+        "dtype": "float64",
+        "n_missing": 0,
+        "n_unique": 184,
+        "min": 0.9,
+        "max": 20.2,
+        "n_negative": 0
+      }
+    ],
+    "duplicate_rows": 0
+  },
+  "metadata_check": {
+    "records_count_reported": 1584,
+    "rows_in_export": 1584,
+    "match": true,
+    "license": null,
+    "modified": "2026-05-05T12:51:41.625000+00:00",
+    "publisher": "Electricity and Cogeneration Regulatory Authority",
+    "fields_reported": [
+      "date",
+      "indicator",
+      "value"
+    ]
+  },
+  "fields_missing_from_export": []
+}

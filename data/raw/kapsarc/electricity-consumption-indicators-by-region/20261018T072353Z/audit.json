@@ -1,0 +1,60 @@
+{
+  "folder": "data/raw/kapsarc/electricity-consumption-indicators-by-region/20261018T072353Z",
+  "status": "audited",
+  "profile": {
+    "n_rows": 64,
+    "n_cols": 3,
+    "columns": [
+      {
+        "name": "year",
+        "dtype": "int64",
+        "n_missing": 0,
+        "n_unique": 16,
+        "min": 2005.0,
+        "max": 2020.0,
+        "n_negative": 0,
+        "span": {
+          "first": 2005.0,
+          "last": 2020.0,
+          "n_unparseable": 0
+        }
+      },
+      {
+        "name": "region",
+        "dtype": "str",
+        "n_missing": 0,
+        "n_unique": 4,
+        "values": [
+          "Central area",
+          "Eastern area",
+          "Southern area",
+          "Western area"
+        ]
+      },
+      {
+        "name": "value_mwhcustomer",
+        "dtype": "float64",
+        "n_missing": 0,
+        "n_unique": 55,
+        "min": 18.5,
+        "max": 66.2,
+        "n_negative": 0
+      }
+    ],
+    "duplicate_rows": 0
+  },
+  "metadata_check": {
+    "records_count_reported": 64,
+    "rows_in_export": 64,
+    "match": true,
+    "license": "Public Domain",
+    "modified": "2022-09-13T10:22:54.813000+00:00",
+    "publisher": "Water & Electricity Regulatory Authority",
+    "fields_reported": [
+      "year",
+      "region",
+      "value_mwhcustomer"
+    ]
+  },
+  "fields_missing_from_export": []
+}

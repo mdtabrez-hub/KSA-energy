@@ -1,0 +1,158 @@
+{
+  "folder": "data/raw/kapsarc/saudi-arabia-planned-and-installed-renewables-by-project/20261018T072349Z",
+  "status": "audited",
+  "profile": {
+    "n_rows": 68,
+    "n_cols": 8,
+    "columns": [
+      {
+        "name": "year",
+        "dtype": "int64",
+        "n_missing": 0,
+        "n_unique": 10,
+        "min": 2019.0,
+        "max": 2030.0,
+        "n_negative": 0,
+        "span": {
+          "first": 2019.0,
+          "last": 2030.0,
+          "n_unparseable": 0
+        }
+      },
+      {
+        "name": "source",
+        "dtype": "str",
+        "n_missing": 0,
+        "n_unique": 7
+      },
+      {
+        "name": "project_name",
+        "dtype": "str",
+        "n_missing": 2,
+        "n_unique": 31
+      },
+      {
+        "name": "type_solar_wind",
+        "dtype": "str",
+        "n_missing": 0,
+        "n_unique": 3
+      },
+      {
+        "name": "capacity",
+        "dtype": "float64",
+        "n_missing": 0,
+        "n_unique": 22,
+        "min": 20.0,
+        "max": 13760.0,
+        "n_negative": 0,
+        "values": [
+          "1000.0",
+          "1100.0",
+          "112.0",
+          "1125.0",
+          "120.0",
+          "13760.0",
+          "1425.0",
+          "1500.0",
+          "20.0",
+          "200.0",
+          "2000.0",
+          "2060.0",
+          "300.0",
+          "340.0",
+          "400.0",
+          "4000.0",
+          "50.0",
+          "500.0",
+          "600.0",
+          "700.0",
+          "80.0",
+          "91.0"
+        ]
+      },
+      {
+        "name": "installed_planned",
+        "dtype": "str",
+        "n_missing": 0,
+        "n_unique": 2
+      },
+      {
+        "name": "location",
+        "dtype": "str",
+        "n_missing": 8,
+        "n_unique": 9,
+        "values": [
+          "Al-Jawf Province",
+          "Al-Qassim Province",
+          "Eastern Province",
+          "Hail Province",
+          "Madinah Province",
+          "Makkah Province",
+          "Northern Borders Province",
+          "Riyadh Province",
+          "Tabuk Province"
+        ]
+      },
+      {
+        "name": "city",
+        "dtype": "str",
+        "n_missing": 8,
+        "n_unique": 32,
+        "values": [
+          "AL Hinakiyah",
+          "ALGhat",
+          "Al Faisaliah",
+          "Al Henakiyah",
+          "Al Jouf",
+          "Al Masa'a",
+          "Al Sadawi",
+          "Alhenakiyah",
+          "Alkahfah",
+          "Alrass",
+          "Alshuaibah",
+          "Ar Rass",
+          "Dumat al-Jandal",
+          "Jeddah",
+          "Layla",
+          "Madinah",
+          "Mahad Dahab",
+          "Neom",
+          "Qurayyat",
+          "Rabigh",
+          "Rafha",
+          "Saad",
+          "Sakaka",
+          "Shuaiba",
+          "Skaka",
+          "Sudair",
+          "Tabarjal",
+          "Tubarjal",
+          "Waad Al Shamal",
+          "Wadi Aldawaser",
+          "Wadi ad-Dawasir",
+          "Yanbu"
+        ]
+      }
+    ],
+    "duplicate_rows": 0
+  },
+  "metadata_check": {
+    "records_count_reported": 68,
+    "rows_in_export": 68,
+    "match": true,
+    "license": "Public Domain",
+    "modified": "2024-04-03T12:34:12+00:00",
+    "publisher": "KAPSARC",
+    "fields_reported": [
+      "year",
+      "source",
+      "project_name",
+      "type_solar_wind",
+      "capacity",
+      "installed_planned",
+      "location",
+      "city"
+    ]
+  },
+  "fields_missing_from_export": []
+}

@@ -1,0 +1,83 @@
+{
+  "folder": "data/raw/kapsarc/energy-consumption-in-mwh-by-region-sector-and-number-of-consumers-for-2007-2014/20261018T072341Z",
+  "status": "audited",
+  "profile": {
+    "n_rows": 900,
+    "n_cols": 5,
+    "columns": [
+      {
+        "name": "year",
+        "dtype": "int64",
+        "n_missing": 0,
+        "n_unique": 15,
+        "min": 2005.0,
+        "max": 2019.0,
+        "n_negative": 0,
+        "span": {
+          "first": 2005.0,
+          "last": 2019.0,
+          "n_unparseable": 0
+        }
+      },
+      {
+        "name": "classification",
+        "dtype": "str",
+        "n_missing": 0,
+        "n_unique": 2
+      },
+      {
+        "name": "category_region",
+        "dtype": "str",
+        "n_missing": 0,
+        "n_unique": 6,
+        "values": [
+          "Commercial",
+          "Government",
+          "Industrial",
+          "Others",
+          "Residential",
+          "Sum by regions"
+        ]
+      },
+      {
+        "name": "region",
+        "dtype": "str",
+        "n_missing": 0,
+        "n_unique": 5,
+        "values": [
+          "Central",
+          "Eastern",
+          "Southern",
+          "Sum by category",
+          "Western"
+        ]
+      },
+      {
+        "name": "value",
+        "dtype": "float64",
+        "n_missing": 0,
+        "n_unique": 895,
+        "min": 96.0,
+        "max": 9758748.0,
+        "n_negative": 0
+      }
+    ],
+    "duplicate_rows": 0
+  },
+  "metadata_check": {
+    "records_count_reported": 900,
+    "rows_in_export": 900,
+    "match": true,
+    "license": "Public Domain",
+    "modified": "2022-07-29T07:33:15.880000+00:00",
+    "publisher": "Electricity and Cogeneration Regulatory Authority",
+    "fields_reported": [
+      "year",
+      "classification",
+      "category_region",
+      "region",
+      "value"
+    ]
+  },
+  "fields_missing_from_export": []
+}

@@ -1,0 +1,67 @@
+{
+  "folder": "data/raw/kapsarc/electricity-peak-load/20261018T072351Z",
+  "status": "audited",
+  "profile": {
+    "n_rows": 31,
+    "n_cols": 4,
+    "columns": [
+      {
+        "name": "year",
+        "dtype": "int64",
+        "n_missing": 0,
+        "n_unique": 31,
+        "min": 1990.0,
+        "max": 2020.0,
+        "n_negative": 0,
+        "span": {
+          "first": 1990.0,
+          "last": 2020.0,
+          "n_unparseable": 0
+        }
+      },
+      {
+        "name": "interconnected_system",
+        "dtype": "float64",
+        "n_missing": 26,
+        "n_unique": 5,
+        "min": 58597.0,
+        "max": 61778.0,
+        "n_negative": 0
+      },
+      {
+        "name": "isolated_system",
+        "dtype": "float64",
+        "n_missing": 26,
+        "n_unique": 5,
+        "min": 468.0,
+        "max": 2231.0,
+        "n_negative": 0
+      },
+      {
+        "name": "total_mw",
+        "dtype": "float64",
+        "n_missing": 0,
+        "n_unique": 31,
+        "min": 12889.0,
+        "max": 62266.0,
+        "n_negative": 0
+      }
+    ],
+    "duplicate_rows": 0
+  },
+  "metadata_check": {
+    "records_count_reported": 31,
+    "rows_in_export": 31,
+    "match": true,
+    "license": null,
+    "modified": "2022-09-14T07:54:02.093000+00:00",
+    "publisher": "Water & Electricity Regulatory Authority",
+    "fields_reported": [
+      "year",
+      "interconnected_system",
+      "isolated_system",
+      "total_mw"
+    ]
+  },
+  "fields_missing_from_export": []
+}

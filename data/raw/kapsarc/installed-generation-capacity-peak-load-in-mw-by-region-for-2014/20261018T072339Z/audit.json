@@ -1,0 +1,67 @@
+{
+  "folder": "data/raw/kapsarc/installed-generation-capacity-peak-load-in-mw-by-region-for-2014/20261018T072339Z",
+  "status": "audited",
+  "profile": {
+    "n_rows": 160,
+    "n_cols": 4,
+    "columns": [
+      {
+        "name": "year",
+        "dtype": "int64",
+        "n_missing": 0,
+        "n_unique": 15,
+        "min": 2005.0,
+        "max": 2019.0,
+        "n_negative": 0,
+        "span": {
+          "first": 2005.0,
+          "last": 2019.0,
+          "n_unparseable": 0
+        }
+      },
+      {
+        "name": "area",
+        "dtype": "str",
+        "n_missing": 0,
+        "n_unique": 4,
+        "values": [
+          "Central",
+          "Eastern",
+          "Southern",
+          "Western"
+        ]
+      },
+      {
+        "name": "indicator",
+        "dtype": "str",
+        "n_missing": 0,
+        "n_unique": 3
+      },
+      {
+        "name": "value_gw",
+        "dtype": "float64",
+        "n_missing": 0,
+        "n_unique": 134,
+        "min": 2.191,
+        "max": 33.5,
+        "n_negative": 0
+      }
+    ],
+    "duplicate_rows": 0
+  },
+  "metadata_check": {
+    "records_count_reported": 160,
+    "rows_in_export": 160,
+    "match": true,
+    "license": "Public Domain",
+    "modified": "2026-05-05T12:52:01.480000+00:00",
+    "publisher": "Electricity and Cogeneration Regulatory Authority",
+    "fields_reported": [
+      "year",
+      "area",
+      "indicator",
+      "value_gw"
+    ]
+  },
+  "fields_missing_from_export": []
+}

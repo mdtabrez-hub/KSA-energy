@@ -1,0 +1,32 @@
+raw_project_name,canonical_project,note
+Domat al-Jandal,Dumat al-Jandal wind,
+Skaka,Sakaka PV,
+City Solar Power Plant,City Solar Power Plant,no province in source
+Rabigh,Rabigh PV,
+Jeddah,Jeddah PV,
+Rafha,Rafha PV,
+Layla,Layla PV,capacity reported as 80 and 91 MW
+Sudair (PIF),Sudair PV,
+Alrass,Ar Rass PV,
+Qurayyat,Qurayyat PV,
+Qurrayat,Qurayyat PV,spelling variant
+Saad,Saad PV,
+Wadi Aldawaser,Wadi Ad-Dawasir PV,capacity reported as 112 and 120 MW
+Alhenakiyah,Al Henakiyah PV,
+Al Faisaliah Solar Power Plant,Shuaibah PV (600 MW),SEC name for the 600 MW Shuaibah/Al Faisaliah plant (same capacity and year as Alshuaibah rows)
+Alshuaibah,Shuaibah PV (600 MW),
+Madinah,Madinah PV,
+Alshuaibah (PIF),Shuaibah PIF PV (2060 MW),distinct PIF project
+Yanbu,Yanbu wind,
+Alghat,Al Ghat wind,
+Waad Alshamal,Waad Al Shamal wind,
+Tabarjal,Tabarjal PV,
+NEOM Green Hydrogen Project,NEOM green hydrogen (solar+wind),
+Alkahfah (PIF),Al Kahfah PIF PV,
+Alrass (PIF),Ar Rass PIF PV,distinct PIF project
+Saad (PIF),Saad PIF PV,distinct PIF project
+Alhenakiyah 2,Al Henakiyah 2 PV,
+Al Sadawi IPP,Al Sadawi PV,
+Al Masa'a IPP,Al Masa'a PV,
+Mahad Dahab,Mahad Dahab PV,
+17 renewable energy projects are under development,EXCLUDE_AGGREGATE,aggregate of many projects without location
