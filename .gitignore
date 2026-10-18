@@ -11,3 +11,4 @@ __pycache__/
 *.pyc
 data/processed/monthly_load*.csv
 *_full_package_*.zip
+manuscript/reference.docx

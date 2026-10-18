@@ -1,6 +1,6 @@
 ---
 title: "What Public Data Can and Cannot Show: A Resolution-Aware Assessment of Saudi Arabia's Solar and Wind Fleet against Regional Peak-Load Structure"
-subtitle: "DRAFT v0.1 (2026-10-18) — not submission-ready; see 'Before submission' at the end"
+subtitle: "DRAFT v0.1 (2026-10-18) — not submission-ready; see submission_checklist.md"
 author: "[Authors to be added]"
 ---
 
@@ -9,6 +9,27 @@ author: "[Authors to be added]"
 Assessments of renewable deployment are often stated in installed capacity, while power-system planning is constrained by where and when load peaks. This study asks what reproducible public data can establish about how Saudi Arabia's solar and wind fleet relates to regional peak load, and what they cannot. We combine KAPSARC regional statistics (monthly load by operating area, 2009–2019; annual regional peak and installed capacity, 2005–2019; regional consumption, 2005–2025) with a project-level fleet of 102 solar and wind projects from the Global Energy Monitor wiki. Generation is modelled with NASA POWER hourly weather (2019–2023) and pvlib. Results are reported across 36 assignments of provinces to operating areas, two PV mounting types and five weather years. Four findings emerge. First, the public data carry material quality problems: a label swap, two duplicated years and inconsistent months in the monthly load series, and a 2.2-fold overcount if the KAPSARC project tracker is summed without de-duplication. Second, regional peaks are nearly simultaneous; their sum matches the national peak to within 4% in every year from 2005 to 2019. The Central area was the only one whose 2019 installed capacity (16.5 GW) was below its peak (20.0 GW). Third, renewable capacity is unevenly distributed relative to peak. The Southern area has no operating or under-construction capacity against about 10% of peak, and the dissimilarity between capacity and peak shares is 0.28–0.38 for the 21.8 GW operating or under construction. Fourth, the modelled contribution in observed peak months depends far more on the unknown peak hour than on location: PV delivers about 0.7–0.8 of nameplate at 12–15 h, 0.15–0.30 at 16–19 h and none at 19–22 h. We conclude that monthly public data support statements about geography and seasonal exposure, but not about capacity credit, which requires hourly regional load that is not publicly available.
 
 **Keywords:** Saudi Arabia; solar PV; wind; peak load; regional electricity demand; data quality; resource adequacy; reproducibility
+
+# Nomenclature
+
+| Symbol | Meaning | Unit |
+|---|---|---|
+| $r$, $y$, $m$, $t$ | operating area, year, month, hour | – |
+| $p$, $C_p$ | project, reported capacity | –, MW |
+| $\phi_k$, $\mathcal{K}$ | province-to-area mapping $k$, set of 36 mappings | – |
+| $\hat{L}_{r,y,m}$, $\bar{L}_{r,y,m}$ | monthly maximum and average load | GW |
+| $P_{r,y}$, $P^{\mathrm{nat}}_y$ | annual regional and national peak load | GW |
+| $\mathrm{LF}$, $R$ | load factor, summer/winter peak ratio | – |
+| $\mathcal{M}_r$, $\delta$ | observed peak months, tolerance (0.05) | – |
+| $s_r$, $d_r$, $D$ | capacity share, reference share, dissimilarity index | – |
+| $G_{\mathrm{poa}}$, $T_a$, $T_c$ | plane-of-array irradiance, air and cell temperature | W m⁻², °C |
+| $\gamma$, $\lambda$ | PV temperature coefficient, lumped losses | %/K, – |
+| $p_t$ | per-unit AC output in hour $t$ | – |
+| $v_h$, $\alpha_s$ | hub-height wind speed, shear exponent | m s⁻¹, – |
+| $\mathcal{T}$, $A$ | assumed peak window, window capacity factor | h, – |
+| $E_t$, $\bar{P}$, $\bar{E}$, $\eta_{rt}$ | battery energy, power and energy rating, round-trip efficiency | kWh, kW, kWh, – |
+| $F_{\mathcal{T}}$ | fraction of nameplate held in window $\mathcal{T}$ | – |
+
 
 # 1. Introduction
 
@@ -59,42 +80,123 @@ The KAPSARC renewables tracker compiles several reporting sources. Its 68 record
 
 # 4. Methods
 
-**Geography.** GEM coordinates (59 exact, 49 approximate) were assigned to provinces by point-in-polygon. One coastal point was snapped to the nearest province, 15 km away or less, and flagged. Provinces were aggregated to the four operating areas. No official list of which provinces belong to which area was found, so four ambiguous provinces were given every plausible assignment: Hail (3 options), Al-Jouf (3), Northern Borders (2) and Al-Baha (2). That gives 36 mapping scenarios, and results are reported as ranges over them.
+## 4.1 Geography and scenario enumeration
 
-**Indicators.**
-- Growth rate: g = 100(X_t / X_{t−1} − 1). CAGR is computed over stated spans.
-- Load factor: mean monthly average load divided by the annual maximum.
-- Summer/winter ratio: the Jun–Sep maximum divided by the Dec–Feb maximum.
-- Regional mismatch: the Duncan dissimilarity index, D = ½ Σ_r |s_r − d_r|, where s_r and d_r are area shares of renewable capacity and of the reference (2019 peak, or 2025 consumption). D is the share of capacity that would have to be located elsewhere to match the reference distribution. It says nothing about transmission adequacy.
+GEM coordinates (59 exact, 49 approximate) were assigned to provinces by point-in-polygon. One coastal point was snapped to the nearest province, 15 km away or less, and flagged. Each project $p$ thus has a province $a(p)$. Because no official province-to-operating-area list was found, four ambiguous provinces were given every plausible assignment: Hail (3 options), Al-Jouf (3), Northern Borders (2) and Al-Baha (2). This gives a set $\mathcal{K}$ of $|\mathcal{K}| = 3\times3\times2\times2 = 36$ mappings $\phi_k$. Under mapping $k$, the renewable capacity of operating area $r$ for a status set $\mathcal{S}$ is
 
-**Generation.** PV output per kW AC uses pvlib:
-- solar position;
-- either a single-axis N–S tracker (±60°, backtracking, ground coverage ratio 0.35) or fixed tilt equal to latitude;
-- isotropic transposition and the PVsyst cell-temperature model;
-- PVWatts DC with γ = −0.35 %/K, 14% losses and a DC/AC ratio of 1.25.
+$$C^{(k)}_{r} = \sum_{p\,:\,\phi_k(a(p)) = r,\; \sigma(p)\in\mathcal{S}} C_p , \qquad (1)$$
 
-Sensitivity cases use 10%/−0.30 %/K and 20%/−0.45 %/K. Wind output uses a generic normalised power curve (cut-in 3, rated 12 and cut-out 25 m/s, 12% losses) with WS50M extrapolated to a 120 m hub height, using shear exponents of 0.10 and 0.20. 93 MW of solar-thermal fields at integrated solar combined-cycle (ISCC) plants are excluded.
+where $C_p$ is the reported capacity and $\sigma(p)$ the status of project $p$.
 
-**Peak-window capacity factor.** For area r, window T and months M:
+## 4.2 Demand-side indicators
 
-A[r,T,M] = Σ_p C_p · mean_{t∈T∩M}(P_p,t) / Σ_p C_p,
+For a quantity $X_{r,t}$ (peak load, installed capacity or consumption) in area $r$ and year $t$, the annual growth rate and the compound annual growth rate between years $t_0$ and $t_1$ are
 
-where P_p,t is per-kW output and C_p is capacity. The peak months M are observed: the months within 5% of each year's maximum in 2016–2019, with duplicates removed (May–Sep for Central and Western, Jun–Sep for Eastern and Southern). The windows T (12–15, 14–17, 16–19 and 19–22 h local time) are scenarios. A is a scenario quantity and is not an ELCC.
+$$g_{r,t} = 100\left(\frac{X_{r,t}}{X_{r,t-1}} - 1\right), \qquad (2)$$
 
-**Storage bound.** A battery that charges only from the modelled PV, discharges only within 19–22 h, has 85% round-trip efficiency and a state of charge of at least 10% gives the fraction of PV nameplate held in that window. This is a sizing bound, not a dispatch study.
+$$\mathrm{CAGR}_{r} = 100\left[\left(\frac{X_{r,t_1}}{X_{r,t_0}}\right)^{1/(t_1-t_0)} - 1\right]. \qquad (3)$$
 
-**Validation.**
-- V1: monthly-derived annual maxima compared with the annual regional peak table.
-- V2: the sum of regional peaks compared with the national peak.
-- V3: the plausibility of modelled annual capacity factors.
+Growth rates are not computed across a missing or duplicated year.
 
-No Saudi plant output was available to validate against.
+Let $\hat{L}_{r,y,m}$ and $\bar{L}_{r,y,m}$ be the maximum and average load of area $r$ in month $m$ of year $y$. The annual load factor and the summer/winter peak ratio are
+
+$$\mathrm{LF}_{r,y} = \frac{\frac{1}{12}\sum_{m=1}^{12}\bar{L}_{r,y,m}}{\max_{m}\hat{L}_{r,y,m}}, \qquad (4)$$
+
+$$R_{r,y} = \frac{\max_{m\in\{6,\dots,9\}}\hat{L}_{r,y,m}}{\max_{m\in\{12,1,2\}}\hat{L}_{r,y,m}}. \qquad (5)$$
+
+The observed peak months of area $r$ are pooled over the years $\mathcal{Y}_r \subseteq$ {2016, …, 2019}, excluding 2018 for the Eastern and Southern areas, where it duplicates 2017. With tolerance $\delta = 0.05$:
+
+$$\mathcal{M}_r = \bigcup_{y\in\mathcal{Y}_r}\left\{\, m \;:\; \hat{L}_{r,y,m} \ge (1-\delta)\max_{m'}\hat{L}_{r,y,m'} \right\}. \qquad (6)$$
+
+The descriptive installed-capacity-to-peak ratio and the regional-to-national peak ratio used in validation check V2 are
+
+$$\kappa_{r,y} = \frac{C^{\mathrm{inst}}_{r,y}}{P_{r,y}}, \qquad \rho_y = \frac{\sum_r P_{r,y}}{P^{\mathrm{nat}}_y}, \qquad (7)$$
+
+where $P_{r,y}$ is the annual regional peak and $P^{\mathrm{nat}}_y$ the national peak. $\kappa_{r,y}$ is not a reserve margin. $\rho_y \approx 1$ indicates that regional peaks are nearly coincident.
+
+## 4.3 Regional mismatch index
+
+With capacity shares $s_r$ and reference shares $d_r$ (2019 peak or 2025 consumption),
+
+$$s^{(k)}_r = \frac{C^{(k)}_r}{\sum_{r'} C^{(k)}_{r'}}, \qquad d_r = \frac{P_r}{\sum_{r'} P_{r'}}, \qquad (8)$$
+
+the Duncan dissimilarity index is
+
+$$D^{(k)} = \frac{1}{2}\sum_{r}\left| s^{(k)}_r - d_r \right|, \qquad 0 \le D^{(k)} \le 1. \qquad (9)$$
+
+$D$ is the fraction of capacity that would have to be located in a different area for the capacity distribution to match the reference. It describes geography only, not transmission adequacy.
+
+## 4.4 PV generation model
+
+PV output per kW AC was computed with pvlib from NASA POWER hourly irradiance (GHI, DNI, DHI) and air temperature $T_a$. The plane-of-array irradiance uses the isotropic sky model, with incidence angle $\theta$, surface tilt $\beta$ and ground albedo $\varrho = 0.25$:
+
+$$G_{\mathrm{poa}} = \mathrm{DNI}\cos\theta + \mathrm{DHI}\,\frac{1+\cos\beta}{2} + \mathrm{GHI}\,\varrho\,\frac{1-\cos\beta}{2}. \qquad (10)$$
+
+The surface orientation is either a single-axis N–S tracker (rotation limit ±60°, backtracking, ground coverage ratio 0.35) or a fixed equator-facing surface with tilt equal to latitude. Cell temperature follows the PVsyst model, with absorptance $\alpha = 0.9$, module efficiency $\eta_m = 0.1$, $U_c = 29$ W m⁻² K⁻¹ and $U_v = 0$:
+
+$$T_c = T_a + \frac{\alpha\,(1-\eta_m)}{U_c + U_v\,w}\,G_{\mathrm{poa}}. \qquad (11)$$
+
+DC power per kW AC follows PVWatts, with DC/AC ratio $P_{\mathrm{dc0}} = 1.25$, temperature coefficient $\gamma$ and lumped losses $\lambda$:
+
+$$P_{\mathrm{dc}} = \frac{G_{\mathrm{poa}}}{1000}\,P_{\mathrm{dc0}}\left[1 + \gamma\,(T_c - 25)\right](1-\lambda). \qquad (12)$$
+
+AC power follows the PVWatts inverter model, with nominal efficiency $\eta_{\mathrm{nom}} = 0.96$, reference efficiency $\eta_{\mathrm{ref}} = 0.9637$ and the AC rating normalised to 1:
+
+$$\eta(\zeta) = \frac{\eta_{\mathrm{nom}}}{\eta_{\mathrm{ref}}}\left(-0.0162\,\zeta - \frac{0.0059}{\zeta} + 0.9858\right), \qquad \zeta = \frac{P_{\mathrm{dc}}}{P_{\mathrm{dc,inv}}}, \qquad (13a)$$
+
+$$p_{t} = \min\!\left(\eta(\zeta)\,P_{\mathrm{dc}},\,1\right). \qquad (13b)$$
+
+Here $P_{\mathrm{dc,inv}} = 1/\eta_{\mathrm{nom}}$, and $p_t \in [0,1]$ is the per-unit AC output in hour $t$. The base case uses $\gamma = -0.35$ %/K and $\lambda = 0.14$. Sensitivity cases use ($\lambda$, $\gamma$) = (0.10, −0.30 %/K) and (0.20, −0.45 %/K). 93 MW of solar-thermal fields at integrated solar combined-cycle (ISCC) plants are excluded.
+
+## 4.5 Wind generation model
+
+The 50 m wind speed $v_{50}$ was extrapolated to a hub height $h = 120$ m with the power law, using shear exponent $\alpha_s \in \{0.10, 0.20\}$:
+
+$$v_h = v_{50}\left(\frac{h}{50}\right)^{\alpha_s}. \qquad (14)$$
+
+A generic normalised power curve with cut-in $v_{ci} = 3$, rated $v_r = 12$ and cut-out $v_{co} = 25$ m s⁻¹, and losses $\lambda_w = 0.12$, gives
+
+$$p_t = (1-\lambda_w)\begin{cases} 0, & v_h < v_{ci} \ \text{or}\ v_h > v_{co},\\[2pt] \dfrac{v_h^3 - v_{ci}^3}{v_r^3 - v_{ci}^3}, & v_{ci} \le v_h < v_r,\\[6pt] 1, & v_r \le v_h \le v_{co}. \end{cases} \qquad (15)$$
+
+## 4.6 Peak-window capacity factor
+
+For area $r$, assumed peak window $\mathcal{T}$ (local clock hours: 12–15, 14–17, 16–19 or 19–22), observed peak months $\mathcal{M}_r$ (Eq. 6) and weather year $y$, the capacity-weighted window capacity factor of the projects $\mathcal{P}^{(k)}_r$ assigned to $r$ under mapping $k$ is
+
+$$A^{(k)}_{r,\mathcal{T},y} = \frac{\sum_{p\in\mathcal{P}^{(k)}_r} C_p\;\frac{1}{|\mathcal{H}_{r,\mathcal{T},y}|}\sum_{t\in\mathcal{H}_{r,\mathcal{T},y}} p_{p,t}}{\sum_{p\in\mathcal{P}^{(k)}_r} C_p}, \qquad (16)$$
+
+where $\mathcal{H}_{r,\mathcal{T},y}$ is the set of hours of year $y$ that fall in window $\mathcal{T}$ and in a month of $\mathcal{M}_r$. The peak months are observed; the windows are scenarios. $A$ is therefore a scenario quantity, not an effective load-carrying capability.
+
+## 4.7 Illustrative storage bound
+
+A battery with power $\bar{P}$ and energy $\bar{E}$ (both per kW of PV) and round-trip efficiency $\eta_{rt} = 0.85$ is charged only from modelled PV outside the window and discharged only inside it. With charge and discharge efficiencies $\eta_c = \eta_d = \sqrt{\eta_{rt}}$, the energy state evolves as
+
+$$E_t = E_{t-1} + \eta_c P^{\mathrm{ch}}_t - \frac{P^{\mathrm{dis}}_t}{\eta_d}, \qquad (17a)$$
+
+$$0.1\,\bar{E} \le E_t \le \bar{E}, \qquad 0 \le P^{\mathrm{ch}}_t \le \min(\bar{P},\, p_t), \qquad 0 \le P^{\mathrm{dis}}_t \le \bar{P}, \qquad (17b)$$
+
+with $P^{\mathrm{ch}}_t P^{\mathrm{dis}}_t = 0$ (never charging and discharging in the same hour). The fraction of PV nameplate held during the window is
+
+$$F_{\mathcal{T}} = \frac{1}{|\mathcal{H}_{\mathcal{T}}|}\sum_{t\in\mathcal{H}_{\mathcal{T}}}\min\!\left(1,\; p_t + P^{\mathrm{dis}}_t\right). \qquad (18)$$
+
+This is a sizing bound, not a dispatch study.
+
+## 4.8 Scenario aggregation and validation
+
+Every reported range is the minimum, median and maximum of an indicator over the scenario set $\Omega = \mathcal{K}\times\mathcal{Y}_w\times\mathcal{V}$: the 36 mappings, the 5 weather years $\mathcal{Y}_w$ = {2019, …, 2023} and the model variants $\mathcal{V}$ (tracker or fixed for PV; two shear exponents for wind). Values are rounded to two significant figures.
+
+The validation checks are:
+
+- **V1:** monthly-derived annual maxima, $\max_m \hat{L}_{r,y,m}$, against the annual regional peak table, $P_{r,y}$.
+- **V2:** $\rho_y$ (Eq. 7).
+- **V3:** the plausibility of modelled annual capacity factors, against a band of 0.18–0.33.
+
+No Saudi plant output was available for validation.
 
 # 5. Results
 
 ## 5.1 Regional peak, capacity and demand (RQ1)
 
-| Area | Peak 2005→2019 (GW) | CAGR 2005–19 | CAGR 2015–19 | Installed/peak 2019 | Consumption CAGR 2019–25 |
+| Area | Peak 2005→2019 (GW) | CAGR 2005–19 (Eq. 3) | CAGR 2015–19 | $\kappa_{r,2019}$ (Eq. 7) | Consumption CAGR 2019–25 |
 |---|---|---|---|---|---|
 | Central | 9.1 → 20.0 | 5.8% | −0.4% | 0.82 | 4.9% |
 | Eastern | 9.2 → 19.0 | 5.3% | −1.2% | 1.65 | 3.7% |
@@ -104,15 +206,15 @@ No Saudi plant output was available to validate against.
 - Regional peaks grew 5–7.5% a year until 2015, then plateaued. Regional consumption grew again from 2019 to 2025, at 3.7–4.9% a year.
 - The Central area was the only one whose 2019 installed capacity was below its own peak, by 3.5 GW. It depends on inter-area transfers.
 - The annual peak falls in July (Central, Southern) or August (Eastern, Western), as Fig. 1 shows. The median summer/winter ratio ranges from 1.31 (Southern) to 1.70 (Western).
-- The sum of the four regional peaks equals the national peak to within 0–4% in every year, so the regional peaks are nearly coincident.
+- The sum of the four regional peaks equals the national peak to within 0–4% in every year ($\rho_y$ = 0.97–1.04, Eq. 7), so the regional peaks are nearly coincident.
 
-![Fig. 1. Monthly maximum load by operating area, 2009–2019 (band: monthly min–max). Grey: duplicated years in the source.](../results/figures/fig1_monthly_load_by_area.png)
+![Fig. 1. Monthly maximum load by operating area, 2009–2019 (band: monthly min–max). Grey: duplicated years in the source.](../results/figures/fig1_monthly_load_by_area.png){width=100%}
 
 ## 5.2 Geography of the fleet (RQ2)
 
 The GEM fleet totals 12.0 GW operating, 9.8 GW under construction and 32.1 GW in pre-construction, excluding cancelled phases.
 
-| Fleet | GW | D vs 2019 peak, base mapping | Range over 36 mappings | Mappings with D > 0.2 |
+| Fleet | GW | $D$ (Eq. 9) vs 2019 peak, base mapping | Range over 36 mappings | Mappings with $D > 0.2$ |
 |---|---|---|---|---|
 | Operating | 12.0 | 0.23 | 0.11–0.29 | 67% |
 | Operating + under construction | 21.8 | 0.31 | 0.28–0.38 | 100% |
@@ -124,11 +226,11 @@ The GEM fleet totals 12.0 GW operating, 9.8 GW under construction and 32.1 GW in
 
 Using 2025 consumption as the reference gives similar values (base D = 0.22, 0.29 and 0.18). The de-duplicated KAPSARC fleet spans D = 0.10–0.31.
 
-![Fig. 2. Share of renewable capacity by operating area (bars: range over 36 mappings) versus share of 2019 peak (ticks).](../results/figures/fig2_capacity_vs_peak_shares.png)
+![Fig. 2. Share of renewable capacity by operating area (bars: range over 36 mappings) versus share of 2019 peak (ticks).](../results/figures/fig2_capacity_vs_peak_shares.png){width=100%}
 
 ## 5.3 Modelled peak-season contribution (RQ3)
 
-The modelled annual PV capacity factors are 0.19–0.30 (median 0.27 with trackers, 0.24 fixed). In each area's observed peak months, the tracker case gives the following (ranges across areas; full pipeline, medians over 5 weather years × 36 mappings):
+The modelled annual PV capacity factors are 0.19–0.30 (median 0.27 with trackers, 0.24 fixed). In each area's observed peak months, the window capacity factor $A$ (Eq. 16) for the tracker case is as follows (ranges across areas; full pipeline, medians over 5 weather years × 36 mappings):
 
 | Window | 12–15 h | 14–17 h | 16–19 h | 19–22 h | All hours |
 |---|---|---|---|---|---|
@@ -139,22 +241,23 @@ The fixed-tilt case is 0.04–0.12 lower at 14–19 h (Fig. 3).
 - The Western area has a slightly higher late-afternoon factor than the Eastern area: the median difference at 16–19 h is +0.04, holding in 67% of tracker and 91% of fixed scenarios.
 - The loss and temperature-coefficient sensitivity moves the 16–19 h tracker value from 0.23 to 0.28, which is small relative to the effect of the window.
 - Modelled wind is evening-weighted: its median capacity factor is 0.22–0.36 at 19–22 h, its highest window (Fig. 4). Only 0.4 GW of wind is operating.
-- In the storage bound, midday PV always fills the battery during peak months. The 19–22 h firm fraction therefore equals the deliverable battery energy: for example, 0.50 of nameplate with 0.5 kW × 4 h per kW of PV.
+- In the storage bound, midday PV always fills the battery during peak months. The 19–22 h firm fraction $F$ (Eq. 18) therefore equals the deliverable battery energy: for example, 0.50 of nameplate with 0.5 kW × 4 h per kW of PV.
 
-![Fig. 3. Modelled PV capacity factor in each area's observed peak months, by assumed peak window.](../results/figures/fig3_pv_window_cf_heatmap.png)
+![Fig. 3. Modelled PV capacity factor in each area's observed peak months, by assumed peak window.](../results/figures/fig3_pv_window_cf_heatmap.png){width=100%}
 
-![Fig. 4. Modelled PV and wind capacity factor by assumed peak window.](../results/figures/fig4_pv_vs_wind_windows.png)
+![Fig. 4. Modelled PV and wind capacity factor by assumed peak window.](../results/figures/fig4_pv_vs_wind_windows.png){width=100%}
 
 ## 5.4 Validation
 
 - **V1:** the two KAPSARC peak tables differ by a median of 3.7%, with 68% of region-years within 5%. Both derive from the regulator, so this is a consistency check, not independent validation.
-- **V2:** the ratio of summed regional peaks to the national peak is 0.97–1.04.
+- **V2:** $\rho_y$ = 0.97–1.04.
 - **V3:** no modelled PV project-year falls outside an annual capacity factor of 0.18–0.33.
 - **Weather completeness:** none of the 4.4 million weather hours is missing.
 
 # 6. Discussion
 
 **What the data establish.**
+
 - Regional peak and consumption trajectories.
 - The Central area's capacity deficit relative to its own peak.
 - The near-coincidence of regional peaks.
@@ -162,12 +265,14 @@ The fixed-tilt case is 0.04–0.12 lower at 14–19 h (Fig. 3).
 - The months in which each area peaks.
 
 **What they do not establish.**
+
 - The hour of the regional peak. Without it, the modelled contribution of the same fleet ranges from about 0.8 of nameplate to zero.
 - Capacity credit, reserve margins and reliability, which need hourly regional load and outage data.
 
 The size of the window effect relative to the location effect is the central result. For planning studies that assume a renewable firm capacity [L28], the relevant uncertainty is temporal before it is spatial.
 
 **Engineering and policy implications.**
+
 1. Publishing hourly, or at least daily, regional peak timing would allow capacity value to be estimated reproducibly.
 2. Because regional peaks coincide, geographic diversity of PV across areas does not create diversity in peak timing.
 3. The concentration of new capacity in the West and its absence in the South point to inter-area transfer and to evening storage, rather than more PV, as the planning variables to examine.
@@ -224,12 +329,3 @@ Data and methods (**verify before submission**):
 - Natural Earth, Admin 1 – States, Provinces (1:10m).
 - Holmgren WF, Hansen CW, Mikofski MA. pvlib python: a python package for modeling solar energy systems. *J. Open Source Software* 3(29):884 (2018). doi:10.21105/joss.00884
 - Duncan OD, Duncan B. A methodological analysis of segregation indexes. *American Sociological Review* 20(2):210–217 (1955). doi:10.2307/2088328
-
-# Before submission (not part of the manuscript)
-
-1. Read the full texts of L08, L09, L12 and L28, and confirm the gap statement.
-2. Repeat the literature search in Scopus or Web of Science before making any novelty claim.
-3. Verify the method and data references above against their sources.
-4. Find an official province-to-operating-area mapping if one exists.
-5. Check the KAPSARC licence for the monthly load series.
-6. Add authors, affiliations, funding and a competing-interests statement, and format for the target journal (IET RPG, Energy Reports or Energy Strategy Reviews).
