@@ -117,7 +117,7 @@ def search_kapsarc_catalog(term: str, api_bases: list[str], limit: int = 100) ->
 
 
 def ingest_nasa_power_hourly(lat: float, lon: float, start: str, end: str,
-                             parameters: str = "ALLSKY_SFC_SW_DWN,ALLSKY_SFC_SW_DNI,ALLSKY_SFC_SW_DIFF,T2M,WS10M") -> Path:
+                             parameters: str = "ALLSKY_SFC_SW_DWN,ALLSKY_SFC_SW_DNI,ALLSKY_SFC_SW_DIFF,T2M,WS10M,WS50M") -> Path:
     """Fetch modelled hourly weather at one point. These are model inputs, never plant output."""
     dataset_id = f"hourly_{lat:.4f}_{lon:.4f}_{start}_{end}"
     folder = run_folder("nasa_power", dataset_id)

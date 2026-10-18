@@ -50,8 +50,13 @@ def _label_to_measure(label: str, labels: dict[str, list[str]]) -> str | None:
     return None
 
 
-def tidy_monthly_load(df: pd.DataFrame, maps: dict | None = None) -> pd.DataFrame:
-    """D2 -> columns [date (month start), region, max, avg, min] in the source unit (GW per portal)."""
+def tidy_monthly_load(df: pd.DataFrame, maps: dict | None = None,
+                      on_order_violation: str = "raise") -> pd.DataFrame:
+    """D2 -> [date (month start), region, max, avg, min, order_violation] in the source unit (GW).
+
+    Rows breaking min <= avg <= max raise by default; with on_order_violation="flag" they are
+    kept and flagged for src.cleaning to handle explicitly.
+    """
     m = (maps or load_column_maps())["monthly_load_by_region"]
     date_c = find_column(df, m["date"], "date")
     region_c = find_column(df, m["region"], "region")
@@ -87,9 +92,26 @@ def tidy_monthly_load(df: pd.DataFrame, maps: dict | None = None) -> pd.DataFram
         if measure not in out:
             out[measure] = np.nan
     bad_order = (out["min"] > out["avg"]) | (out["avg"] > out["max"])
-    if bad_order.any():
+    if bad_order.any() and on_order_violation == "raise":
         raise ValueError(f"{int(bad_order.sum())} rows violate min <= avg <= max")
-    return out[["date", "region", "max", "avg", "min"]].sort_values(["region", "date"]).reset_index(drop=True)
+    out["order_violation"] = bad_order
+    return (out[["date", "region", "max", "avg", "min", "order_violation"]]
+            .sort_values(["region", "date"]).reset_index(drop=True))
+
+
+def split_kapsarc_load_indicator(df: pd.DataFrame) -> pd.DataFrame:
+    """D2 stores region and measure in one string, e.g. 'Central region - Maximum - (GW)'.
+
+    Splits it into `region` and `type` columns (verified layout, download of 2026-10-18).
+    Raises if any indicator does not follow the pattern.
+    """
+    pat = r"^\s*(?P<region>\w+) region\s*-\s*(?P<type>Maximum|Average|Minimum)\b.*\(GW\)\s*$"
+    parts = df["indicator"].astype(str).str.extract(pat)
+    if parts.isna().any().any():
+        bad = df.loc[parts.isna().any(axis=1), "indicator"].unique()[:5]
+        raise ValueError(f"unexpected indicator labels: {list(bad)}")
+    return pd.DataFrame({"date": df["date"], "region": parts["region"], "type": parts["type"],
+                         "value": df["value"]})
 
 
 def parse_point(value) -> tuple[float, float]:
@@ -150,7 +172,7 @@ def nasa_power_weather(payload: dict | str | Path) -> pd.DataFrame:
         payload = json.loads(Path(payload).read_text(encoding="utf-8"))
     params = payload["properties"]["parameter"]
     rename = {"ALLSKY_SFC_SW_DWN": "ghi", "ALLSKY_SFC_SW_DNI": "dni", "ALLSKY_SFC_SW_DIFF": "dhi",
-              "T2M": "temp_air", "WS10M": "wind_speed"}
+              "T2M": "temp_air", "WS10M": "wind_speed", "WS50M": "wind_speed_50m"}
     cols = {}
     for src, dst in rename.items():
         if src in params:

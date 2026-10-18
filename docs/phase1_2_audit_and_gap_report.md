@@ -170,6 +170,17 @@ The decision stays **CONDITIONAL GO**, with somewhat lower data risk on D2. The 
 
 ---
 
+## 10. Post-download update (2026-10-18)
+
+The data were downloaded and audited once network access was granted. What the files showed is recorded in `docs/results_phase6_7.md` §1–2 and in the inventory. In short:
+- **A:** yes. Regional peak data cover 2005–2019 (D3, monthly in D2), and regional consumption covers 2005–2025.
+- **B:** yes. Regional installed capacity covers 2005–2019.
+- **C:** the KAPSARC table has a province and city but no coordinates. Coordinates come from the GEM wiki.
+- **D:** commissioning *years* only.
+- **I:** most KAPSARC datasets are Public Domain; D2 and the national peak series state no licence; GEM is CC BY-NC-SA.
+
+The decision moves from CONDITIONAL GO to **GO (narrowed design)**.
+
 ## Sources consulted (data discovery)
 
 - [KAPSARC – Saudi Arabia Electricity Load Monthly by Region](https://datasource.kapsarc.org/explore/assets/saudi-arabia-electricity-load-monthly-by-region/)

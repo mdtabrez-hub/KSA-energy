@@ -1,0 +1,3 @@
+source,records,distinct_projects,installed_mw,non_installed_mw,located_share_of_mw,projects_with_province_conflict,naive_sum_all_records_mw
+KAPSARC tracker export (modified 2024-04-03),68,28,700.0,21561.0,0.998,3,49783.0
+"GEM wiki (retrieved 2026-10-18), excl. cancelled",108,102,12007.5,41952.0,1.0,0,54659.5

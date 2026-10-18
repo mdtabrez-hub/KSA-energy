@@ -1,5 +1,7 @@
-# Candidate column names for each logical field. The exact KAPSARC field names are NOT yet
-# verified (no file has been downloaded). src.loaders picks the first candidate present
+# Candidate column names for each logical field. KAPSARC names verified against the
+# 2026-10-18 downloads: D2 uses date/indicator/value (split by
+# loaders.split_kapsarc_load_indicator); D7 uses year, source, project_name, type_solar_wind,
+# capacity, installed_planned, location (province name, NOT coordinates), city. src.loaders picks the first candidate present
 # (case-insensitive) and raises an error listing the real columns if none match. After the
 # first real download, replace these lists with the verified names.
 
@@ -18,8 +20,8 @@ monthly_load_by_region:            # D2: saudi-arabia-electricity-load-monthly-b
     min: [minimum, min, "minimum load"]
 
 renewable_projects:                # D7: saudi-arabia-planned-and-installed-renewables-by-project
-  name: [project, project_name, name]
-  technology: [type, technology, tech]
+  name: [project_name, project, name]
+  technology: [type_solar_wind, type, technology, tech]
   capacity_mw: [capacity, capacity_mw, capacity_mw_, mw]
   status: [status, installed_planned, stage]
   year: [year, cod_year, commissioning_year]

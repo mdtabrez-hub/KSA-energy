@@ -2,13 +2,14 @@
 
 A reproducible research project on how Saudi Arabia's renewable-energy deployment aligns with regional electricity demand and peak load. It uses the KAPSARC Energy Data Portal and other public sources.
 
-## Current status: Phases 1–5 designed; analysis pipeline code-complete; data download pending
+## Current status: data downloaded and analysed (2026-10-18); RQ1–RQ3 results and validation complete; manuscript not started
 
 1. **`docs/phase1_2_audit_and_gap_report.md`**: dataset inventory, feasibility questions, literature log and matrix, gap matrix, CONDITIONAL GO decision.
 2. **`docs/phase3_5_research_design.md`**: chosen direction and scoring, final research questions and hypotheses, methodology, figure plan, journal strategy, roadmap.
 3. **`docs/runbook.md`**: the exact commands and decision gates from download to RQ1–RQ3 results.
+4. **`docs/results_phase6_7.md`**: results, hypothesis verdicts, data-quality findings and validation. Figures are in `results/figures/`.
 
-No data files have been downloaded yet. The KAPSARC portal was unreachable from the environment where this work was done, so every dataset entry is marked by how far it was verified. **No empirical results exist yet.** The only computed table is a clear-sky solar-timing illustration that needs no external data.
+All findings are descriptive. Generation numbers are modelled, not measured, and nothing here is a reliability or ELCC estimate. Raw and processed data are git-ignored; rerun the scripts to regenerate them.
 
 ## Layout
 

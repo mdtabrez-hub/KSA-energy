@@ -28,7 +28,7 @@ def _long_d2():
 
 def test_tidy_monthly_load_long_layout():
     out = loaders.tidy_monthly_load(_long_d2())
-    assert list(out.columns) == ["date", "region", "max", "avg", "min"]
+    assert list(out.columns) == ["date", "region", "max", "avg", "min", "order_violation"]
     assert len(out) == 48
     assert (out["min"] <= out["avg"]).all() and (out["avg"] <= out["max"]).all()
 
@@ -164,3 +164,29 @@ def test_cli_refuses_to_run_without_inputs(tmp_path, monkeypatch, capsys):
     monkeypatch.setattr(pipeline, "PROCESSED", tmp_path)
     assert pipeline.main() == 2
     assert "nothing was computed" in capsys.readouterr().out
+
+
+# ------------------------------------------------------------------ D2 parsing and corrections
+
+def test_split_kapsarc_indicator_and_reject_unknown():
+    raw = pd.DataFrame({"date": ["2019-07", "2019-07"], "value": [20.2, 17.5],
+                        "indicator": ["Central region - Maximum - (GW)", "Eastern region - Average (GW)"]})
+    out = loaders.split_kapsarc_load_indicator(raw)
+    assert out[["region", "type"]].values.tolist() == [["Central", "Maximum"], ["Eastern", "Average"]]
+    with pytest.raises(ValueError):
+        loaders.split_kapsarc_load_indicator(raw.assign(indicator="Peak load national"))
+
+
+def test_cleaning_swaps_systematic_labels_and_flags_isolated():
+    from src import cleaning
+    dates = pd.date_range("2011-01-01", periods=12, freq="MS")
+    swapped = pd.DataFrame({"date": dates, "region": "Central", "max": 4.0, "avg": 6.0, "min": 8.0,
+                            "order_violation": True})
+    ok = pd.DataFrame({"date": dates, "region": "Eastern", "max": 10.0, "avg": 8.0, "min": 6.0,
+                       "order_violation": False})
+    ok.loc[3, ["max", "avg", "order_violation"]] = [7.0, 8.0, True]
+    out, log = cleaning.apply_corrections(pd.concat([swapped, ok], ignore_index=True))
+    central = out[out.region == "Central"]
+    assert (central["max"] == 8.0).all() and (central["min"] == 4.0).all()
+    assert np.isnan(out[(out.region == "Eastern")].iloc[3]["max"])
+    assert sorted(log["rule"].unique()) == ["isolated_inconsistency_max_set_nan", "label_swap_sorted"]
