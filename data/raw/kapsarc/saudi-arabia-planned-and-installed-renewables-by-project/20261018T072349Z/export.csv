@@ -1,0 +1,69 @@
+year,source,project_name,type_solar_wind,capacity,installed_planned,location,city
+2024,Ministry of Energy,Rafha,Solar,20.0,Planned,Northern Borders Province,Rafha
+2025,Ministry of Energy,Wadi Aldawaser,Solar,120.0,Planned,Riyadh Province,Wadi Aldawaser
+2024,Ministry of Energy,Layla,Solar,80.0,Planned,Riyadh Province,Layla
+2026,Ministry of Energy,Yanbu,Wind,700.0,Planned,Madinah Province,Yanbu
+2024,GASTAT,Sudair (PIF),Solar,1500.0,Planned,Riyadh Province,Sudair
+2024,GASTAT,Alrass,Solar,700.0,Planned,Riyadh Province,Alrass
+2025,GASTAT,Wadi Aldawaser,Solar,112.0,Planned,Riyadh Province,Wadi Aldawaser
+2023,SEC,Rabigh,Solar,300.0,Planned,Makkah Province,Rabigh
+2024,SEC,Qurayyat,Solar,200.0,Planned,Al-Jawf Province,Qurayyat
+2024,SEC,Layla,Solar,80.0,Planned,Northern Borders Province,Layla
+2025,SEC,Wadi Aldawaser,Solar,120.0,Planned,Riyadh Province,Wadi ad-Dawasir
+2024,SEC,Saad,Solar,300.0,Planned,Northern Borders Province,Saad
+2022,Vision2030,Skaka,Solar,300.0,Installed,Al-Jawf Province,Al Jouf
+2024,Ministry of Investment of Saudi Arabia,Qurayyat,Solar,200.0,Planned,Al-Jawf Province,Qurayyat
+2024,Ministry of Investment of Saudi Arabia,Saad,Solar,300.0,Planned,Riyadh Province,Saad
+2023,Ministry of Investment of Saudi Arabia,Rabigh,Solar,300.0,Planned,Makkah Province,Rabigh
+2023,Ministry of Investment of Saudi Arabia,Jeddah,Solar,300.0,Planned,Makkah Province,Jeddah
+2024,Ministry of Energy,Saad,Solar,300.0,Planned,Riyadh Province,Saad
+2026,Ministry of Energy,Alghat,Wind,600.0,Planned,Riyadh Province,ALGhat
+2026,Ministry of Energy,Waad Alshamal,Wind,500.0,Planned,Northern Borders Province,Waad Al Shamal
+2025,Ministry of Energy,Alhenakiyah,Solar,1100.0,Planned,Madinah Province,AL Hinakiyah
+2026,Ministry of Energy,Tabarjal,Solar,400.0,Planned,Al-Jawf Province,Tubarjal
+2023,Ministry of Energy,Jeddah,Solar,300.0,Planned,,
+2019,WERA,,Solar + Wind,340.0,Installed,,
+2025,GASTAT,Alhenakiyah,Solar,1100.0,Planned,Madinah Province,Alhenakiyah
+2023,GASTAT,Jeddah,Solar,300.0,Planned,Makkah Province,Jeddah
+2023,GASTAT,Rabigh,Solar,300.0,Planned,Makkah Province,Rabigh
+2021,GASTAT,Domat al-Jandal,Wind,400.0,Installed,Al-Jawf Province,Dumat al-Jandal
+2021,SEC,City Solar Power Plant,Solar,50.0,Planned,,
+2021,Ministry of Investment of Saudi Arabia,Skaka,Solar,300.0,Installed,Al-Jawf Province,Sakaka
+2024,Ministry of Investment of Saudi Arabia,Alrass,Solar,700.0,Planned,Al-Qassim Province,Ar Rass
+2030,Ministry of Energy,Al Masa'a IPP,Solar,1000.0,Planned,Hail Province,Al Masa'a
+2027,Ministry of Energy,Alhenakiyah 2,Solar,400.0,Planned,Madinah Province,Al Henakiyah
+2027,Ministry of Energy,Rabigh,Solar,300.0,Planned,,
+2025,SEC,Al Faisaliah Solar Power Plant,Solar,600.0,Planned,Makkah Province,Al Faisaliah
+2022,Vision2030,Domat al-Jandal,Wind,400.0,Installed,Al-Jawf Province,Al Jouf
+2025,Ministry of Investment of Saudi Arabia,Alshuaibah,Solar,600.0,Planned,Makkah Province,Shuaiba
+2024,Ministry of Investment of Saudi Arabia,Rafha,Solar,20.0,Planned,Northern Borders Province,Rafha
+2030,Ministry of Investment of Saudi Arabia,Mahad Dahab,Solar,20.0,Planned,Madinah Province,Mahad Dahab
+2026,NEOM,NEOM Green Hydrogen Project,Solar + Wind,4000.0,Planned,Tabuk Province,Neom
+2024,Ministry of Energy,Alrass,Solar,700.0,Planned,Al-Qassim Province,Ar Rass
+2027,Ministry of Energy,Al Sadawi IPP,Solar,2000.0,Planned,Eastern Province,Al Sadawi
+2021,Ministry of Energy,Domat al-Jandal,Wind,400.0,Installed,Al-Jawf Province,Dumat al-Jandal
+2024,Ministry of Energy,Qurrayat,Solar,200.0,Planned,,
+2020,WERA,,Solar + Wind,340.0,Installed,,
+2026,GASTAT,Waad Alshamal,Wind,500.0,Planned,Northern Borders Province,Waad Al Shamal
+2026,GASTAT,Alghat,Wind,600.0,Planned,Riyadh Province,ALGhat
+2026,GASTAT,Yanbu,Wind,700.0,Planned,Madinah Province,Yanbu
+2026,GASTAT,Tabarjal,Solar,400.0,Planned,Al-Jawf Province,Tabarjal
+2026,GASTAT,Alkahfah (PIF),Solar,1425.0,Planned,Hail Province,Alkahfah
+2026,GASTAT,Alrass (PIF),Solar,2000.0,Planned,Riyadh Province,Ar Rass
+2024,GASTAT,Layla,Solar,91.0,Planned,Riyadh Province,Layla
+2024,SEC,Rafha,Solar,20.0,Planned,Northern Borders Province,Rafha
+2021,Vision2030,17 renewable energy projects are under development,Solar + Wind,13760.0,Planned,,
+2025,Ministry of Investment of Saudi Arabia,Madinah,Solar,50.0,Planned,Madinah Province,Madinah
+2025,Ministry of Energy,Madinah,Solar,50.0,Planned,Madinah Province,Madinah
+2021,Ministry of Energy,Skaka,Solar,300.0,Installed,Al-Jawf Province,Skaka
+2025,Ministry of Energy,Alshuaibah,Solar,600.0,Planned,,
+2026,GASTAT,Saad (PIF),Solar,1125.0,Planned,Riyadh Province,Saad
+2025,GASTAT,Alshuaibah (PIF),Solar,2060.0,Planned,Riyadh Province,Alshuaibah
+2024,GASTAT,Saad,Solar,300.0,Planned,Riyadh Province,Saad
+2025,GASTAT,Alshuaibah,Solar,600.0,Planned,Makkah Province,Alshuaibah
+2021,GASTAT,Skaka,Solar,300.0,Installed,Al-Jawf Province,Skaka
+2023,SEC,Jeddah,Solar,300.0,Planned,Makkah Province,Jeddah
+2024,SEC,Alrass,Solar,700.0,Planned,Al-Qassim Province,Ar Rass
+2021,Ministry of Investment of Saudi Arabia,Domat al-Jandal,Wind,400.0,Installed,Al-Jawf Province,Dumat al-Jandal
+2025,Ministry of Investment of Saudi Arabia,Wadi Aldawaser,Solar,120.0,Planned,Riyadh Province,Wadi Aldawaser
+2024,Ministry of Investment of Saudi Arabia,Layla,Solar,80.0,Planned,Riyadh Province,Layla

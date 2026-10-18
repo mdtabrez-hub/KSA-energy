@@ -1,0 +1,31 @@
+{
+  "dataset_id": "electricity-peak-load",
+  "attempts": [
+    {
+      "url": "https://datasource.kapsarc.org/api/explore/v2.1/catalog/datasets/electricity-peak-load",
+      "params": {},
+      "requested_at_utc": "2026-10-18T07:23:51.937272+00:00",
+      "status_code": 200,
+      "final_url": "https://datasource.kapsarc.org/api/explore/v2.1/catalog/datasets/electricity-peak-load",
+      "content_type": "application/json; charset=utf-8",
+      "file": "metadata.json",
+      "bytes": 9743,
+      "sha256": "9d794970b3ce5fe8cbe6b98d187db278725602fc9d08487c230f8fbc9375a1d1"
+    },
+    {
+      "url": "https://datasource.kapsarc.org/api/explore/v2.1/catalog/datasets/electricity-peak-load/exports/csv",
+      "params": {
+        "delimiter": ",",
+        "with_bom": "false"
+      },
+      "requested_at_utc": "2026-10-18T07:23:52.928630+00:00",
+      "status_code": 200,
+      "final_url": "https://datasource.kapsarc.org/api/explore/v2.1/catalog/datasets/electricity-peak-load/exports/csv?delimiter=%2C&with_bom=false",
+      "content_type": "text/csv; charset=utf-8",
+      "file": "export.csv",
+      "bytes": 610,
+      "sha256": "a230b72892b96270bb8d38c784a4975425143cee33e7117310d3fe90a591ae4e"
+    }
+  ],
+  "host_used": "https://datasource.kapsarc.org/api/explore/v2.1"
+}

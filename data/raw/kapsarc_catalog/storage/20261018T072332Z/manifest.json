@@ -1,0 +1,20 @@
+{
+  "term": "storage",
+  "attempts": [
+    {
+      "url": "https://datasource.kapsarc.org/api/explore/v2.1/catalog/datasets",
+      "params": {
+        "where": "search(\"storage\")",
+        "limit": 100
+      },
+      "requested_at_utc": "2026-10-18T07:23:32.024547+00:00",
+      "status_code": 200,
+      "final_url": "https://datasource.kapsarc.org/api/explore/v2.1/catalog/datasets?where=search%28%22storage%22%29&limit=100",
+      "content_type": "application/json; charset=utf-8",
+      "file": "catalog.json",
+      "bytes": 456365,
+      "sha256": "a16ce92f15fcd4a0ad7baf3480c8a8514678ea8f9da86a2b7a9dcabdb010f415"
+    }
+  ],
+  "host_used": "https://datasource.kapsarc.org/api/explore/v2.1"
+}

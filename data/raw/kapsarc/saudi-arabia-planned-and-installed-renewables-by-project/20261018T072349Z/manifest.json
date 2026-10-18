@@ -1,0 +1,31 @@
+{
+  "dataset_id": "saudi-arabia-planned-and-installed-renewables-by-project",
+  "attempts": [
+    {
+      "url": "https://datasource.kapsarc.org/api/explore/v2.1/catalog/datasets/saudi-arabia-planned-and-installed-renewables-by-project",
+      "params": {},
+      "requested_at_utc": "2026-10-18T07:23:49.947211+00:00",
+      "status_code": 200,
+      "final_url": "https://datasource.kapsarc.org/api/explore/v2.1/catalog/datasets/saudi-arabia-planned-and-installed-renewables-by-project",
+      "content_type": "application/json; charset=utf-8",
+      "file": "metadata.json",
+      "bytes": 5677,
+      "sha256": "d62dffa05478c9e19e084b69bb24f5d2eaa8b15c44f4e48a4ad51f3a305c3a95"
+    },
+    {
+      "url": "https://datasource.kapsarc.org/api/explore/v2.1/catalog/datasets/saudi-arabia-planned-and-installed-renewables-by-project/exports/csv",
+      "params": {
+        "delimiter": ",",
+        "with_bom": "false"
+      },
+      "requested_at_utc": "2026-10-18T07:23:50.965268+00:00",
+      "status_code": 200,
+      "final_url": "https://datasource.kapsarc.org/api/explore/v2.1/catalog/datasets/saudi-arabia-planned-and-installed-renewables-by-project/exports/csv?delimiter=%2C&with_bom=false",
+      "content_type": "text/csv; charset=utf-8",
+      "file": "export.csv",
+      "bytes": 5327,
+      "sha256": "8f25444144647a373b6b9b9ff92b5f35dc4219169048f338cd1897291efe2dd0"
+    }
+  ],
+  "host_used": "https://datasource.kapsarc.org/api/explore/v2.1"
+}

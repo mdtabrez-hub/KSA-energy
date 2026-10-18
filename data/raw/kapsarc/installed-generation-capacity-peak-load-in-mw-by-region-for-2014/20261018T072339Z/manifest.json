@@ -1,0 +1,31 @@
+{
+  "dataset_id": "installed-generation-capacity-peak-load-in-mw-by-region-for-2014",
+  "attempts": [
+    {
+      "url": "https://datasource.kapsarc.org/api/explore/v2.1/catalog/datasets/installed-generation-capacity-peak-load-in-mw-by-region-for-2014",
+      "params": {},
+      "requested_at_utc": "2026-10-18T07:23:39.021633+00:00",
+      "status_code": 200,
+      "final_url": "https://datasource.kapsarc.org/api/explore/v2.1/catalog/datasets/installed-generation-capacity-peak-load-in-mw-by-region-for-2014",
+      "content_type": "application/json; charset=utf-8",
+      "file": "metadata.json",
+      "bytes": 14493,
+      "sha256": "070f8cd5f19bce47f3f78a8c7d773f95e7cde0c98c895e03ff9ab1fddb9bff4c"
+    },
+    {
+      "url": "https://datasource.kapsarc.org/api/explore/v2.1/catalog/datasets/installed-generation-capacity-peak-load-in-mw-by-region-for-2014/exports/csv",
+      "params": {
+        "delimiter": ",",
+        "with_bom": "false"
+      },
+      "requested_at_utc": "2026-10-18T07:23:40.362162+00:00",
+      "status_code": 200,
+      "final_url": "https://datasource.kapsarc.org/api/explore/v2.1/catalog/datasets/installed-generation-capacity-peak-load-in-mw-by-region-for-2014/exports/csv?delimiter=%2C&with_bom=false",
+      "content_type": "text/csv; charset=utf-8",
+      "file": "export.csv",
+      "bytes": 6435,
+      "sha256": "0cd8089a890245907551c5937222485d8d9eb79d6d8250f061b1e2c60f891627"
+    }
+  ],
+  "host_used": "https://datasource.kapsarc.org/api/explore/v2.1"
+}

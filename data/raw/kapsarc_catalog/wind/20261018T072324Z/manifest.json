@@ -1,0 +1,20 @@
+{
+  "term": "wind",
+  "attempts": [
+    {
+      "url": "https://datasource.kapsarc.org/api/explore/v2.1/catalog/datasets",
+      "params": {
+        "where": "search(\"wind\")",
+        "limit": 100
+      },
+      "requested_at_utc": "2026-10-18T07:23:24.778701+00:00",
+      "status_code": 200,
+      "final_url": "https://datasource.kapsarc.org/api/explore/v2.1/catalog/datasets?where=search%28%22wind%22%29&limit=100",
+      "content_type": "application/json; charset=utf-8",
+      "file": "catalog.json",
+      "bytes": 246990,
+      "sha256": "062360e2c2bc5b4f340d057c483098bdc2b90895781f5fd3d9b04a333ac45f16"
+    }
+  ],
+  "host_used": "https://datasource.kapsarc.org/api/explore/v2.1"
+}

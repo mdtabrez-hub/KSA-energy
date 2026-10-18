@@ -1,0 +1,161 @@
+year,area,indicator,value_gw
+2019,Eastern,Peak Load,19.0
+2019,Southern,Peak Load,6.0
+2019,Eastern,Installed Generation Capacity,31.4
+2019,Central,Installed Generation Capacity,16.5
+2019,Central,Available Capacities,16.0
+2019,Western,Available Capacities,17.0
+2019,Southern,Installed Generation Capacity,6.7
+2019,Southern,Available Capacities,6.0
+2019,Eastern,Available Capacities,25.0
+2019,Western,Installed Generation Capacity,30.6
+2019,Western,Peak Load,17.0
+2019,Central,Peak Load,20.0
+2018,Central,Available Capacities,15.0
+2018,Western,Available Capacities,21.0
+2018,Eastern,Available Capacities,25.0
+2018,Western,Peak Load,17.0
+2018,Eastern,Peak Load,19.0
+2018,Southern,Peak Load,6.0
+2018,Central,Installed Generation Capacity,16.5
+2018,Central,Peak Load,20.0
+2018,Eastern,Installed Generation Capacity,31.0
+2018,Western,Installed Generation Capacity,31.6
+2018,Southern,Installed Generation Capacity,6.5
+2018,Southern,Available Capacities,4.0
+2017,Western,Installed Generation Capacity,32.3
+2017,Central,Available Capacities,15.7
+2017,Eastern,Installed Generation Capacity,33.4
+2017,Southern,Installed Generation Capacity,4.1
+2017,Southern,Available Capacities,4.2
+2017,Western,Peak Load,18.5
+2017,Central,Peak Load,20.2
+2017,Eastern,Available Capacities,23.3
+2017,Eastern,Peak Load,19.7
+2017,Western,Available Capacities,20.5
+2017,Central,Installed Generation Capacity,18.9
+2017,Southern,Peak Load,5.9
+2016,Central,Available Capacities,17.0
+2016,Eastern,Peak Load,19.0
+2016,Southern,Available Capacities,5.0
+2016,Eastern,Installed Generation Capacity,33.5
+2016,Central,Installed Generation Capacity,18.6
+2016,Central,Peak Load,20.0
+2016,Western,Peak Load,18.0
+2016,Southern,Installed Generation Capacity,4.9
+2016,Western,Installed Generation Capacity,30.8
+2016,Western,Available Capacities,24.0
+2016,Southern,Peak Load,6.0
+2016,Eastern,Available Capacities,30.0
+2015,Central,Available Capacities,15.4
+2015,Eastern,Installed Generation Capacity,31.3
+2015,Southern,Installed Generation Capacity,5.3
+2015,Eastern,Peak Load,19.9
+2015,Southern,Peak Load,5.3
+2015,Western,Available Capacities,21.3
+2015,Southern,Available Capacities,4.6
+2015,Central,Installed Generation Capacity,17.7
+2015,Central,Peak Load,20.3
+2015,Eastern,Available Capacities,27.4
+2015,Western,Peak Load,18.6
+2015,Western,Installed Generation Capacity,27.4
+2014,Central,Installed Generation Capacity,16.1
+2014,Eastern,Installed Generation Capacity,28.7
+2014,Western,Installed Generation Capacity,26.8
+2014,Western,Available Capacities,21.1
+2014,Southern,Installed Generation Capacity,5.2
+2014,Central,Available Capacities,14.4
+2014,Western,Peak Load,17.0
+2014,Southern,Available Capacities,4.7
+2014,Southern,Peak Load,4.9
+2014,Central,Peak Load,18.1
+2014,Eastern,Peak Load,17.8
+2014,Eastern,Available Capacities,25.6
+2013,Southern,Peak Load,4.524
+2013,Central,Installed Generation Capacity,16.1
+2013,Eastern,Installed Generation Capacity,24.3
+2013,Eastern,Peak Load,16.356
+2013,Western,Installed Generation Capacity,25.0
+2013,Southern,Available Capacities,17.4
+2013,Central,Available Capacities,14.543
+2013,Central,Peak Load,17.346
+2013,Eastern,Available Capacities,19.611
+2013,Western,Available Capacities,4.672
+2013,Southern,Installed Generation Capacity,5.2
+2013,Western,Peak Load,16.039
+2012,Central,Peak Load,16.236
+2012,Eastern,Installed Generation Capacity,23.0
+2012,Western,Installed Generation Capacity,22.0
+2012,Western,Peak Load,15.676
+2012,Southern,Available Capacities,4.492
+2012,Central,Installed Generation Capacity,14.3
+2012,Western,Available Capacities,16.158
+2012,Southern,Installed Generation Capacity,5.1
+2012,Central,Available Capacities,13.358
+2012,Eastern,Peak Load,15.766
+2012,Eastern,Available Capacities,19.581
+2012,Southern,Peak Load,4.262
+2011,Central,Available Capacities,12.165
+2011,Western,Available Capacities,15.586
+2011,Western,Peak Load,15.117
+2011,Central,Installed Generation Capacity,13.008
+2011,Eastern,Available Capacities,18.837
+2011,Western,Installed Generation Capacity,20.63
+2011,Southern,Peak Load,3.824
+2011,Eastern,Installed Generation Capacity,22.125
+2011,Eastern,Peak Load,14.634
+2011,Southern,Installed Generation Capacity,5.088
+2011,Central,Peak Load,14.792
+2011,Southern,Available Capacities,4.56
+2010,Central,Peak Load,14.3
+2010,Eastern,Peak Load,13.9
+2010,Central,Installed Generation Capacity,12.326
+2010,Southern,Available Capacities,4.42242
+2010,Central,Available Capacities,9.8276
+2010,Western,Installed Generation Capacity,20.233
+2010,Western,Available Capacities,15.72416
+2010,Western,Peak Load,13.9
+2010,Southern,Installed Generation Capacity,5.088
+2010,Eastern,Installed Generation Capacity,22.204
+2010,Southern,Peak Load,3.5
+2010,Eastern,Available Capacities,19.16382
+2009,Eastern,Peak Load,12.6
+2009,Eastern,Installed Generation Capacity,20.035
+2009,Western,Installed Generation Capacity,19.665
+2009,Southern,Installed Generation Capacity,4.068
+2009,Central,Installed Generation Capacity,10.118
+2009,Central,Peak Load,12.7
+2009,Western,Peak Load,12.6
+2009,Southern,Peak Load,3.2
+2008,Central,Installed Generation Capacity,10.039
+2008,Central,Peak Load,11.6
+2008,Eastern,Installed Generation Capacity,17.052
+2008,Southern,Installed Generation Capacity,3.947
+2008,Eastern,Peak Load,11.9
+2008,Western,Installed Generation Capacity,16.184
+2008,Western,Peak Load,11.7
+2008,Southern,Peak Load,2.9
+2007,Eastern,Peak Load,10.856
+2007,Eastern,Installed Generation Capacity,15.47
+2007,Western,Peak Load,10.641
+2007,Southern,Installed Generation Capacity,3.07
+2007,Central,Installed Generation Capacity,8.097
+2007,Southern,Peak Load,2.629
+2007,Central,Peak Load,10.827
+2007,Western,Installed Generation Capacity,14.258
+2006,Southern,Peak Load,2.312
+2006,Western,Installed Generation Capacity,13.067
+2006,Eastern,Installed Generation Capacity,15.47
+2006,Central,Installed Generation Capacity,7.487
+2006,Central,Peak Load,9.694
+2006,Eastern,Peak Load,9.83
+2006,Western,Peak Load,9.074
+2006,Southern,Installed Generation Capacity,2.798
+2005,Eastern,Peak Load,9.247
+2005,Southern,Installed Generation Capacity,2.471
+2005,Eastern,Installed Generation Capacity,14.209
+2005,Western,Peak Load,8.559
+2005,Central,Installed Generation Capacity,7.487
+2005,Western,Installed Generation Capacity,11.867
+2005,Southern,Peak Load,2.191
+2005,Central,Peak Load,9.072

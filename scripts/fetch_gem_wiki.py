@@ -1,6 +1,7 @@
 """Fetch GEM wiki pages for Saudi solar and wind farms and parse their phase tables.
 
-    python -m scripts.fetch_gem_wiki
+    python -m scripts.fetch_gem_wiki                 # fetch live pages and archive them
+    python -m scripts.fetch_gem_wiki --from-archive  # re-parse the latest archived pages (no network)
 
 Raw parsed-HTML per page goes to data/raw/gem_wiki/<stamp>/ with a SHA-256 manifest.
 The phase table goes to data/processed/gem_phases.csv. GEM wiki content is licensed
@@ -69,7 +70,28 @@ def parse_page(title: str, html: str, tech_category: str) -> list[dict]:
     return rows
 
 
+def from_archive() -> pd.DataFrame:
+    """Rebuild the phase table from the latest archived pages, checking every SHA-256."""
+    folder = sorted((ROOT / "data" / "raw" / "gem_wiki").glob("*/manifest.json"))[-1].parent
+    manifest = json.loads((folder / "manifest.json").read_text())
+    rows = []
+    for page in manifest["pages"]:
+        html = (folder / page["file"]).read_text(encoding="utf-8")
+        if hashlib.sha256(html.encode()).hexdigest() != page["sha256"]:
+            raise ValueError(f"checksum mismatch for {page['file']}")
+        tech = "wind" if "wind" in page["title"].lower() else "solar"
+        rows.extend(parse_page(page["title"], html, tech))
+    print(f"rebuilt from archive {folder.name}: {len(manifest['pages'])} pages")
+    return pd.DataFrame(rows)
+
+
 def main() -> None:
+    import sys
+    if "--from-archive" in sys.argv:
+        out = from_archive()
+        out.to_csv(ROOT / "data" / "processed" / "gem_phases.csv", index=False)
+        print(f"{len(out)} phase rows -> data/processed/gem_phases.csv")
+        return
     stamp = datetime.now(timezone.utc).strftime("%Y%m%dT%H%M%SZ")
     raw = ROOT / "data" / "raw" / "gem_wiki" / stamp
     raw.mkdir(parents=True)

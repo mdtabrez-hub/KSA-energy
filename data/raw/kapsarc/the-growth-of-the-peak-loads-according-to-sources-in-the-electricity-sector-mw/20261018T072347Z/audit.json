@@ -1,0 +1,77 @@
+{
+  "folder": "data/raw/kapsarc/the-growth-of-the-peak-loads-according-to-sources-in-the-electricity-sector-mw/20261018T072347Z",
+  "status": "audited",
+  "profile": {
+    "n_rows": 4,
+    "n_cols": 5,
+    "columns": [
+      {
+        "name": "year_g",
+        "dtype": "int64",
+        "n_missing": 0,
+        "n_unique": 4,
+        "min": 2006.0,
+        "max": 2009.0,
+        "n_negative": 0,
+        "span": {
+          "first": 2006.0,
+          "last": 2009.0,
+          "n_unparseable": 0
+        }
+      },
+      {
+        "name": "peak_load_of_the_kingdom",
+        "dtype": "int64",
+        "n_missing": 0,
+        "n_unique": 4,
+        "min": 31240.0,
+        "max": 41200.0,
+        "n_negative": 0
+      },
+      {
+        "name": "big_customers",
+        "dtype": "int64",
+        "n_missing": 0,
+        "n_unique": 4,
+        "min": 1598.0,
+        "max": 5255.0,
+        "n_negative": 0
+      },
+      {
+        "name": "desalination_plants",
+        "dtype": "int64",
+        "n_missing": 0,
+        "n_unique": 4,
+        "min": 3160.0,
+        "max": 3320.0,
+        "n_negative": 0
+      },
+      {
+        "name": "power_plants",
+        "dtype": "int64",
+        "n_missing": 0,
+        "n_unique": 4,
+        "min": 27083.0,
+        "max": 38105.0,
+        "n_negative": 0
+      }
+    ],
+    "duplicate_rows": 0
+  },
+  "metadata_check": {
+    "records_count_reported": 4,
+    "rows_in_export": 4,
+    "match": true,
+    "license": null,
+    "modified": "2015-10-20T11:32:03+00:00",
+    "publisher": "Ministry of Environment, Water and Agriculture",
+    "fields_reported": [
+      "year_g",
+      "peak_load_of_the_kingdom",
+      "big_customers",
+      "desalination_plants",
+      "power_plants"
+    ]
+  },
+  "fields_missing_from_export": []
+}

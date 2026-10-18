@@ -1,0 +1,20 @@
+{
+  "term": "emissions",
+  "attempts": [
+    {
+      "url": "https://datasource.kapsarc.org/api/explore/v2.1/catalog/datasets",
+      "params": {
+        "where": "search(\"emissions\")",
+        "limit": 100
+      },
+      "requested_at_utc": "2026-10-18T07:23:29.050203+00:00",
+      "status_code": 200,
+      "final_url": "https://datasource.kapsarc.org/api/explore/v2.1/catalog/datasets?where=search%28%22emissions%22%29&limit=100",
+      "content_type": "application/json; charset=utf-8",
+      "file": "catalog.json",
+      "bytes": 1016007,
+      "sha256": "b8b28976fe6435841f4f6fbadf404bf11819564c9877dce34a6fc53e377c6d85"
+    }
+  ],
+  "host_used": "https://datasource.kapsarc.org/api/explore/v2.1"
+}

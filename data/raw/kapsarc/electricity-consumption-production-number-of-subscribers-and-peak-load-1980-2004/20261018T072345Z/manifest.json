@@ -1,0 +1,31 @@
+{
+  "dataset_id": "electricity-consumption-production-number-of-subscribers-and-peak-load-1980-2004",
+  "attempts": [
+    {
+      "url": "https://datasource.kapsarc.org/api/explore/v2.1/catalog/datasets/electricity-consumption-production-number-of-subscribers-and-peak-load-1980-2004",
+      "params": {},
+      "requested_at_utc": "2026-10-18T07:23:45.763357+00:00",
+      "status_code": 200,
+      "final_url": "https://datasource.kapsarc.org/api/explore/v2.1/catalog/datasets/electricity-consumption-production-number-of-subscribers-and-peak-load-1980-2004",
+      "content_type": "application/json; charset=utf-8",
+      "file": "metadata.json",
+      "bytes": 8434,
+      "sha256": "b2b4c2662df66ef7a358951b8f2af265303bf58f53156bef1b1df178405f4a27"
+    },
+    {
+      "url": "https://datasource.kapsarc.org/api/explore/v2.1/catalog/datasets/electricity-consumption-production-number-of-subscribers-and-peak-load-1980-2004/exports/csv",
+      "params": {
+        "delimiter": ",",
+        "with_bom": "false"
+      },
+      "requested_at_utc": "2026-10-18T07:23:46.737618+00:00",
+      "status_code": 200,
+      "final_url": "https://datasource.kapsarc.org/api/explore/v2.1/catalog/datasets/electricity-consumption-production-number-of-subscribers-and-peak-load-1980-2004/exports/csv?delimiter=%2C&with_bom=false",
+      "content_type": "text/csv; charset=utf-8",
+      "file": "export.csv",
+      "bytes": 9647,
+      "sha256": "8b1d050d2f37275801df7d46264a78f08e03910b9b9cf8229ee5c63bb0564765"
+    }
+  ],
+  "host_used": "https://datasource.kapsarc.org/api/explore/v2.1"
+}

@@ -1,0 +1,31 @@
+{
+  "dataset_id": "electricity-consumption-by-sectors",
+  "attempts": [
+    {
+      "url": "https://datasource.kapsarc.org/api/explore/v2.1/catalog/datasets/electricity-consumption-by-sectors",
+      "params": {},
+      "requested_at_utc": "2026-10-18T07:23:43.558549+00:00",
+      "status_code": 200,
+      "final_url": "https://datasource.kapsarc.org/api/explore/v2.1/catalog/datasets/electricity-consumption-by-sectors",
+      "content_type": "application/json; charset=utf-8",
+      "file": "metadata.json",
+      "bytes": 9099,
+      "sha256": "fcd206230e55f6e6c54846d0c4158085cfed5a3df5eb11faa900a38d4ea310c9"
+    },
+    {
+      "url": "https://datasource.kapsarc.org/api/explore/v2.1/catalog/datasets/electricity-consumption-by-sectors/exports/csv",
+      "params": {
+        "delimiter": ",",
+        "with_bom": "false"
+      },
+      "requested_at_utc": "2026-10-18T07:23:44.598331+00:00",
+      "status_code": 200,
+      "final_url": "https://datasource.kapsarc.org/api/explore/v2.1/catalog/datasets/electricity-consumption-by-sectors/exports/csv?delimiter=%2C&with_bom=false",
+      "content_type": "text/csv; charset=utf-8",
+      "file": "export.csv",
+      "bytes": 57270,
+      "sha256": "9c57f95eb37c0ffd303a8b05ec4af577dfc82e4dc090cce6830e99884120c4fa"
+    }
+  ],
+  "host_used": "https://datasource.kapsarc.org/api/explore/v2.1"
+}

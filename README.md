@@ -2,14 +2,16 @@
 
 A reproducible research project on how Saudi Arabia's renewable-energy deployment aligns with regional electricity demand and peak load. It uses the KAPSARC Energy Data Portal and other public sources.
 
-## Current status: data downloaded and analysed (2026-10-18); RQ1–RQ3 results and validation complete; manuscript not started
+## Current status: data downloaded and analysed (2026-10-18); RQ1–RQ3 results and validation complete; draft manuscript v0.1 in `manuscript/`
 
 1. **`docs/phase1_2_audit_and_gap_report.md`**: dataset inventory, feasibility questions, literature log and matrix, gap matrix, CONDITIONAL GO decision.
 2. **`docs/phase3_5_research_design.md`**: chosen direction and scoring, final research questions and hypotheses, methodology, figure plan, journal strategy, roadmap.
 3. **`docs/runbook.md`**: the exact commands and decision gates from download to RQ1–RQ3 results.
 4. **`docs/results_phase6_7.md`**: results, hypothesis verdicts, data-quality findings and validation. Figures are in `results/figures/`.
+5. **`docs/data_code_availability_statements.md`**: journal-ready data availability, code availability and reproducibility statements.
+6. **`data/README.md`**: what data are in the repository, their licences, and what is re-downloaded.
 
-All findings are descriptive. Generation numbers are modelled, not measured, and nothing here is a reliability or ELCC estimate. Raw and processed data are git-ignored; rerun the scripts to regenerate them.
+All findings are descriptive. Generation numbers are modelled, not measured, and nothing here is a reliability or ELCC estimate. Redistributable raw data and processed tables are in `data/`; the rest is re-downloaded by the scripts (see `data/README.md`).
 
 ## Layout
 
@@ -34,14 +36,19 @@ All findings are descriptive. Generation numbers are modelled, not measured, and
 | `scripts/solar_timing_demo.py` | Data-free clear-sky timing illustration -> `results/tables/solar_timing_clearsky.csv` (modelled, clear-sky only) |
 | `tests/` | Unit and physical-sanity tests (synthetic fixtures only) |
 
-## Reproduce the data audit
+## Reproduce everything
 
 ```bash
-pip install -r requirements.txt
-python -m pytest -q
-python -m scripts.solar_timing_demo                  # offline; clear-sky illustration only
-python -m src.data_ingestion                         # needs access to datasource.kapsarc.org
-python -m src.data_validation data/raw/kapsarc/*/*/  # writes audit.json per dataset
+pip install -r requirements-lock.txt   # exact versions used (Python 3.13)
+./reproduce.sh --verify                # full pipeline, then checks outputs against results/SHA256SUMS
 ```
 
-`data/raw/` is git-ignored until the reuse licences are confirmed.
+`reproduce.sh` re-downloads the KAPSARC data, NASA POWER weather and Natural Earth boundaries, and rebuilds the GEM fleet from the archived pages. A fresh download may differ where the publishers have revised their data; compare the SHA-256 values in `data/raw/*/<stamp>/manifest.json`.
+
+## Licences
+
+- Code: MIT (`LICENSE`).
+- Project-made data tables: CC BY 4.0.
+- GEM-derived tables: CC BY-NC-SA.
+- KAPSARC data: Public Domain, except three series with no stated licence. See `data/README.md`.
+- Cite via `CITATION.cff`.

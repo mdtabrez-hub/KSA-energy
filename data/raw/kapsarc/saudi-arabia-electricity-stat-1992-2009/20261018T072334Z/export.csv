@@ -1,0 +1,496 @@
+year,region,indicator,value
+1993,Eastern Region,Peak Load Mega-Watt,6934.0
+1993,Eastern Region,Actual Generating Capacity Mega-Watt,7296.0
+1994,Eastern Region,Percent Industrial Consumption to Total Consumption,58.54
+1994,Eastern Region,Actual Generating Capacity Mega-Watt,7197.0
+1996,Eastern Region,Percent Industrial Consumption to Total Consumption,58.64
+1996,Eastern Region,Total Energy Consumed (Maga-Watt HR),33954630.0
+1996,Eastern Region,No. of Subscribers,462712.0
+1996,Eastern Region,Actual Generating Capacity Mega-Watt,7200.0
+1997,Eastern Region,No. of Subscribers,484566.0
+1998,Eastern Region,Peak Load Mega-Watt,7836.0
+1999,Eastern Region,Total Energy Consumed (Maga-Watt HR),38478584.0
+2000,Eastern Region,Total Energy Consumed (Maga-Watt HR),42090106.0
+2000,Eastern Region,No. of Subscribers,627235.0
+2002,Eastern Region,Total Energy Consumed (Maga-Watt HR),46102287.0
+2003,Eastern Region,Percent Industrial Consumption to Total Consumption,55.17039721056668
+2004,Eastern Region,Percent Industrial Consumption to Total Consumption,53.478065769310824
+2004,Eastern Region,No. of Subscribers,761318.0
+2005,Eastern Region,Peak Load Mega-Watt,11964.0
+2005,Eastern Region,Actual Generating Capacity Mega-Watt,10333.0
+2006,Eastern Region,Percent Industrial Consumption to Total Consumption,48.579546202575905
+2006,Eastern Region,Industrial Consumption (Maga-Watt HR),26567703.0
+2006,Eastern Region,Peak Load Mega-Watt,12300.0
+2007,Eastern Region,Percent Industrial Consumption to Total Consumption,44.485934532269795
+2007,Eastern Region,Peak Load Mega-Watt,10856.0
+2008,Eastern Region,Percent Industrial Consumption to Total Consumption,45.589385896560444
+2008,Eastern Region,Peak Load Mega-Watt,11861.0
+2008,Eastern Region,Actual Generating Capacity Mega-Watt,10744.0
+2009,Eastern Region,Percent Industrial Consumption to Total Consumption,44.75958110309425
+1993,Central Region,Total Energy Consumed (Maga-Watt HR),19051295.0
+1995,Central Region,No. of Subscribers,876395.0
+1997,Central Region,No. of Subscribers,951434.0
+1998,Central Region,Percent Industrial Consumption to Total Consumption,6.27
+1998,Central Region,Total Energy Consumed (Maga-Watt HR),25664806.0
+1999,Central Region,No. of Subscribers,1029152.0
+1999,Central Region,Actual Generating Capacity Mega-Watt,4931.0
+2002,Central Region,Peak Load Mega-Watt,7552.0
+2003,Central Region,Total Energy Consumed (Maga-Watt HR),39789286.0
+2004,Central Region,Peak Load Mega-Watt,8382.0
+2005,Central Region,Percent Industrial Consumption to Total Consumption,6.846869947725337
+2006,Central Region,Percent Industrial Consumption to Total Consumption,6.740030085329734
+2006,Central Region,Actual Generating Capacity Mega-Watt,7409.0
+2008,Central Region,Industrial Consumption (Maga-Watt HR),3894922.0
+2009,Central Region,Total Energy Consumed (Maga-Watt HR),58583099.0
+1992,Southern Region,Industrial Consumption (Maga-Watt HR),64683.0
+1993,Southern Region,No. of Subscribers,320440.0
+1993,Southern Region,Actual Generating Capacity Mega-Watt,1278.0
+1994,Southern Region,Total Energy Consumed (Maga-Watt HR),4813119.0
+1994,Southern Region,Peak Load Mega-Watt,1106.0
+1995,Southern Region,Peak Load Mega-Watt,1125.0
+1997,Southern Region,No. of Subscribers,366157.0
+1998,Southern Region,Percent Industrial Consumption to Total Consumption,1.3
+1998,Southern Region,No. of Subscribers,377406.0
+1999,Southern Region,Total Energy Consumed (Maga-Watt HR),6609653.0
+2004,Southern Region,Percent Industrial Consumption to Total Consumption,0.9623114698366572
+2004,Southern Region,Total Energy Consumed (Maga-Watt HR),10112838.0
+2004,Southern Region,Peak Load Mega-Watt,2047.0
+2005,Southern Region,No. of Subscribers,595766.0
+2006,Southern Region,Industrial Consumption (Maga-Watt HR),108106.0
+2008,Southern Region,Total Energy Consumed (Maga-Watt HR),14001054.0
+2009,Southern Region,Industrial Consumption (Maga-Watt HR),110562.0
+1992,Western Region,Percent Industrial Consumption to Total Consumption,4.52
+1993,Western Region,No. of Subscribers,1035520.0
+1995,Western Region,Industrial Consumption (Maga-Watt HR),1068832.0
+1995,Western Region,Total Energy Consumed (Maga-Watt HR),23367948.0
+1997,Western Region,No. of Subscribers,1165942.0
+2001,Western Region,Peak Load Mega-Watt,6844.0
+2002,Western Region,Industrial Consumption (Maga-Watt HR),1964507.0
+2004,Western Region,No. of Subscribers,1732523.0
+2005,Western Region,Actual Generating Capacity Mega-Watt,8322.0
+2006,Western Region,Percent Industrial Consumption to Total Consumption,5.4673140016911015
+2007,Western Region,Industrial Consumption (Maga-Watt HR),3313805.0
+2007,Western Region,Actual Generating Capacity Mega-Watt,10857.0
+2008,Western Region,Total Energy Consumed (Maga-Watt HR),55465199.0
+2009,Western Region,Percent Industrial Consumption to Total Consumption,6.327819781687355
+1992,Northern Region,Industrial Consumption (Maga-Watt HR),11275.0
+1992,Northern Region,Total Energy Consumed (Maga-Watt HR),1811786.0
+1993,Northern Region,Total Energy Consumed (Maga-Watt HR),1998446.0
+1993,Northern Region,Peak Load Mega-Watt,536.0
+1993,Northern Region,Actual Generating Capacity Mega-Watt,986.0
+1994,Northern Region,Actual Generating Capacity Mega-Watt,1034.0
+1995,Northern Region,Industrial Consumption (Maga-Watt HR),17792.0
+1998,Northern Region,Percent Industrial Consumption to Total Consumption,0.89
+1998,Northern Region,Actual Generating Capacity Mega-Watt,1182.0
+1999,Northern Region,Total Energy Consumed (Maga-Watt HR),3112811.0
+2000,Northern Region,No. of Subscribers,211857.0
+2000,Northern Region,Peak Load Mega-Watt,818.0
+2001,Northern Region,,
+2002,Northern Region,,
+2005,Northern Region,,
+2008,Northern Region,,
+2009,Northern Region,,
+1992,Eastern Region,Total Energy Consumed (Maga-Watt HR),26972111.0
+1992,Eastern Region,Peak Load Mega-Watt,6208.0
+1993,Eastern Region,Industrial Consumption (Maga-Watt HR),16940549.0
+1993,Eastern Region,Total Energy Consumed (Maga-Watt HR),28581216.0
+1993,Eastern Region,No. of Subscribers,393061.0
+1994,Eastern Region,Total Energy Consumed (Maga-Watt HR),31791249.0
+1995,Eastern Region,Percent Industrial Consumption to Total Consumption,57.73
+1997,Eastern Region,Peak Load Mega-Watt,7717.0
+1998,Eastern Region,Total Energy Consumed (Maga-Watt HR),37592865.0
+1999,Eastern Region,Percent Industrial Consumption to Total Consumption,56.66
+1999,Eastern Region,Actual Generating Capacity Mega-Watt,7179.0
+2001,Eastern Region,Total Energy Consumed (Maga-Watt HR),43833074.0
+2002,Eastern Region,No. of Subscribers,682005.0
+2003,Eastern Region,No. of Subscribers,716674.0
+2007,Eastern Region,No. of Subscribers,885785.0
+2008,Eastern Region,Industrial Consumption (Maga-Watt HR),25369271.0
+2009,Eastern Region,Actual Generating Capacity Mega-Watt,12812.0
+1992,Central Region,Percent Industrial Consumption to Total Consumption,5.58
+1994,Central Region,Percent Industrial Consumption to Total Consumption,5.62
+1995,Central Region,Peak Load Mega-Watt,4851.0
+1998,Central Region,Industrial Consumption (Maga-Watt HR),1609595.0
+1998,Central Region,No. of Subscribers,990369.0
+1998,Central Region,Peak Load Mega-Watt,5977.0
+1999,Central Region,Industrial Consumption (Maga-Watt HR),1826036.0
+2001,Central Region,Percent Industrial Consumption to Total Consumption,6.6966532610421385
+2001,Central Region,Industrial Consumption (Maga-Watt HR),2410533.0
+2003,Central Region,No. of Subscribers,1372500.0
+2003,Central Region,Peak Load Mega-Watt,8566.0
+2004,Central Region,Percent Industrial Consumption to Total Consumption,7.203157750137872
+2004,Central Region,Industrial Consumption (Maga-Watt HR),2976823.0
+2004,Central Region,Total Energy Consumed (Maga-Watt HR),41326639.0
+2004,Central Region,No. of Subscribers,1439374.0
+2005,Central Region,Total Energy Consumed (Maga-Watt HR),44099567.0
+2005,Central Region,No. of Subscribers,1498370.0
+2006,Central Region,Industrial Consumption (Maga-Watt HR),3269142.0
+2008,Central Region,Total Energy Consumed (Maga-Watt HR),55983973.0
+2009,Central Region,Percent Industrial Consumption to Total Consumption,6.821962422984827
+1992,Southern Region,Peak Load Mega-Watt,972.0
+1994,Southern Region,Actual Generating Capacity Mega-Watt,1275.0
+1995,Southern Region,Actual Generating Capacity Mega-Watt,1279.0
+1997,Southern Region,Industrial Consumption (Maga-Watt HR),76969.0
+1999,Southern Region,No. of Subscribers,395643.0
+2000,Southern Region,Percent Industrial Consumption to Total Consumption,1.2266046544442168
+2000,Southern Region,Industrial Consumption (Maga-Watt HR),90408.0
+2000,Southern Region,Actual Generating Capacity Mega-Watt,1931.0
+2001,Southern Region,No. of Subscribers,459006.0
+2001,Southern Region,Actual Generating Capacity Mega-Watt,2051.0
+2002,Southern Region,Industrial Consumption (Maga-Watt HR),85341.0
+2002,Southern Region,Peak Load Mega-Watt,1704.0
+2003,Southern Region,Total Energy Consumed (Maga-Watt HR),9856979.0
+2003,Southern Region,Peak Load Mega-Watt,1891.0
+2006,Southern Region,No. of Subscribers,630590.0
+2007,Southern Region,Percent Industrial Consumption to Total Consumption,0.811726465424147
+2007,Southern Region,Industrial Consumption (Maga-Watt HR),105685.0
+2008,Southern Region,Percent Industrial Consumption to Total Consumption,1.0165163279850218
+2009,Southern Region,Total Energy Consumed (Maga-Watt HR),15812262.0
+2009,Southern Region,No. of Subscribers,754776.0
+2009,Southern Region,Peak Load Mega-Watt,3234.0
+2009,Southern Region,Actual Generating Capacity Mega-Watt,3690.0
+1992,Western Region,No. of Subscribers,1003695.0
+1993,Western Region,Total Energy Consumed (Maga-Watt HR),20391074.0
+1994,Western Region,Industrial Consumption (Maga-Watt HR),1038879.0
+1994,Western Region,Total Energy Consumed (Maga-Watt HR),2263581.0
+1996,Western Region,Industrial Consumption (Maga-Watt HR),1221795.0
+1996,Western Region,Actual Generating Capacity Mega-Watt,5093.0
+1997,Western Region,Peak Load Mega-Watt,4883.0
+1998,Western Region,Actual Generating Capacity Mega-Watt,5616.0
+1999,Western Region,No. of Subscribers,1228505.0
+2000,Western Region,Percent Industrial Consumption to Total Consumption,5.912713459974288
+2000,Western Region,Peak Load Mega-Watt,6229.0
+2001,Western Region,Industrial Consumption (Maga-Watt HR),1993142.0
+2001,Western Region,No. of Subscribers,1436454.0
+2001,Western Region,Actual Generating Capacity Mega-Watt,6466.0
+2002,Western Region,Percent Industrial Consumption to Total Consumption,5.265320836337419
+2002,Western Region,Total Energy Consumed (Maga-Watt HR),37310300.0
+2002,Western Region,No. of Subscribers,1543560.0
+2003,Western Region,Peak Load Mega-Watt,8002.0
+2003,Western Region,Actual Generating Capacity Mega-Watt,7831.0
+2006,Western Region,Actual Generating Capacity Mega-Watt,9682.0
+2007,Western Region,Total Energy Consumed (Maga-Watt HR),51913707.0
+2007,Western Region,Peak Load Mega-Watt,10641.0
+2008,Western Region,Industrial Consumption (Maga-Watt HR),4160451.0
+2008,Western Region,No. of Subscribers,2083399.0
+2008,Western Region,Actual Generating Capacity Mega-Watt,10988.0
+2009,Western Region,Industrial Consumption (Maga-Watt HR),3750374.0
+1993,Northern Region,Percent Industrial Consumption to Total Consumption,0.61
+1995,Northern Region,No. of Subscribers,168326.0
+1996,Northern Region,Actual Generating Capacity Mega-Watt,1126.0
+1997,Northern Region,Total Energy Consumed (Maga-Watt HR),2841113.0
+1997,Northern Region,Peak Load Mega-Watt,643.0
+1999,Northern Region,Industrial Consumption (Maga-Watt HR),35890.0
+2000,Northern Region,Total Energy Consumed (Maga-Watt HR),3527472.0
+2007,Northern Region,,
+1994,Eastern Region,Peak Load Mega-Watt,7592.0
+1995,Eastern Region,No. of Subscribers,435006.0
+1995,Eastern Region,Peak Load Mega-Watt,7329.0
+1996,Eastern Region,Industrial Consumption (Maga-Watt HR),19911264.0
+1997,Eastern Region,Industrial Consumption (Maga-Watt HR),20388846.0
+1998,Eastern Region,Actual Generating Capacity Mega-Watt,7181.0
+1999,Eastern Region,Industrial Consumption (Maga-Watt HR),21803212.0
+1999,Eastern Region,Peak Load Mega-Watt,8570.0
+2001,Eastern Region,Peak Load Mega-Watt,9318.0
+2002,Eastern Region,Percent Industrial Consumption to Total Consumption,53.93578414016641
+2002,Eastern Region,Industrial Consumption (Maga-Watt HR),24865630.0
+2003,Eastern Region,Total Energy Consumed (Maga-Watt HR),50902095.0
+2005,Eastern Region,No. of Subscribers,805488.0
+2006,Eastern Region,Total Energy Consumed (Maga-Watt HR),54689072.0
+2006,Eastern Region,No. of Subscribers,844821.0
+2009,Eastern Region,No. of Subscribers,985377.0
+1992,Central Region,Peak Load Mega-Watt,3966.0
+1993,Central Region,Industrial Consumption (Maga-Watt HR),1185047.0
+1993,Central Region,No. of Subscribers,786869.0
+1994,Central Region,Total Energy Consumed (Maga-Watt HR),20764681.0
+1995,Central Region,Percent Industrial Consumption to Total Consumption,5.44
+1996,Central Region,Percent Industrial Consumption to Total Consumption,5.62
+1997,Central Region,Percent Industrial Consumption to Total Consumption,6.2
+1997,Central Region,Actual Generating Capacity Mega-Watt,4376.0
+1999,Central Region,Percent Industrial Consumption to Total Consumption,6.59
+2000,Central Region,Percent Industrial Consumption to Total Consumption,6.42047963276537
+2000,Central Region,Actual Generating Capacity Mega-Watt,6415.0
+2001,Central Region,Peak Load Mega-Watt,7341.0
+2002,Central Region,Percent Industrial Consumption to Total Consumption,6.612829222434483
+2002,Central Region,Industrial Consumption (Maga-Watt HR),2403455.0
+2002,Central Region,Total Energy Consumed (Maga-Watt HR),36345336.0
+2003,Central Region,Industrial Consumption (Maga-Watt HR),2864838.0
+2006,Central Region,Peak Load Mega-Watt,9405.0
+2007,Central Region,Percent Industrial Consumption to Total Consumption,7.195239749507458
+2007,Central Region,No. of Subscribers,1628357.0
+2007,Central Region,Peak Load Mega-Watt,10827.0
+2008,Central Region,Percent Industrial Consumption to Total Consumption,6.957208985507335
+2009,Central Region,No. of Subscribers,1793017.0
+2009,Central Region,Peak Load Mega-Watt,12728.0
+2009,Central Region,Actual Generating Capacity Mega-Watt,10354.0
+1992,Southern Region,Total Energy Consumed (Maga-Watt HR),3642656.0
+1993,Southern Region,Percent Industrial Consumption to Total Consumption,1.52
+1993,Southern Region,Peak Load Mega-Watt,1025.0
+1994,Southern Region,Percent Industrial Consumption to Total Consumption,1.56
+1995,Southern Region,Percent Industrial Consumption to Total Consumption,1.43
+1995,Southern Region,Industrial Consumption (Maga-Watt HR),71833.0
+1996,Southern Region,Percent Industrial Consumption to Total Consumption,1.33
+1996,Southern Region,Peak Load Mega-Watt,1199.0
+1997,Southern Region,Percent Industrial Consumption to Total Consumption,1.36
+1997,Southern Region,Actual Generating Capacity Mega-Watt,1337.0
+1998,Southern Region,Actual Generating Capacity Mega-Watt,1741.0
+1999,Southern Region,Peak Load Mega-Watt,1325.0
+1999,Southern Region,Actual Generating Capacity Mega-Watt,1741.0
+2001,Southern Region,Peak Load Mega-Watt,1606.0
+2003,Southern Region,Actual Generating Capacity Mega-Watt,2334.0
+2004,Southern Region,No. of Subscribers,558502.0
+2004,Southern Region,Actual Generating Capacity Mega-Watt,2329.0
+2005,Southern Region,Peak Load Mega-Watt,2271.0
+2005,Southern Region,Actual Generating Capacity Mega-Watt,2587.0
+2006,Southern Region,Percent Industrial Consumption to Total Consumption,0.8761477830963272
+2006,Southern Region,Peak Load Mega-Watt,2021.0
+2006,Southern Region,Actual Generating Capacity Mega-Watt,2982.0
+2007,Southern Region,Total Energy Consumed (Maga-Watt HR),13019780.0
+2007,Southern Region,Peak Load Mega-Watt,2629.0
+2008,Southern Region,No. of Subscribers,704140.0
+1992,Western Region,Industrial Consumption (Maga-Watt HR),780556.0
+1992,Western Region,Peak Load Mega-Watt,4033.0
+1993,Western Region,Percent Industrial Consumption to Total Consumption,4.33
+1993,Western Region,Industrial Consumption (Maga-Watt HR),883043.0
+1993,Western Region,Peak Load Mega-Watt,4260.0
+1996,Western Region,Percent Industrial Consumption to Total Consumption,4.91
+1996,Western Region,Peak Load Mega-Watt,4835.0
+1998,Western Region,Percent Industrial Consumption to Total Consumption,5.57
+1999,Western Region,Total Energy Consumed (Maga-Watt HR),29687807.0
+1999,Western Region,Actual Generating Capacity Mega-Watt,5511.0
+2000,Western Region,Actual Generating Capacity Mega-Watt,6099.0
+2001,Western Region,Total Energy Consumed (Maga-Watt HR),34581913.0
+2003,Western Region,Percent Industrial Consumption to Total Consumption,5.606066623576595
+2006,Western Region,Total Energy Consumed (Maga-Watt HR),47619855.0
+2008,Western Region,Percent Industrial Consumption to Total Consumption,7.501011580252332
+2008,Western Region,Peak Load Mega-Watt,11658.0
+2009,Western Region,No. of Subscribers,2168346.0
+2009,Western Region,Peak Load Mega-Watt,12305.0
+1992,Northern Region,No. of Subscribers,142765.0
+1993,Northern Region,Industrial Consumption (Maga-Watt HR),12257.0
+1994,Northern Region,Industrial Consumption (Maga-Watt HR),15932.0
+1994,Northern Region,No. of Subscribers,160282.0
+1995,Northern Region,Peak Load Mega-Watt,562.0
+1996,Northern Region,Industrial Consumption (Maga-Watt HR),18777.0
+1996,Northern Region,Total Energy Consumed (Maga-Watt HR),2575801.0
+1996,Northern Region,No. of Subscribers,176026.0
+1996,Northern Region,Peak Load Mega-Watt,605.0
+1997,Northern Region,Actual Generating Capacity Mega-Watt,1165.0
+1998,Northern Region,No. of Subscribers,189614.0
+2006,Northern Region,,
+1992,Eastern Region,Percent Industrial Consumption to Total Consumption,61.06
+1992,Eastern Region,Actual Generating Capacity Mega-Watt,6749.0
+1993,Eastern Region,Percent Industrial Consumption to Total Consumption,59.27
+1994,Eastern Region,No. of Subscribers,410118.0
+1995,Eastern Region,Industrial Consumption (Maga-Watt HR),19022208.0
+1995,Eastern Region,Actual Generating Capacity Mega-Watt,7196.0
+1996,Eastern Region,Peak Load Mega-Watt,7698.0
+1997,Eastern Region,Total Energy Consumed (Maga-Watt HR),35329939.0
+1998,Eastern Region,No. of Subscribers,502996.0
+1999,Eastern Region,No. of Subscribers,519558.0
+2000,Eastern Region,Percent Industrial Consumption to Total Consumption,56.01170023187873
+2000,Eastern Region,Actual Generating Capacity Mega-Watt,7614.0
+2001,Eastern Region,No. of Subscribers,653984.0
+2001,Eastern Region,Actual Generating Capacity Mega-Watt,8298.0
+2002,Eastern Region,Peak Load Mega-Watt,9576.0
+2002,Eastern Region,Actual Generating Capacity Mega-Watt,9583.0
+2003,Eastern Region,Industrial Consumption (Maga-Watt HR),28082888.0
+2003,Eastern Region,Peak Load Mega-Watt,11042.0
+2003,Eastern Region,Actual Generating Capacity Mega-Watt,10209.0
+2004,Eastern Region,Industrial Consumption (Maga-Watt HR),27418899.0
+2004,Eastern Region,Total Energy Consumed (Maga-Watt HR),51271299.0
+2004,Eastern Region,Peak Load Mega-Watt,10828.0
+2005,Eastern Region,Industrial Consumption (Maga-Watt HR),28089814.0
+2007,Eastern Region,Industrial Consumption (Maga-Watt HR),23466665.0
+2007,Eastern Region,Total Energy Consumed (Maga-Watt HR),52750752.0
+2007,Eastern Region,Actual Generating Capacity Mega-Watt,10568.0
+2009,Eastern Region,Peak Load Mega-Watt,12591.0
+1992,Central Region,No. of Subscribers,756948.0
+1992,Central Region,Actual Generating Capacity Mega-Watt,3677.0
+1993,Central Region,Peak Load Mega-Watt,4477.0
+1993,Central Region,Actual Generating Capacity Mega-Watt,3723.0
+1994,Central Region,Industrial Consumption (Maga-Watt HR),1166140.0
+1994,Central Region,No. of Subscribers,829807.0
+1994,Central Region,Actual Generating Capacity Mega-Watt,3645.0
+1995,Central Region,Industrial Consumption (Maga-Watt HR),1206883.0
+1996,Central Region,Industrial Consumption (Maga-Watt HR),1286072.0
+1996,Central Region,Total Energy Consumed (Maga-Watt HR),22898115.0
+1996,Central Region,No. of Subscribers,911532.0
+1996,Central Region,Actual Generating Capacity Mega-Watt,4049.0
+1997,Central Region,Peak Load Mega-Watt,5415.0
+1999,Central Region,Total Energy Consumed (Maga-Watt HR),27722662.0
+2000,Central Region,Industrial Consumption (Maga-Watt HR),2089718.0
+2000,Central Region,Total Energy Consumed (Maga-Watt HR),32547693.0
+2001,Central Region,No. of Subscribers,1242766.0
+2002,Central Region,No. of Subscribers,1306532.0
+2002,Central Region,Actual Generating Capacity Mega-Watt,6570.0
+2003,Central Region,Percent Industrial Consumption to Total Consumption,7.200023644555974
+2003,Central Region,Actual Generating Capacity Mega-Watt,6644.0
+2004,Central Region,Actual Generating Capacity Mega-Watt,7001.0
+2005,Central Region,Actual Generating Capacity Mega-Watt,7398.0
+2006,Central Region,Total Energy Consumed (Maga-Watt HR),48503374.0
+2006,Central Region,No. of Subscribers,1560935.0
+2007,Central Region,Industrial Consumption (Maga-Watt HR),3748438.0
+2007,Central Region,Total Energy Consumed (Maga-Watt HR),52096082.0
+2008,Central Region,Actual Generating Capacity Mega-Watt,9845.0
+1993,Southern Region,Industrial Consumption (Maga-Watt HR),62328.0
+1994,Southern Region,No. of Subscribers,334420.0
+1995,Southern Region,Total Energy Consumed (Maga-Watt HR),5008947.0
+1996,Southern Region,No. of Subscribers,355176.0
+1996,Southern Region,Actual Generating Capacity Mega-Watt,1337.0
+1997,Southern Region,Total Energy Consumed (Maga-Watt HR),5646671.0
+1997,Southern Region,Peak Load Mega-Watt,1228.0
+1998,Southern Region,Industrial Consumption (Maga-Watt HR),75227.0
+1998,Southern Region,Peak Load Mega-Watt,1312.0
+1999,Southern Region,Percent Industrial Consumption to Total Consumption,1.3
+1999,Southern Region,Industrial Consumption (Maga-Watt HR),86013.0
+2001,Southern Region,Percent Industrial Consumption to Total Consumption,0.8156013823831696
+2001,Southern Region,Industrial Consumption (Maga-Watt HR),69596.0
+2001,Southern Region,Total Energy Consumed (Maga-Watt HR),8533090.0
+2003,Southern Region,Percent Industrial Consumption to Total Consumption,1.019632891578647
+2004,Southern Region,Industrial Consumption (Maga-Watt HR),97317.0
+2005,Southern Region,Percent Industrial Consumption to Total Consumption,0.8742062207515576
+2005,Southern Region,Industrial Consumption (Maga-Watt HR),96250.0
+2006,Southern Region,Total Energy Consumed (Maga-Watt HR),12338786.0
+2007,Southern Region,No. of Subscribers,662538.0
+2008,Southern Region,Peak Load Mega-Watt,2857.0
+1992,Western Region,Total Energy Consumed (Maga-Watt HR),17273335.0
+1994,Western Region,Percent Industrial Consumption to Total Consumption,4.59
+1994,Western Region,No. of Subscribers,1080844.0
+1994,Western Region,Actual Generating Capacity Mega-Watt,4393.0
+1995,Western Region,No. of Subscribers,1099710.0
+1995,Western Region,Peak Load Mega-Watt,4590.0
+1995,Western Region,Actual Generating Capacity Mega-Watt,4358.0
+1996,Western Region,Total Energy Consumed (Maga-Watt HR),24859586.0
+1996,Western Region,No. of Subscribers,1130983.0
+1997,Western Region,Industrial Consumption (Maga-Watt HR),1442253.0
+1997,Western Region,Actual Generating Capacity Mega-Watt,5291.0
+1998,Western Region,Industrial Consumption (Maga-Watt HR),1398232.0
+1998,Western Region,Total Energy Consumed (Maga-Watt HR),25120307.0
+1998,Western Region,No. of Subscribers,1196258.0
+1998,Western Region,Peak Load Mega-Watt,5088.0
+1999,Western Region,Industrial Consumption (Maga-Watt HR),1818101.0
+1999,Western Region,Peak Load Mega-Watt,5604.0
+2000,Western Region,Industrial Consumption (Maga-Watt HR),1901093.0
+2000,Western Region,Total Energy Consumed (Maga-Watt HR),32152632.0
+2001,Western Region,Percent Industrial Consumption to Total Consumption,5.763538876521955
+2002,Western Region,Peak Load Mega-Watt,7236.0
+2003,Western Region,Total Energy Consumed (Maga-Watt HR),41646098.0
+2004,Western Region,Total Energy Consumed (Maga-Watt HR),42758058.0
+2004,Western Region,Actual Generating Capacity Mega-Watt,7039.0
+2005,Western Region,Industrial Consumption (Maga-Watt HR),2595075.0
+2005,Western Region,No. of Subscribers,1827747.0
+2006,Western Region,Industrial Consumption (Maga-Watt HR),2603527.0
+2009,Western Region,Total Energy Consumed (Maga-Watt HR),59268028.0
+2009,Western Region,Actual Generating Capacity Mega-Watt,11825.0
+1992,Northern Region,Peak Load Mega-Watt,470.0
+1993,Northern Region,No. of Subscribers,151128.0
+1994,Northern Region,Percent Industrial Consumption to Total Consumption,0.73
+1994,Northern Region,Peak Load Mega-Watt,531.0
+1995,Northern Region,Percent Industrial Consumption to Total Consumption,0.75
+1995,Northern Region,Total Energy Consumed (Maga-Watt HR),2404514.0
+1995,Northern Region,Actual Generating Capacity Mega-Watt,1018.0
+1996,Northern Region,Percent Industrial Consumption to Total Consumption,0.73
+1997,Northern Region,Percent Industrial Consumption to Total Consumption,0.63
+1997,Northern Region,Industrial Consumption (Maga-Watt HR),17856.0
+1997,Northern Region,No. of Subscribers,183099.0
+1998,Northern Region,Industrial Consumption (Maga-Watt HR),25738.0
+1998,Northern Region,Peak Load Mega-Watt,700.0
+2000,Northern Region,Percent Industrial Consumption to Total Consumption,1.06
+2004,Northern Region,,
+1992,Eastern Region,Industrial Consumption (Maga-Watt HR),16469152.0
+1992,Eastern Region,No. of Subscribers,378507.0
+1994,Eastern Region,Industrial Consumption (Maga-Watt HR),18612090.0
+1995,Eastern Region,Total Energy Consumed (Maga-Watt HR),32950183.0
+1997,Eastern Region,Percent Industrial Consumption to Total Consumption,57.71
+1997,Eastern Region,Actual Generating Capacity Mega-Watt,7182.0
+1998,Eastern Region,Percent Industrial Consumption to Total Consumption,59.33
+1998,Eastern Region,Industrial Consumption (Maga-Watt HR),22303768.0
+2000,Eastern Region,Industrial Consumption (Maga-Watt HR),23575384.0
+2000,Eastern Region,Peak Load Mega-Watt,9083.0
+2001,Eastern Region,Percent Industrial Consumption to Total Consumption,54.20336479253086
+2001,Eastern Region,Industrial Consumption (Maga-Watt HR),23759001.0
+2004,Eastern Region,Actual Generating Capacity Mega-Watt,10333.0
+2005,Eastern Region,Percent Industrial Consumption to Total Consumption,52.65190211832245
+2005,Eastern Region,Total Energy Consumed (Maga-Watt HR),53350046.0
+2006,Eastern Region,Actual Generating Capacity Mega-Watt,10624.0
+2008,Eastern Region,Total Energy Consumed (Maga-Watt HR),55647319.0
+2008,Eastern Region,No. of Subscribers,930784.0
+2009,Eastern Region,Industrial Consumption (Maga-Watt HR),26770167.0
+2009,Eastern Region,Total Energy Consumed (Maga-Watt HR),59808797.0
+1992,Central Region,Industrial Consumption (Maga-Watt HR),990515.0
+1992,Central Region,Total Energy Consumed (Maga-Watt HR),17736868.0
+1993,Central Region,Percent Industrial Consumption to Total Consumption,6.22
+1994,Central Region,Peak Load Mega-Watt,5062.0
+1995,Central Region,Total Energy Consumed (Maga-Watt HR),22176705.0
+1995,Central Region,Actual Generating Capacity Mega-Watt,3643.0
+1996,Central Region,Peak Load Mega-Watt,5126.0
+1997,Central Region,Industrial Consumption (Maga-Watt HR),1495744.0
+1997,Central Region,Total Energy Consumed (Maga-Watt HR),24118988.0
+1998,Central Region,Actual Generating Capacity Mega-Watt,4546.0
+1999,Central Region,Peak Load Mega-Watt,6379.0
+2000,Central Region,No. of Subscribers,1179852.0
+2000,Central Region,Peak Load Mega-Watt,6675.0
+2001,Central Region,Total Energy Consumed (Maga-Watt HR),35996085.0
+2001,Central Region,Actual Generating Capacity Mega-Watt,6415.0
+2005,Central Region,Industrial Consumption (Maga-Watt HR),3019440.0
+2005,Central Region,Peak Load Mega-Watt,9238.0
+2007,Central Region,Actual Generating Capacity Mega-Watt,8325.0
+2008,Central Region,No. of Subscribers,1702487.0
+2008,Central Region,Peak Load Mega-Watt,11625.0
+2009,Central Region,Industrial Consumption (Maga-Watt HR),3996517.0
+1992,Southern Region,Percent Industrial Consumption to Total Consumption,1.78
+1992,Southern Region,No. of Subscribers,305833.0
+1992,Southern Region,Actual Generating Capacity Mega-Watt,1508.0
+1993,Southern Region,Total Energy Consumed (Maga-Watt HR),4090582.0
+1994,Southern Region,Industrial Consumption (Maga-Watt HR),75117.0
+1995,Southern Region,No. of Subscribers,346857.0
+1996,Southern Region,Industrial Consumption (Maga-Watt HR),71395.0
+1996,Southern Region,Total Energy Consumed (Maga-Watt HR),5353196.0
+1998,Southern Region,Total Energy Consumed (Maga-Watt HR),5794584.0
+2000,Southern Region,Total Energy Consumed (Maga-Watt HR),7370590.0
+2000,Southern Region,No. of Subscribers,432365.0
+2000,Southern Region,Peak Load Mega-Watt,1454.0
+2002,Southern Region,Percent Industrial Consumption to Total Consumption,0.9619969442808068
+2002,Southern Region,Total Energy Consumed (Maga-Watt HR),8871234.0
+2002,Southern Region,No. of Subscribers,497222.0
+2002,Southern Region,Actual Generating Capacity Mega-Watt,2232.0
+2003,Southern Region,Industrial Consumption (Maga-Watt HR),100505.0
+2003,Southern Region,No. of Subscribers,530056.0
+2005,Southern Region,Total Energy Consumed (Maga-Watt HR),11009988.0
+2007,Southern Region,Actual Generating Capacity Mega-Watt,3207.0
+2008,Southern Region,Industrial Consumption (Maga-Watt HR),142323.0
+2008,Southern Region,Actual Generating Capacity Mega-Watt,3381.0
+2009,Southern Region,Percent Industrial Consumption to Total Consumption,0.6992168482915347
+1992,Western Region,Actual Generating Capacity Mega-Watt,4186.0
+1993,Western Region,Actual Generating Capacity Mega-Watt,4344.0
+1994,Western Region,Peak Load Mega-Watt,4896.0
+1995,Western Region,Percent Industrial Consumption to Total Consumption,4.57
+1997,Western Region,Percent Industrial Consumption to Total Consumption,5.94
+1997,Western Region,Total Energy Consumed (Maga-Watt HR),24290898.0
+1999,Western Region,Percent Industrial Consumption to Total Consumption,6.12
+2000,Western Region,No. of Subscribers,1382939.0
+2002,Western Region,Actual Generating Capacity Mega-Watt,7072.0
+2003,Western Region,Industrial Consumption (Maga-Watt HR),2334708.0
+2003,Western Region,No. of Subscribers,1627668.0
+2004,Western Region,Percent Industrial Consumption to Total Consumption,6.001834788661356
+2004,Western Region,Industrial Consumption (Maga-Watt HR),2566268.0
+2004,Western Region,Peak Load Mega-Watt,8505.0
+2005,Western Region,Percent Industrial Consumption to Total Consumption,5.78948178608048
+2005,Western Region,Total Energy Consumed (Maga-Watt HR),44823960.0
+2005,Western Region,Peak Load Mega-Watt,9185.0
+2006,Western Region,No. of Subscribers,1919760.0
+2006,Western Region,Peak Load Mega-Watt,9776.0
+2007,Western Region,Percent Industrial Consumption to Total Consumption,6.3832948781715775
+2007,Western Region,No. of Subscribers,2005859.0
+1992,Northern Region,Percent Industrial Consumption to Total Consumption,0.62
+1992,Northern Region,Actual Generating Capacity Mega-Watt,931.0
+1994,Northern Region,Total Energy Consumed (Maga-Watt HR),2193727.0
+1998,Northern Region,Total Energy Consumed (Maga-Watt HR),2877688.0
+1999,Northern Region,Percent Industrial Consumption to Total Consumption,1.15
+1999,Northern Region,No. of Subscribers,198768.0
+1999,Northern Region,Peak Load Mega-Watt,779.0
+1999,Northern Region,Actual Generating Capacity Mega-Watt,1285.0
+2000,Northern Region,Industrial Consumption (Maga-Watt HR),37503.0
+2000,Northern Region,Actual Generating Capacity Mega-Watt,1285.0
+2003,Northern Region,,

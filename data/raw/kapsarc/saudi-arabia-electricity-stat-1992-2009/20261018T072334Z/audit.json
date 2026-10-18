@@ -1,0 +1,68 @@
+{
+  "folder": "data/raw/kapsarc/saudi-arabia-electricity-stat-1992-2009/20261018T072334Z",
+  "status": "audited",
+  "profile": {
+    "n_rows": 495,
+    "n_cols": 4,
+    "columns": [
+      {
+        "name": "year",
+        "dtype": "int64",
+        "n_missing": 0,
+        "n_unique": 18,
+        "min": 1992.0,
+        "max": 2009.0,
+        "n_negative": 0,
+        "span": {
+          "first": 1992.0,
+          "last": 2009.0,
+          "n_unparseable": 0
+        }
+      },
+      {
+        "name": "region",
+        "dtype": "str",
+        "n_missing": 0,
+        "n_unique": 5,
+        "values": [
+          "Central Region",
+          "Eastern Region",
+          "Northern Region",
+          "Southern Region",
+          "Western Region"
+        ]
+      },
+      {
+        "name": "indicator",
+        "dtype": "str",
+        "n_missing": 9,
+        "n_unique": 6
+      },
+      {
+        "name": "value",
+        "dtype": "float64",
+        "n_missing": 9,
+        "n_unique": 478,
+        "min": 0.61,
+        "max": 59808797.0,
+        "n_negative": 0
+      }
+    ],
+    "duplicate_rows": 0
+  },
+  "metadata_check": {
+    "records_count_reported": 495,
+    "rows_in_export": 495,
+    "match": true,
+    "license": "Public Domain",
+    "modified": "2026-05-05T12:52:04.405000+00:00",
+    "publisher": "Saudi Open Data",
+    "fields_reported": [
+      "year",
+      "region",
+      "indicator",
+      "value"
+    ]
+  },
+  "fields_missing_from_export": []
+}

@@ -132,7 +132,7 @@ def main() -> None:
             g["tech"] = np.where(g["variant"].str.startswith("wind"), "wind", "pv")
             rows.append(g)
     res = pd.concat(rows, ignore_index=True)
-    res.to_csv(T / "rq3_window_cf_scenarios.csv.gz", index=False, compression="gzip")
+    res.to_csv(T / "rq3_window_cf_scenarios.csv.gz", index=False, compression={"method": "gzip", "mtime": 0})
 
     main_pv = res[res["variant"].isin(PV_VARIANTS)]
     summ = (main_pv.groupby(["status_set", "area", "window"])["cf"]

@@ -1,0 +1,747 @@
+{
+  "license": "CC BY-NC-SA (GEM wiki)",
+  "pages": [
+    {
+      "title": "Ad Darb solar farm",
+      "file": "Ad_Darb_solar_farm.html",
+      "url": "https://www.gem.wiki/w/api.php?action=parse&page=Ad+Darb+solar+farm&prop=text&format=json&formatversion=2",
+      "sha256": "ca64fe9ff740af00f8abe0737ffc626049de90959635c5c339696f5827211bc0",
+      "retrieved_utc": "2026-10-18T07:27:07.852849+00:00"
+    },
+    {
+      "title": "Afif 1 solar farm",
+      "file": "Afif_1_solar_farm.html",
+      "url": "https://www.gem.wiki/w/api.php?action=parse&page=Afif+1+solar+farm&prop=text&format=json&formatversion=2",
+      "sha256": "198b01efdb25e8f1e11f65182eea680a5d1e77df54eafaf77398690de04c22f6",
+      "retrieved_utc": "2026-10-18T07:27:08.700649+00:00"
+    },
+    {
+      "title": "Afif 2 solar farm",
+      "file": "Afif_2_solar_farm.html",
+      "url": "https://www.gem.wiki/w/api.php?action=parse&page=Afif+2+solar+farm&prop=text&format=json&formatversion=2",
+      "sha256": "0b5c81d0311118acedd88504d6c74395c6934a4ed29539eb75a4382e5cdaeb8e",
+      "retrieved_utc": "2026-10-18T07:27:09.585859+00:00"
+    },
+    {
+      "title": "Al Ahsa Governorate solar project",
+      "file": "Al_Ahsa_Governorate_solar_project.html",
+      "url": "https://www.gem.wiki/w/api.php?action=parse&page=Al+Ahsa+Governorate+solar+project&prop=text&format=json&formatversion=2",
+      "sha256": "8f924bf2454e872cfb9997eef07d1eb0852c1488503a2510d9e6fc8d538ceb71",
+      "retrieved_utc": "2026-10-18T07:27:10.476538+00:00"
+    },
+    {
+      "title": "Al Henakiyah 1 solar farm",
+      "file": "Al_Henakiyah_1_solar_farm.html",
+      "url": "https://www.gem.wiki/w/api.php?action=parse&page=Al+Henakiyah+1+solar+farm&prop=text&format=json&formatversion=2",
+      "sha256": "5e242a5fbb0f0f35734c50261d5a6e5fc833c8426778dc5dd659d3aba9ed40d9",
+      "retrieved_utc": "2026-10-18T07:27:11.265910+00:00"
+    },
+    {
+      "title": "Al Henakiyah 2 solar farm",
+      "file": "Al_Henakiyah_2_solar_farm.html",
+      "url": "https://www.gem.wiki/w/api.php?action=parse&page=Al+Henakiyah+2+solar+farm&prop=text&format=json&formatversion=2",
+      "sha256": "b4ea33f87732e2a1ef5d72f0d256765029e2b3f9a96efbe6779633f103b9bdc4",
+      "retrieved_utc": "2026-10-18T07:27:12.055601+00:00"
+    },
+    {
+      "title": "Al Jouf Cement solar farm",
+      "file": "Al_Jouf_Cement_solar_farm.html",
+      "url": "https://www.gem.wiki/w/api.php?action=parse&page=Al+Jouf+Cement+solar+farm&prop=text&format=json&formatversion=2",
+      "sha256": "7ef9de0eed666a246c881473a96263f203d2a8a4340a0d70679add84cfa498d4",
+      "retrieved_utc": "2026-10-18T07:27:13.069360+00:00"
+    },
+    {
+      "title": "Al Jouf Solar Plant",
+      "file": "Al_Jouf_Solar_Plant.html",
+      "url": "https://www.gem.wiki/w/api.php?action=parse&page=Al+Jouf+Solar+Plant&prop=text&format=json&formatversion=2",
+      "sha256": "11ee9e687f54df32e0b9a300ac20023eba36f1ef1415fb1bd5c0ea9d7ae24595",
+      "retrieved_utc": "2026-10-18T07:27:13.875666+00:00"
+    },
+    {
+      "title": "Al Jubail-2 solar farm",
+      "file": "Al_Jubail_2_solar_farm.html",
+      "url": "https://www.gem.wiki/w/api.php?action=parse&page=Al+Jubail-2+solar+farm&prop=text&format=json&formatversion=2",
+      "sha256": "e41d12c9927a0ed899db65c520035a455061347dde7b1f8755e8d21b830adbee",
+      "retrieved_utc": "2026-10-18T07:27:14.720301+00:00"
+    },
+    {
+      "title": "Al Kahfah solar farm",
+      "file": "Al_Kahfah_solar_farm.html",
+      "url": "https://www.gem.wiki/w/api.php?action=parse&page=Al+Kahfah+solar+farm&prop=text&format=json&formatversion=2",
+      "sha256": "4be4c03617938f16fc8c06131aeea5d2bcbc4c94b7accba30fec9aeb030546ea",
+      "retrieved_utc": "2026-10-18T07:27:15.504079+00:00"
+    },
+    {
+      "title": "Al Khafji solar project",
+      "file": "Al_Khafji_solar_project.html",
+      "url": "https://www.gem.wiki/w/api.php?action=parse&page=Al+Khafji+solar+project&prop=text&format=json&formatversion=2",
+      "sha256": "81ae0adc9abcc04f0051fa78348c62ba92363c24c35c919e20d853a9bac2fbf1",
+      "retrieved_utc": "2026-10-18T07:27:16.400031+00:00"
+    },
+    {
+      "title": "Al Masa'a solar farm",
+      "file": "Al_Masa_a_solar_farm.html",
+      "url": "https://www.gem.wiki/w/api.php?action=parse&page=Al+Masa%27a+solar+farm&prop=text&format=json&formatversion=2",
+      "sha256": "123b83dab089edb462c54a637d80d0f2825e3d1c3b0a65075e437a61444d3bbf",
+      "retrieved_utc": "2026-10-18T07:27:17.206766+00:00"
+    },
+    {
+      "title": "Al Quwayiyah solar project",
+      "file": "Al_Quwayiyah_solar_project.html",
+      "url": "https://www.gem.wiki/w/api.php?action=parse&page=Al+Quwayiyah+solar+project&prop=text&format=json&formatversion=2",
+      "sha256": "b0960c61722982f804d2849c7ad8fe85b7e4fdfea90667dace649990fa00b6b1",
+      "retrieved_utc": "2026-10-18T07:27:17.955416+00:00"
+    },
+    {
+      "title": "Al Sadawi solar farm",
+      "file": "Al_Sadawi_solar_farm.html",
+      "url": "https://www.gem.wiki/w/api.php?action=parse&page=Al+Sadawi+solar+farm&prop=text&format=json&formatversion=2",
+      "sha256": "ecd1994c01d18d2c1e6581b2c72a53c69beab04a64f30f5246ccaa241ba26f86",
+      "retrieved_utc": "2026-10-18T07:27:18.756150+00:00"
+    },
+    {
+      "title": "Al Sufun solar farm",
+      "file": "Al_Sufun_solar_farm.html",
+      "url": "https://www.gem.wiki/w/api.php?action=parse&page=Al+Sufun+solar+farm&prop=text&format=json&formatversion=2",
+      "sha256": "9ed66be877b4757cc9b4676bd1bfde5a5c6de11000d176eb6de696f2d77879f4",
+      "retrieved_utc": "2026-10-18T07:27:19.665855+00:00"
+    },
+    {
+      "title": "Al-Faisaliah (Shuaibah) Solar",
+      "file": "Al_Faisaliah_Shuaibah_Solar.html",
+      "url": "https://www.gem.wiki/w/api.php?action=parse&page=Al-Faisaliah+%28Shuaibah%29+Solar&prop=text&format=json&formatversion=2",
+      "sha256": "177d6b5a4d39608e385822d8a23273fc045eb62f8d6eab1e50ce53596030f6c9",
+      "retrieved_utc": "2026-10-18T07:27:20.430733+00:00"
+    },
+    {
+      "title": "Al-Khushaybi Solar PV Park",
+      "file": "Al_Khushaybi_Solar_PV_Park.html",
+      "url": "https://www.gem.wiki/w/api.php?action=parse&page=Al-Khushaybi+Solar+PV+Park&prop=text&format=json&formatversion=2",
+      "sha256": "5d3d0e63a524397e7abb70098a20b9703cb91b8d0642914ca384e72b67c5ebd6",
+      "retrieved_utc": "2026-10-18T07:27:21.192912+00:00"
+    },
+    {
+      "title": "Al-Muwaih Solar PV",
+      "file": "Al_Muwaih_Solar_PV.html",
+      "url": "https://www.gem.wiki/w/api.php?action=parse&page=Al-Muwaih+Solar+PV&prop=text&format=json&formatversion=2",
+      "sha256": "ab46e28687cd5bc0251400c8b326dd1bf2cf5847d8b911deb9ad806726906934",
+      "retrieved_utc": "2026-10-18T07:27:21.999558+00:00"
+    },
+    {
+      "title": "Al-Qassim Province solar project",
+      "file": "Al_Qassim_Province_solar_project.html",
+      "url": "https://www.gem.wiki/w/api.php?action=parse&page=Al-Qassim+Province+solar+project&prop=text&format=json&formatversion=2",
+      "sha256": "cdd669371c521f31cd3ed8015a2fa7de09f3fd2dcdd2b31f38b2924031ac871b",
+      "retrieved_utc": "2026-10-18T07:27:22.772114+00:00"
+    },
+    {
+      "title": "Amaala solar farm",
+      "file": "Amaala_solar_farm.html",
+      "url": "https://www.gem.wiki/w/api.php?action=parse&page=Amaala+solar+farm&prop=text&format=json&formatversion=2",
+      "sha256": "42afdfc11c804c043e30a00e16b958ff3c6f3d43e3fb5af1c8f88711dfcfe5ce",
+      "retrieved_utc": "2026-10-18T07:27:23.696048+00:00"
+    },
+    {
+      "title": "Ar Rass Solar PV",
+      "file": "Ar_Rass_Solar_PV.html",
+      "url": "https://www.gem.wiki/w/api.php?action=parse&page=Ar+Rass+Solar+PV&prop=text&format=json&formatversion=2",
+      "sha256": "f20438092f6a607946c1bcf97647abd4700dfbf7bf6ae8e19aa05bac6f51fa86",
+      "retrieved_utc": "2026-10-18T07:27:24.521729+00:00"
+    },
+    {
+      "title": "Ar Rass Solar PV 2",
+      "file": "Ar_Rass_Solar_PV_2.html",
+      "url": "https://www.gem.wiki/w/api.php?action=parse&page=Ar+Rass+Solar+PV+2&prop=text&format=json&formatversion=2",
+      "sha256": "d74d47a3218dabfa10e78419bde4c92e2f491d1bc01e1f1b1e275807408ef285",
+      "retrieved_utc": "2026-10-18T07:27:25.297400+00:00"
+    },
+    {
+      "title": "Bisha solar farm",
+      "file": "Bisha_solar_farm.html",
+      "url": "https://www.gem.wiki/w/api.php?action=parse&page=Bisha+solar+farm&prop=text&format=json&formatversion=2",
+      "sha256": "5b07d1c74febf91cf24e49c3840f5a00a2548830348ad5b7fa6ff8e77dba2b43",
+      "retrieved_utc": "2026-10-18T07:27:26.172668+00:00"
+    },
+    {
+      "title": "Dhahran Solar Car Park",
+      "file": "Dhahran_Solar_Car_Park.html",
+      "url": "https://www.gem.wiki/w/api.php?action=parse&page=Dhahran+Solar+Car+Park&prop=text&format=json&formatversion=2",
+      "sha256": "e3186bd5a5eadacbe553a9d46f6298762474b66d17e591aa41b3ec28b9da729a",
+      "retrieved_utc": "2026-10-18T07:27:26.941936+00:00"
+    },
+    {
+      "title": "Dhahran solar project",
+      "file": "Dhahran_solar_project.html",
+      "url": "https://www.gem.wiki/w/api.php?action=parse&page=Dhahran+solar+project&prop=text&format=json&formatversion=2",
+      "sha256": "8b5102fa53b60a7e8af2401beaee6d09d0ea9d3db1f9a472ea69e16dc122d5ad",
+      "retrieved_utc": "2026-10-18T07:27:27.735698+00:00"
+    },
+    {
+      "title": "Haden solar farm",
+      "file": "Haden_solar_farm.html",
+      "url": "https://www.gem.wiki/w/api.php?action=parse&page=Haden+solar+farm&prop=text&format=json&formatversion=2",
+      "sha256": "1f883ff8accacee94afe96c5a70df50f9948699c2817b27c7c01119236dee8ab",
+      "retrieved_utc": "2026-10-18T07:27:28.492242+00:00"
+    },
+    {
+      "title": "Hail Province solar project I",
+      "file": "Hail_Province_solar_project_I.html",
+      "url": "https://www.gem.wiki/w/api.php?action=parse&page=Hail+Province+solar+project+I&prop=text&format=json&formatversion=2",
+      "sha256": "cd963e517721799d2140a9c1f34489de5f419e36cd1588b73a4411b17ede84fb",
+      "retrieved_utc": "2026-10-18T07:27:29.317199+00:00"
+    },
+    {
+      "title": "Hail Province solar project II",
+      "file": "Hail_Province_solar_project_II.html",
+      "url": "https://www.gem.wiki/w/api.php?action=parse&page=Hail+Province+solar+project+II&prop=text&format=json&formatversion=2",
+      "sha256": "84756ea0f2c105f3173f4d98d7ad77f3f973bbdaf7f08b17bdcf191ab4bea941",
+      "retrieved_utc": "2026-10-18T07:27:30.148409+00:00"
+    },
+    {
+      "title": "Hail Province solar project III",
+      "file": "Hail_Province_solar_project_III.html",
+      "url": "https://www.gem.wiki/w/api.php?action=parse&page=Hail+Province+solar+project+III&prop=text&format=json&formatversion=2",
+      "sha256": "670b537d01f9da749445f458c95e80a966846434753e555350bb27f80cda3f38",
+      "retrieved_utc": "2026-10-18T07:27:30.937612+00:00"
+    },
+    {
+      "title": "Hail Province solar project IV",
+      "file": "Hail_Province_solar_project_IV.html",
+      "url": "https://www.gem.wiki/w/api.php?action=parse&page=Hail+Province+solar+project+IV&prop=text&format=json&formatversion=2",
+      "sha256": "8780d847b202fe1a505b5a8efd11e2f9b89162cfce4a2b5fc16176a9f641634e",
+      "retrieved_utc": "2026-10-18T07:27:31.727274+00:00"
+    },
+    {
+      "title": "Hail Province solar project V",
+      "file": "Hail_Province_solar_project_V.html",
+      "url": "https://www.gem.wiki/w/api.php?action=parse&page=Hail+Province+solar+project+V&prop=text&format=json&formatversion=2",
+      "sha256": "8f328c1a5d0c064fa7754de477e18d08e729863fd459927e3e56405377ef066e",
+      "retrieved_utc": "2026-10-18T07:27:32.505904+00:00"
+    },
+    {
+      "title": "Hail Province solar project VI",
+      "file": "Hail_Province_solar_project_VI.html",
+      "url": "https://www.gem.wiki/w/api.php?action=parse&page=Hail+Province+solar+project+VI&prop=text&format=json&formatversion=2",
+      "sha256": "454fdd7136113305d62e2255458a3241ce46314bbb9bdf57062f60b5c56fab29",
+      "retrieved_utc": "2026-10-18T07:27:33.311480+00:00"
+    },
+    {
+      "title": "Humaji solar farm",
+      "file": "Humaji_solar_farm.html",
+      "url": "https://www.gem.wiki/w/api.php?action=parse&page=Humaji+solar+farm&prop=text&format=json&formatversion=2",
+      "sha256": "9c9ffab2a71a4b08312c1ae86cba13b5dec0838b923b6e312b6ea2efcf3bac8a",
+      "retrieved_utc": "2026-10-18T07:27:33.960721+00:00"
+    },
+    {
+      "title": "ISCC Duba 1 solar farm",
+      "file": "ISCC_Duba_1_solar_farm.html",
+      "url": "https://www.gem.wiki/w/api.php?action=parse&page=ISCC+Duba+1+solar+farm&prop=text&format=json&formatversion=2",
+      "sha256": "72c843c1f5218c4f195ac92791973e2794af81f01121c1193f90de008d01a601",
+      "retrieved_utc": "2026-10-18T07:27:34.881319+00:00"
+    },
+    {
+      "title": "ISCC Waad Al Shamal CSP solar farm",
+      "file": "ISCC_Waad_Al_Shamal_CSP_solar_farm.html",
+      "url": "https://www.gem.wiki/w/api.php?action=parse&page=ISCC+Waad+Al+Shamal+CSP+solar+farm&prop=text&format=json&formatversion=2",
+      "sha256": "526646155316140cfa7dfa93d516abe1b31273e90e7eacc4d25e1e6aeae892e9",
+      "retrieved_utc": "2026-10-18T07:27:35.764272+00:00"
+    },
+    {
+      "title": "Jeddah Solar Project",
+      "file": "Jeddah_Solar_Project.html",
+      "url": "https://www.gem.wiki/w/api.php?action=parse&page=Jeddah+Solar+Project&prop=text&format=json&formatversion=2",
+      "sha256": "1062d91228ab17ed04618a0fb5c30778ce3d6a9f743637ed05847ea98557ffc1",
+      "retrieved_utc": "2026-10-18T07:27:36.517030+00:00"
+    },
+    {
+      "title": "Jubail 3A Solar PV Plant",
+      "file": "Jubail_3A_Solar_PV_Plant.html",
+      "url": "https://www.gem.wiki/w/api.php?action=parse&page=Jubail+3A+Solar+PV+Plant&prop=text&format=json&formatversion=2",
+      "sha256": "8a6c97ccf7928b7913ded85e0f8a3037d24b1ef34e0556cd4f400098042f440e",
+      "retrieved_utc": "2026-10-18T07:27:37.330196+00:00"
+    },
+    {
+      "title": "Jubail 3B Solar PV Plant",
+      "file": "Jubail_3B_Solar_PV_Plant.html",
+      "url": "https://www.gem.wiki/w/api.php?action=parse&page=Jubail+3B+Solar+PV+Plant&prop=text&format=json&formatversion=2",
+      "sha256": "8e365c7cc00a37fdb0ab42c4a0505df588b95c6eb1e33b2bef97a41832398bb8",
+      "retrieved_utc": "2026-10-18T07:27:38.092536+00:00"
+    },
+    {
+      "title": "Kacst Solar",
+      "file": "Kacst_Solar.html",
+      "url": "https://www.gem.wiki/w/api.php?action=parse&page=Kacst+Solar&prop=text&format=json&formatversion=2",
+      "sha256": "b7a235e401186ce4dfd8d90d9a34deb2607a38d0d2319ed9929db07f278ce129",
+      "retrieved_utc": "2026-10-18T07:27:38.900530+00:00"
+    },
+    {
+      "title": "Khulis solar farm",
+      "file": "Khulis_solar_farm.html",
+      "url": "https://www.gem.wiki/w/api.php?action=parse&page=Khulis+solar+farm&prop=text&format=json&formatversion=2",
+      "sha256": "e0ee899989ff7e97d2908407ef1ca3140e9380ff304106e61510c7650c8f1ff8",
+      "retrieved_utc": "2026-10-18T07:27:39.715431+00:00"
+    },
+    {
+      "title": "Layla Solar PV Plant",
+      "file": "Layla_Solar_PV_Plant.html",
+      "url": "https://www.gem.wiki/w/api.php?action=parse&page=Layla+Solar+PV+Plant&prop=text&format=json&formatversion=2",
+      "sha256": "9d05382c945f905db157cdfa813886a869c43a82a49a8dc8bfe098da2faf8d2b",
+      "retrieved_utc": "2026-10-18T07:27:40.480457+00:00"
+    },
+    {
+      "title": "Madinah PV IPP solar farm",
+      "file": "Madinah_PV_IPP_solar_farm.html",
+      "url": "https://www.gem.wiki/w/api.php?action=parse&page=Madinah+PV+IPP+solar+farm&prop=text&format=json&formatversion=2",
+      "sha256": "45c39f2dd3ac1644b2f6a5f3e4ded25e016693e522b4d080ef5e81489fe78ee3",
+      "retrieved_utc": "2026-10-18T07:27:41.300912+00:00"
+    },
+    {
+      "title": "Makkah Al Mukarramah solar project I",
+      "file": "Makkah_Al_Mukarramah_solar_project_I.html",
+      "url": "https://www.gem.wiki/w/api.php?action=parse&page=Makkah+Al+Mukarramah+solar+project+I&prop=text&format=json&formatversion=2",
+      "sha256": "a57fa342fa43528f986784848505e54dd68807a5bb674e29564a664718ac9473",
+      "retrieved_utc": "2026-10-18T07:27:42.070998+00:00"
+    },
+    {
+      "title": "Makkah Al Mukarramah solar project II",
+      "file": "Makkah_Al_Mukarramah_solar_project_II.html",
+      "url": "https://www.gem.wiki/w/api.php?action=parse&page=Makkah+Al+Mukarramah+solar+project+II&prop=text&format=json&formatversion=2",
+      "sha256": "f2bad5cc873454967f79c610c5bd8b365c5ee048f47dabe4c1fcfb4dac83b112",
+      "retrieved_utc": "2026-10-18T07:27:42.868138+00:00"
+    },
+    {
+      "title": "Makkah Region solar project I",
+      "file": "Makkah_Region_solar_project_I.html",
+      "url": "https://www.gem.wiki/w/api.php?action=parse&page=Makkah+Region+solar+project+I&prop=text&format=json&formatversion=2",
+      "sha256": "9aa5e3a467f7bd9c420a0c554bddeccdf9384b64b0698e71ff1b1a6bb7e0adbe",
+      "retrieved_utc": "2026-10-18T07:27:43.643979+00:00"
+    },
+    {
+      "title": "Makkah Region solar project II",
+      "file": "Makkah_Region_solar_project_II.html",
+      "url": "https://www.gem.wiki/w/api.php?action=parse&page=Makkah+Region+solar+project+II&prop=text&format=json&formatversion=2",
+      "sha256": "f841053f8a2c21a24321069a5a1e22354096c96346a429d6da4691fd21d40100",
+      "retrieved_utc": "2026-10-18T07:27:44.440218+00:00"
+    },
+    {
+      "title": "Makkah Region solar project III",
+      "file": "Makkah_Region_solar_project_III.html",
+      "url": "https://www.gem.wiki/w/api.php?action=parse&page=Makkah+Region+solar+project+III&prop=text&format=json&formatversion=2",
+      "sha256": "95a67a0104dbb09588ce1ba67a4472b6ef6adfd2f0f7531ae7e8f1ab6698f272",
+      "retrieved_utc": "2026-10-18T07:27:45.208039+00:00"
+    },
+    {
+      "title": "Makkah Region solar project IV",
+      "file": "Makkah_Region_solar_project_IV.html",
+      "url": "https://www.gem.wiki/w/api.php?action=parse&page=Makkah+Region+solar+project+IV&prop=text&format=json&formatversion=2",
+      "sha256": "8898beabb43397376a72f6f4402465a1ac0a1865008522dabd4b86286c59942d",
+      "retrieved_utc": "2026-10-18T07:27:46.002370+00:00"
+    },
+    {
+      "title": "Mawqaq PV solar plant",
+      "file": "Mawqaq_PV_solar_plant.html",
+      "url": "https://www.gem.wiki/w/api.php?action=parse&page=Mawqaq+PV+solar+plant&prop=text&format=json&formatversion=2",
+      "sha256": "becf952e4ae4652745198125eec512ba7095ef1bc2ed703b911f8ae023e34298",
+      "retrieved_utc": "2026-10-18T07:27:46.825082+00:00"
+    },
+    {
+      "title": "Mecca Solar",
+      "file": "Mecca_Solar.html",
+      "url": "https://www.gem.wiki/w/api.php?action=parse&page=Mecca+Solar&prop=text&format=json&formatversion=2",
+      "sha256": "aafe09b4d496d70a6796faa731c0212895e1212b3053103ab00bf5858564ab5a",
+      "retrieved_utc": "2026-10-18T07:27:47.589145+00:00"
+    },
+    {
+      "title": "Medina Province solar project",
+      "file": "Medina_Province_solar_project.html",
+      "url": "https://www.gem.wiki/w/api.php?action=parse&page=Medina+Province+solar+project&prop=text&format=json&formatversion=2",
+      "sha256": "c13af6b92533f9c041c7543e731b1ef9b1024bd46b7eda16fc40e515aea58d92",
+      "retrieved_utc": "2026-10-18T07:27:48.345036+00:00"
+    },
+    {
+      "title": "Nadec Solar PV IPP",
+      "file": "Nadec_Solar_PV_IPP.html",
+      "url": "https://www.gem.wiki/w/api.php?action=parse&page=Nadec+Solar+PV+IPP&prop=text&format=json&formatversion=2",
+      "sha256": "8a6fe99ec460643eb82bc58c383bbd83c79b49ea8ee258e9ca4d489eba1db156",
+      "retrieved_utc": "2026-10-18T07:27:49.100650+00:00"
+    },
+    {
+      "title": "Najran solar farm",
+      "file": "Najran_solar_farm.html",
+      "url": "https://www.gem.wiki/w/api.php?action=parse&page=Najran+solar+farm&prop=text&format=json&formatversion=2",
+      "sha256": "5b8c21beb01a2ad450fe13fe250d66cc283a79825683eec68d4ce324cfff78f0",
+      "retrieved_utc": "2026-10-18T07:27:49.867928+00:00"
+    },
+    {
+      "title": "NEOM Green Hydrogen solar farm",
+      "file": "NEOM_Green_Hydrogen_solar_farm.html",
+      "url": "https://www.gem.wiki/w/api.php?action=parse&page=NEOM+Green+Hydrogen+solar+farm&prop=text&format=json&formatversion=2",
+      "sha256": "db6262258dd123603e88702be9b37faa178908d49f466578aeb93c9158a0190b",
+      "retrieved_utc": "2026-10-18T07:27:50.513938+00:00"
+    },
+    {
+      "title": "Qurayyat PV IPP solar farm",
+      "file": "Qurayyat_PV_IPP_solar_farm.html",
+      "url": "https://www.gem.wiki/w/api.php?action=parse&page=Qurayyat+PV+IPP+solar+farm&prop=text&format=json&formatversion=2",
+      "sha256": "7c5307b6ea692071230d8d0e3a99fd894b2e6807e9db491b2307e36dc4488207",
+      "retrieved_utc": "2026-10-18T07:27:51.358415+00:00"
+    },
+    {
+      "title": "Rabigh 2 solar farm",
+      "file": "Rabigh_2_solar_farm.html",
+      "url": "https://www.gem.wiki/w/api.php?action=parse&page=Rabigh+2+solar+farm&prop=text&format=json&formatversion=2",
+      "sha256": "d2d40d55f8c012ae3c975da95ed5e694cb803ee92cde388881424ef65fab6bf2",
+      "retrieved_utc": "2026-10-18T07:27:52.104816+00:00"
+    },
+    {
+      "title": "Rabigh Solar PV",
+      "file": "Rabigh_Solar_PV.html",
+      "url": "https://www.gem.wiki/w/api.php?action=parse&page=Rabigh+Solar+PV&prop=text&format=json&formatversion=2",
+      "sha256": "a0403d424dba5eeb226b63141d40c483107d1acef66962f77542f65e8fa9c127",
+      "retrieved_utc": "2026-10-18T07:27:52.859918+00:00"
+    },
+    {
+      "title": "Rafha PV IPP solar farm",
+      "file": "Rafha_PV_IPP_solar_farm.html",
+      "url": "https://www.gem.wiki/w/api.php?action=parse&page=Rafha+PV+IPP+solar+farm&prop=text&format=json&formatversion=2",
+      "sha256": "d38819d6719647dad598f8da793fecc09d1a5a9d4369503302b6d093ab448cc9",
+      "retrieved_utc": "2026-10-18T07:27:53.733629+00:00"
+    },
+    {
+      "title": "Rafha solar farm",
+      "file": "Rafha_solar_farm.html",
+      "url": "https://www.gem.wiki/w/api.php?action=parse&page=Rafha+solar+farm&prop=text&format=json&formatversion=2",
+      "sha256": "fbcb6a5225b62691ecf8820171984bbb475af2a4af962e14b47696b673195605",
+      "retrieved_utc": "2026-10-18T07:27:54.504067+00:00"
+    },
+    {
+      "title": "Ras Al-Khafji Desalination Solar Facility",
+      "file": "Ras_Al_Khafji_Desalination_Solar_Facility.html",
+      "url": "https://www.gem.wiki/w/api.php?action=parse&page=Ras+Al-Khafji+Desalination+Solar+Facility&prop=text&format=json&formatversion=2",
+      "sha256": "37a5bab063e0dae63215246436b47f8a3039873c76e2e4a21f751c1fa8463da4",
+      "retrieved_utc": "2026-10-18T07:27:55.261071+00:00"
+    },
+    {
+      "title": "Red Sea Solar Plant",
+      "file": "Red_Sea_Solar_Plant.html",
+      "url": "https://www.gem.wiki/w/api.php?action=parse&page=Red+Sea+Solar+Plant&prop=text&format=json&formatversion=2",
+      "sha256": "5b43ed43e23e95418fb9621f20e5d6a9db704ba5171a3903edf05484258b85e5",
+      "retrieved_utc": "2026-10-18T07:27:56.191337+00:00"
+    },
+    {
+      "title": "Riyadh Region solar project I",
+      "file": "Riyadh_Region_solar_project_I.html",
+      "url": "https://www.gem.wiki/w/api.php?action=parse&page=Riyadh+Region+solar+project+I&prop=text&format=json&formatversion=2",
+      "sha256": "42e0e94d3e5a64cbef4c6559b01cebd5ae5e8d27f1421b5ca8817587863db098",
+      "retrieved_utc": "2026-10-18T07:27:57.116596+00:00"
+    },
+    {
+      "title": "Riyadh Region solar project II",
+      "file": "Riyadh_Region_solar_project_II.html",
+      "url": "https://www.gem.wiki/w/api.php?action=parse&page=Riyadh+Region+solar+project+II&prop=text&format=json&formatversion=2",
+      "sha256": "546536dfcd6cab64bcfee5caf2662b5cbb4dcd9a4e426e3c4a431c5ffd5ab70a",
+      "retrieved_utc": "2026-10-18T07:27:57.913481+00:00"
+    },
+    {
+      "title": "Riyadh Region solar project III",
+      "file": "Riyadh_Region_solar_project_III.html",
+      "url": "https://www.gem.wiki/w/api.php?action=parse&page=Riyadh+Region+solar+project+III&prop=text&format=json&formatversion=2",
+      "sha256": "8a1cf79daa0085d2d59eb617b07a5e2e742a8ebe593697fc7c819513a6a3a9b2",
+      "retrieved_utc": "2026-10-18T07:27:58.678176+00:00"
+    },
+    {
+      "title": "Riyadh Region solar project IV",
+      "file": "Riyadh_Region_solar_project_IV.html",
+      "url": "https://www.gem.wiki/w/api.php?action=parse&page=Riyadh+Region+solar+project+IV&prop=text&format=json&formatversion=2",
+      "sha256": "0f2598291f699fba048872474dc09bb475102fc324fe17618c67a87df13d6d9d",
+      "retrieved_utc": "2026-10-18T07:27:59.461725+00:00"
+    },
+    {
+      "title": "Riyadh Region solar project IX",
+      "file": "Riyadh_Region_solar_project_IX.html",
+      "url": "https://www.gem.wiki/w/api.php?action=parse&page=Riyadh+Region+solar+project+IX&prop=text&format=json&formatversion=2",
+      "sha256": "de1c9c715d553b2b7b6d1bad2aa58b0961b244b5c0c4498eb75ab84e464ae3fc",
+      "retrieved_utc": "2026-10-18T07:28:00.244497+00:00"
+    },
+    {
+      "title": "Riyadh Region solar project V",
+      "file": "Riyadh_Region_solar_project_V.html",
+      "url": "https://www.gem.wiki/w/api.php?action=parse&page=Riyadh+Region+solar+project+V&prop=text&format=json&formatversion=2",
+      "sha256": "8c989ce9297e7cc4441f9a8568a4014058ef83ff6fc3eb7a2d11135ed0cad16f",
+      "retrieved_utc": "2026-10-18T07:28:00.947567+00:00"
+    },
+    {
+      "title": "Riyadh Region solar project VI",
+      "file": "Riyadh_Region_solar_project_VI.html",
+      "url": "https://www.gem.wiki/w/api.php?action=parse&page=Riyadh+Region+solar+project+VI&prop=text&format=json&formatversion=2",
+      "sha256": "56150c59de7a3090ce2fca093c549fac00456afb035342addc0af8c12f470a23",
+      "retrieved_utc": "2026-10-18T07:28:01.810121+00:00"
+    },
+    {
+      "title": "Riyadh Region solar project VII",
+      "file": "Riyadh_Region_solar_project_VII.html",
+      "url": "https://www.gem.wiki/w/api.php?action=parse&page=Riyadh+Region+solar+project+VII&prop=text&format=json&formatversion=2",
+      "sha256": "b7926e4b3409f31db77a21950ad2dd50f0eea6871c3bfc652387cfc00eb7d85d",
+      "retrieved_utc": "2026-10-18T07:28:02.574299+00:00"
+    },
+    {
+      "title": "Riyadh Region solar project VIII",
+      "file": "Riyadh_Region_solar_project_VIII.html",
+      "url": "https://www.gem.wiki/w/api.php?action=parse&page=Riyadh+Region+solar+project+VIII&prop=text&format=json&formatversion=2",
+      "sha256": "66de288f0ee0476468e0986d8373fac54ff1b7d741d24cf80acbab3d222a79fe",
+      "retrieved_utc": "2026-10-18T07:28:03.356785+00:00"
+    },
+    {
+      "title": "Riyadh Region solar project X",
+      "file": "Riyadh_Region_solar_project_X.html",
+      "url": "https://www.gem.wiki/w/api.php?action=parse&page=Riyadh+Region+solar+project+X&prop=text&format=json&formatversion=2",
+      "sha256": "db6010aca16c343a6b754b9afdf5048ff1222d06149a9b8237261079a6d00eef",
+      "retrieved_utc": "2026-10-18T07:28:04.159708+00:00"
+    },
+    {
+      "title": "Riyadh Region solar project XI",
+      "file": "Riyadh_Region_solar_project_XI.html",
+      "url": "https://www.gem.wiki/w/api.php?action=parse&page=Riyadh+Region+solar+project+XI&prop=text&format=json&formatversion=2",
+      "sha256": "da9aa9e7314fdb658ac2dfcfa9370170ed77f890c9dc65751c942e2092d5ee7b",
+      "retrieved_utc": "2026-10-18T07:28:04.874669+00:00"
+    },
+    {
+      "title": "Riyadh solar project I",
+      "file": "Riyadh_solar_project_I.html",
+      "url": "https://www.gem.wiki/w/api.php?action=parse&page=Riyadh+solar+project+I&prop=text&format=json&formatversion=2",
+      "sha256": "f4c34b88dd371d62cb77af4b875ad36fb6278e57068f93d7ec05f89c8cd63652",
+      "retrieved_utc": "2026-10-18T07:28:05.671680+00:00"
+    },
+    {
+      "title": "Riyadh solar project II",
+      "file": "Riyadh_solar_project_II.html",
+      "url": "https://www.gem.wiki/w/api.php?action=parse&page=Riyadh+solar+project+II&prop=text&format=json&formatversion=2",
+      "sha256": "ad0df3b6bcac34ed402bbc8ba3c3892c0e613be486e776d1f0d2954e5ff9d51e",
+      "retrieved_utc": "2026-10-18T07:28:06.547426+00:00"
+    },
+    {
+      "title": "Saad Solar PV Plant",
+      "file": "Saad_Solar_PV_Plant.html",
+      "url": "https://www.gem.wiki/w/api.php?action=parse&page=Saad+Solar+PV+Plant&prop=text&format=json&formatversion=2",
+      "sha256": "bce0c569c23432a6c64970c4d5613b66983897a66230600ca3fdd61490d0fc28",
+      "retrieved_utc": "2026-10-18T07:28:07.291533+00:00"
+    },
+    {
+      "title": "Saad Solar PV Plant 2",
+      "file": "Saad_Solar_PV_Plant_2.html",
+      "url": "https://www.gem.wiki/w/api.php?action=parse&page=Saad+Solar+PV+Plant+2&prop=text&format=json&formatversion=2",
+      "sha256": "db842d698259bd096722b71b407597f900463e2c43065d0dfc685833afbe0c38",
+      "retrieved_utc": "2026-10-18T07:28:08.046385+00:00"
+    },
+    {
+      "title": "Sakaka Solar",
+      "file": "Sakaka_Solar.html",
+      "url": "https://www.gem.wiki/w/api.php?action=parse&page=Sakaka+Solar&prop=text&format=json&formatversion=2",
+      "sha256": "caafa31e9bbd7a39f123d86d107f7f37c362d5795818f8dcb7a1d093e66d4b23",
+      "retrieved_utc": "2026-10-18T07:28:08.827069+00:00"
+    },
+    {
+      "title": "Samtah solar farm",
+      "file": "Samtah_solar_farm.html",
+      "url": "https://www.gem.wiki/w/api.php?action=parse&page=Samtah+solar+farm&prop=text&format=json&formatversion=2",
+      "sha256": "ba0858f19b9d5fcf24f8e2b18019d6ec07733c418c4ded438818efbc2ad9799a",
+      "retrieved_utc": "2026-10-18T07:28:09.621906+00:00"
+    },
+    {
+      "title": "Shuaibah 2 solar farm",
+      "file": "Shuaibah_2_solar_farm.html",
+      "url": "https://www.gem.wiki/w/api.php?action=parse&page=Shuaibah+2+solar+farm&prop=text&format=json&formatversion=2",
+      "sha256": "957f78d34e4bdb44d970f30ff101015dd1215c814b7c4561728affc98059b3ba",
+      "retrieved_utc": "2026-10-18T07:28:10.428166+00:00"
+    },
+    {
+      "title": "South Al Ula PV solar plant",
+      "file": "South_Al_Ula_PV_solar_plant.html",
+      "url": "https://www.gem.wiki/w/api.php?action=parse&page=South+Al+Ula+PV+solar+plant&prop=text&format=json&formatversion=2",
+      "sha256": "94c6ca3dd3cd85a9813a3bed03122a3f930fc3fd237488d055ebce357887e807",
+      "retrieved_utc": "2026-10-18T07:28:11.173229+00:00"
+    },
+    {
+      "title": "Sudair Solar PV Project",
+      "file": "Sudair_Solar_PV_Project.html",
+      "url": "https://www.gem.wiki/w/api.php?action=parse&page=Sudair+Solar+PV+Project&prop=text&format=json&formatversion=2",
+      "sha256": "913fd1558049b650b6aaede7fe21b096dae21ab3bc59e2bfd576dfae5734d2dc",
+      "retrieved_utc": "2026-10-18T07:28:11.900632+00:00"
+    },
+    {
+      "title": "Tabarjal 2 PV solar plant",
+      "file": "Tabarjal_2_PV_solar_plant.html",
+      "url": "https://www.gem.wiki/w/api.php?action=parse&page=Tabarjal+2+PV+solar+plant&prop=text&format=json&formatversion=2",
+      "sha256": "ff267cd77abe896a452a2f2a3a46dead66dcc39ebd6bb779198bce65b40ac685",
+      "retrieved_utc": "2026-10-18T07:28:12.765513+00:00"
+    },
+    {
+      "title": "Tabuk Province solar project I",
+      "file": "Tabuk_Province_solar_project_I.html",
+      "url": "https://www.gem.wiki/w/api.php?action=parse&page=Tabuk+Province+solar+project+I&prop=text&format=json&formatversion=2",
+      "sha256": "b44bd7d44d740081f503f888610ba933d3930b30e4b03a3852cbcffba37e9e47",
+      "retrieved_utc": "2026-10-18T07:28:13.504242+00:00"
+    },
+    {
+      "title": "Tabuk Province solar project II",
+      "file": "Tabuk_Province_solar_project_II.html",
+      "url": "https://www.gem.wiki/w/api.php?action=parse&page=Tabuk+Province+solar+project+II&prop=text&format=json&formatversion=2",
+      "sha256": "5959f6cbd25509969f36d475599cde1438628fe7dd5dcfde5d860488e31b1589",
+      "retrieved_utc": "2026-10-18T07:28:14.237069+00:00"
+    },
+    {
+      "title": "Tabuk Province solar project III",
+      "file": "Tabuk_Province_solar_project_III.html",
+      "url": "https://www.gem.wiki/w/api.php?action=parse&page=Tabuk+Province+solar+project+III&prop=text&format=json&formatversion=2",
+      "sha256": "a12c2b92745c766de5598dab597456772f6b11cad0c4e1b466218c0fe86388d0",
+      "retrieved_utc": "2026-10-18T07:28:15.039322+00:00"
+    },
+    {
+      "title": "Tabuk Province solar project IV",
+      "file": "Tabuk_Province_solar_project_IV.html",
+      "url": "https://www.gem.wiki/w/api.php?action=parse&page=Tabuk+Province+solar+project+IV&prop=text&format=json&formatversion=2",
+      "sha256": "a8921939d3efa704206e4601e000f74f388ddc5f4d0412165579db81997e8b69",
+      "retrieved_utc": "2026-10-18T07:28:15.889427+00:00"
+    },
+    {
+      "title": "Tabuk Province solar project V",
+      "file": "Tabuk_Province_solar_project_V.html",
+      "url": "https://www.gem.wiki/w/api.php?action=parse&page=Tabuk+Province+solar+project+V&prop=text&format=json&formatversion=2",
+      "sha256": "5793464b03c342dd7d40a3fc4302283e6181e583bd9a766bc45f7262d124c8e3",
+      "retrieved_utc": "2026-10-18T07:28:16.670466+00:00"
+    },
+    {
+      "title": "Tabuk Province solar project VI",
+      "file": "Tabuk_Province_solar_project_VI.html",
+      "url": "https://www.gem.wiki/w/api.php?action=parse&page=Tabuk+Province+solar+project+VI&prop=text&format=json&formatversion=2",
+      "sha256": "b43ecec5bcef8838497280a9819123d9d45781ca86b660c4bc59de0630795b9d",
+      "retrieved_utc": "2026-10-18T07:28:17.431363+00:00"
+    },
+    {
+      "title": "Tabuk Province solar project VII",
+      "file": "Tabuk_Province_solar_project_VII.html",
+      "url": "https://www.gem.wiki/w/api.php?action=parse&page=Tabuk+Province+solar+project+VII&prop=text&format=json&formatversion=2",
+      "sha256": "974e96ef35181022e66bb904ac4c73f5aae89b525ce0b140ac4ab4c8c9c89e9e",
+      "retrieved_utc": "2026-10-18T07:28:18.209593+00:00"
+    },
+    {
+      "title": "Tabuk solar project",
+      "file": "Tabuk_solar_project.html",
+      "url": "https://www.gem.wiki/w/api.php?action=parse&page=Tabuk+solar+project&prop=text&format=json&formatversion=2",
+      "sha256": "105c966d8029e849379d421109b89cfb0f8abeabe2283608f76abbad98557391",
+      "retrieved_utc": "2026-10-18T07:28:18.956832+00:00"
+    },
+    {
+      "title": "Tathleeth PV solar plant",
+      "file": "Tathleeth_PV_solar_plant.html",
+      "url": "https://www.gem.wiki/w/api.php?action=parse&page=Tathleeth+PV+solar+plant&prop=text&format=json&formatversion=2",
+      "sha256": "1b6de6d190e3d66de51a6dcffde6831174ab9b70910ba6143dee671aa4de7b8d",
+      "retrieved_utc": "2026-10-18T07:28:19.768926+00:00"
+    },
+    {
+      "title": "Tubarjal solar farm",
+      "file": "Tubarjal_solar_farm.html",
+      "url": "https://www.gem.wiki/w/api.php?action=parse&page=Tubarjal+solar+farm&prop=text&format=json&formatversion=2",
+      "sha256": "9bf25d10425805c41494d4f577a0f1d8a1cb6bc3e072994f666e16590946ddca",
+      "retrieved_utc": "2026-10-18T07:28:20.588142+00:00"
+    },
+    {
+      "title": "Wadi Ad Dawasir Solar PV Plant",
+      "file": "Wadi_Ad_Dawasir_Solar_PV_Plant.html",
+      "url": "https://www.gem.wiki/w/api.php?action=parse&page=Wadi+Ad+Dawasir+Solar+PV+Plant&prop=text&format=json&formatversion=2",
+      "sha256": "c720ca415ca133eff473ac3e9984f52e139b3fe778fd70959199f77d36667d7f",
+      "retrieved_utc": "2026-10-18T07:28:21.362644+00:00"
+    },
+    {
+      "title": "Yanbu 4 Iwp solar farm",
+      "file": "Yanbu_4_Iwp_solar_farm.html",
+      "url": "https://www.gem.wiki/w/api.php?action=parse&page=Yanbu+4+Iwp+solar+farm&prop=text&format=json&formatversion=2",
+      "sha256": "a5a48ea45d0bea65b1d1cadf956db34e81da76b2b9b3b1bfa32e12539bfde52c",
+      "retrieved_utc": "2026-10-18T07:28:22.175902+00:00"
+    },
+    {
+      "title": "\u1e24a'Il Province solar project I",
+      "file": "_a_Il_Province_solar_project_I.html",
+      "url": "https://www.gem.wiki/w/api.php?action=parse&page=%E1%B8%A4a%27Il+Province+solar+project+I&prop=text&format=json&formatversion=2",
+      "sha256": "38868e58dec3ac9578ea03798c6db70adc223d186959ef24caaa9be52ef260df",
+      "retrieved_utc": "2026-10-18T07:28:22.976679+00:00"
+    },
+    {
+      "title": "Al Ghat wind farm",
+      "file": "Al_Ghat_wind_farm.html",
+      "url": "https://www.gem.wiki/w/api.php?action=parse&page=Al+Ghat+wind+farm&prop=text&format=json&formatversion=2",
+      "sha256": "f014d210eddff96c4661d6d84f4b76a548b8038a47f7f5fa267f2a6067305cf9",
+      "retrieved_utc": "2026-10-18T07:28:24.159171+00:00"
+    },
+    {
+      "title": "Bilghah wind farm",
+      "file": "Bilghah_wind_farm.html",
+      "url": "https://www.gem.wiki/w/api.php?action=parse&page=Bilghah+wind+farm&prop=text&format=json&formatversion=2",
+      "sha256": "e3af4461f763328311d10c17788fb1135e19ec7e4b1f9cc6671101937117da94",
+      "retrieved_utc": "2026-10-18T07:28:25.040543+00:00"
+    },
+    {
+      "title": "Dawadmi wind farm",
+      "file": "Dawadmi_wind_farm.html",
+      "url": "https://www.gem.wiki/w/api.php?action=parse&page=Dawadmi+wind+farm&prop=text&format=json&formatversion=2",
+      "sha256": "597a123356fc3667c09718317b030fc95dc299aaecfc7a1b64a674b97c231284",
+      "retrieved_utc": "2026-10-18T07:28:25.987778+00:00"
+    },
+    {
+      "title": "Dumat Al Jandal wind farm",
+      "file": "Dumat_Al_Jandal_wind_farm.html",
+      "url": "https://www.gem.wiki/w/api.php?action=parse&page=Dumat+Al+Jandal+wind+farm&prop=text&format=json&formatversion=2",
+      "sha256": "4390c44ee11c3a4f2f553e4392803b4fe0d88f6127c97a1e99aa2bef410d8681",
+      "retrieved_utc": "2026-10-18T07:28:26.794241+00:00"
+    },
+    {
+      "title": "NEOM Green Hydrogen wind farm",
+      "file": "NEOM_Green_Hydrogen_wind_farm.html",
+      "url": "https://www.gem.wiki/w/api.php?action=parse&page=NEOM+Green+Hydrogen+wind+farm&prop=text&format=json&formatversion=2",
+      "sha256": "93e2e5d9a146bd8f3cec225a3a26c69b5e4c83e42a6c7cb825527d6d0bbc5068",
+      "retrieved_utc": "2026-10-18T07:28:27.572169+00:00"
+    },
+    {
+      "title": "Plambeck Emirates wind farm",
+      "file": "Plambeck_Emirates_wind_farm.html",
+      "url": "https://www.gem.wiki/w/api.php?action=parse&page=Plambeck+Emirates+wind+farm&prop=text&format=json&formatversion=2",
+      "sha256": "82c8b941450fb9a89eec1b6f65eec055776beefd7d475fd96032f6d6881caad3",
+      "retrieved_utc": "2026-10-18T07:28:28.317236+00:00"
+    },
+    {
+      "title": "Shagran wind farm",
+      "file": "Shagran_wind_farm.html",
+      "url": "https://www.gem.wiki/w/api.php?action=parse&page=Shagran+wind+farm&prop=text&format=json&formatversion=2",
+      "sha256": "175d10c197d54163ddfdd59509c867d8e8f503743dcb368799bf30045eec508d",
+      "retrieved_utc": "2026-10-18T07:28:29.123904+00:00"
+    },
+    {
+      "title": "Shaqra wind farm",
+      "file": "Shaqra_wind_farm.html",
+      "url": "https://www.gem.wiki/w/api.php?action=parse&page=Shaqra+wind+farm&prop=text&format=json&formatversion=2",
+      "sha256": "81727849f4c87010d90ef4a02a386f131f69ed75da480fb58f3a0573c2094f6c",
+      "retrieved_utc": "2026-10-18T07:28:30.000874+00:00"
+    },
+    {
+      "title": "Starah wind farm",
+      "file": "Starah_wind_farm.html",
+      "url": "https://www.gem.wiki/w/api.php?action=parse&page=Starah+wind+farm&prop=text&format=json&formatversion=2",
+      "sha256": "e7f2aa80e3d340d993e06863ad191f938672c8bdd2b01d8bde3d3651c28d4663",
+      "retrieved_utc": "2026-10-18T07:28:30.894456+00:00"
+    },
+    {
+      "title": "Waad Al Shamal wind farm",
+      "file": "Waad_Al_Shamal_wind_farm.html",
+      "url": "https://www.gem.wiki/w/api.php?action=parse&page=Waad+Al+Shamal+wind+farm&prop=text&format=json&formatversion=2",
+      "sha256": "0d8ed9613faa96202e8dd7024118edfe4360b8edda411c3da6ec24577bff5e05",
+      "retrieved_utc": "2026-10-18T07:28:31.653009+00:00"
+    },
+    {
+      "title": "Yanbu wind farm",
+      "file": "Yanbu_wind_farm.html",
+      "url": "https://www.gem.wiki/w/api.php?action=parse&page=Yanbu+wind+farm&prop=text&format=json&formatversion=2",
+      "sha256": "3fc86f9c4624517964e5cac998accb32c5adefc376661ea207c365266acd5747",
+      "retrieved_utc": "2026-10-18T07:28:32.379786+00:00"
+    }
+  ]
+}

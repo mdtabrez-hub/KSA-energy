@@ -189,11 +189,11 @@ Public Saudi data are sufficient to show where the renewable fleet sits relative
 
 # Data availability
 
-The KAPSARC datasets are available at datasource.kapsarc.org under the identifiers listed in `config/data_sources.yaml`. GEM wiki content (CC BY-NC-SA), Natural Earth and NASA POWER are publicly available. Derived tables are provided in `results/tables`.
+The data that support the findings of this study are openly available. Regional electricity statistics were obtained from the KAPSARC Energy Data Portal (https://datasource.kapsarc.org; dataset identifiers listed in the repository). Renewable project records were obtained from the Global Energy Monitor wiki (https://www.gem.wiki, CC BY-NC-SA), weather data from NASA POWER (https://power.larc.nasa.gov) and province boundaries from Natural Earth. All data were retrieved on 18 October 2026. Archived source files, checksums, processed data and all result tables are available at https://github.com/mdtabrez-hub/KSA-energy [and Zenodo, https://doi.org/10.5281/zenodo.XXXXXXX]. Three KAPSARC series that state no reuse licence are represented there by metadata and SHA-256 checksums and are re-downloaded by the provided scripts.
 
 # Code availability
 
-All code, tests and the run order are provided in the accompanying repository (`docs/results_phase6_7.md` §8).
+All code is available at https://github.com/mdtabrez-hub/KSA-energy (version [commit]) under the MIT licence. It is written in Python 3.13 with pinned dependencies and includes automated tests and a single script, `reproduce.sh`, that regenerates every table and figure. Re-running the pipeline from the archived inputs reproduced all result files byte-for-byte.
 
 # References
 

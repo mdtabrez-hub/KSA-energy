@@ -1,0 +1,29 @@
+project,n_records,n_sources,technology,capacity_mw,capacity_mw_min,status_raw,year_first,year_last,provinces_reported,province_conflict,status_class
+Al Ghat wind,2,2,Wind,600.0,600.0,Planned,2026,2026,Riyadh,False,planned
+Al Henakiyah 2 PV,1,1,Solar,400.0,400.0,Planned,2027,2027,Madinah,False,planned
+Al Henakiyah PV,2,2,Solar,1100.0,1100.0,Planned,2025,2025,Madinah,False,planned
+Al Kahfah PIF PV,1,1,Solar,1425.0,1425.0,Planned,2026,2026,Hail,False,planned
+Al Masa'a PV,1,1,Solar,1000.0,1000.0,Planned,2030,2030,Hail,False,planned
+Al Sadawi PV,1,1,Solar,2000.0,2000.0,Planned,2027,2027,Eastern Province,False,planned
+Ar Rass PIF PV,1,1,Solar,2000.0,2000.0,Planned,2026,2026,Riyadh,False,planned
+Ar Rass PV,4,4,Solar,700.0,700.0,Planned,2024,2024,Al-Qassim;Riyadh,True,planned
+City Solar Power Plant,1,1,Solar,50.0,50.0,Planned,2021,2021,,False,planned
+Dumat al-Jandal wind,4,4,Wind,400.0,400.0,Installed,2021,2022,Al-Jouf,False,installed
+Jeddah PV,4,4,Solar,300.0,300.0,Planned,2023,2023,Makkah,False,planned
+Layla PV,4,4,Solar,91.0,80.0,Planned,2024,2024,Northern Borders;Riyadh,True,planned
+Madinah PV,2,2,Solar,50.0,50.0,Planned,2025,2025,Madinah,False,planned
+Mahad Dahab PV,1,1,Solar,20.0,20.0,Planned,2030,2030,Madinah,False,planned
+NEOM green hydrogen (solar+wind),1,1,Solar + Wind,4000.0,4000.0,Planned,2026,2026,Tabuk,False,planned
+Qurayyat PV,3,3,Solar,200.0,200.0,Planned,2024,2024,Al-Jouf,False,planned
+Rabigh PV,4,4,Solar,300.0,300.0,Planned,2023,2027,Makkah,False,planned
+Rafha PV,3,3,Solar,20.0,20.0,Planned,2024,2024,Northern Borders,False,planned
+Saad PIF PV,1,1,Solar,1125.0,1125.0,Planned,2026,2026,Riyadh,False,planned
+Saad PV,4,4,Solar,300.0,300.0,Planned,2024,2024,Northern Borders;Riyadh,True,planned
+Sakaka PV,4,4,Solar,300.0,300.0,Installed,2021,2022,Al-Jouf,False,installed
+Shuaibah PIF PV (2060 MW),1,1,Solar,2060.0,2060.0,Planned,2025,2025,Riyadh,False,planned
+Shuaibah PV (600 MW),4,4,Solar,600.0,600.0,Planned,2025,2025,Makkah,False,planned
+Sudair PV,1,1,Solar,1500.0,1500.0,Planned,2024,2024,Riyadh,False,planned
+Tabarjal PV,2,2,Solar,400.0,400.0,Planned,2026,2026,Al-Jouf,False,planned
+Waad Al Shamal wind,2,2,Wind,500.0,500.0,Planned,2026,2026,Northern Borders,False,planned
+Wadi Ad-Dawasir PV,4,4,Solar,120.0,112.0,Planned,2025,2025,Riyadh,False,planned
+Yanbu wind,2,2,Wind,700.0,700.0,Planned,2026,2026,Madinah,False,planned

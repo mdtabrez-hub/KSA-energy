@@ -1,0 +1,31 @@
+{
+  "dataset_id": "saudi-arabia-electricity-load-monthly-by-region",
+  "attempts": [
+    {
+      "url": "https://datasource.kapsarc.org/api/explore/v2.1/catalog/datasets/saudi-arabia-electricity-load-monthly-by-region",
+      "params": {},
+      "requested_at_utc": "2026-10-18T07:23:36.377391+00:00",
+      "status_code": 200,
+      "final_url": "https://datasource.kapsarc.org/api/explore/v2.1/catalog/datasets/saudi-arabia-electricity-load-monthly-by-region",
+      "content_type": "application/json; charset=utf-8",
+      "file": "metadata.json",
+      "bytes": 9507,
+      "sha256": "c6bf37f5da10484a48d72b1475034632954fbe9af44896aed21420e570dafa22"
+    },
+    {
+      "url": "https://datasource.kapsarc.org/api/explore/v2.1/catalog/datasets/saudi-arabia-electricity-load-monthly-by-region/exports/csv",
+      "params": {
+        "delimiter": ",",
+        "with_bom": "false"
+      },
+      "requested_at_utc": "2026-10-18T07:23:37.312339+00:00",
+      "status_code": 200,
+      "final_url": "https://datasource.kapsarc.org/api/explore/v2.1/catalog/datasets/saudi-arabia-electricity-load-monthly-by-region/exports/csv?delimiter=%2C&with_bom=false",
+      "content_type": "text/csv; charset=utf-8",
+      "file": "export.csv",
+      "bytes": 71561,
+      "sha256": "52345ca73d12bd3688d246d50eb3b4c699438c726feca21a1af5d2bcb471ae54"
+    }
+  ],
+  "host_used": "https://datasource.kapsarc.org/api/explore/v2.1"
+}

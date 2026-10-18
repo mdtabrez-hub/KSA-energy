@@ -1,0 +1,20 @@
+{
+  "term": "region",
+  "attempts": [
+    {
+      "url": "https://datasource.kapsarc.org/api/explore/v2.1/catalog/datasets",
+      "params": {
+        "where": "search(\"region\")",
+        "limit": 100
+      },
+      "requested_at_utc": "2026-10-18T07:23:19.656697+00:00",
+      "status_code": 200,
+      "final_url": "https://datasource.kapsarc.org/api/explore/v2.1/catalog/datasets?where=search%28%22region%22%29&limit=100",
+      "content_type": "application/json; charset=utf-8",
+      "file": "catalog.json",
+      "bytes": 1027990,
+      "sha256": "ef1fcce547088c1539ccf3d198994e01534d8da6fba98ecf79258eae4df43b2c"
+    }
+  ],
+  "host_used": "https://datasource.kapsarc.org/api/explore/v2.1"
+}
